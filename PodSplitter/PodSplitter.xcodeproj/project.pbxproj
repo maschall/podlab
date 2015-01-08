@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4571A781F4714BA9604B01BC /* Pods_common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A45EA50CA0D95DBB99BA1CC6 /* Pods_common.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4D36FC2A1A5ECFE100C35196 /* PodParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D36FC291A5ECFE100C35196 /* PodParserTest.swift */; };
-		4D450A471A5EE974005F76EA /* serial-test.rss in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4D36FC2B1A5ED5CE00C35196 /* serial-test.rss */; };
+		4D450A481A5EEF04005F76EA /* serial-test.rss in Resources */ = {isa = PBXBuildFile; fileRef = 4D36FC2B1A5ED5CE00C35196 /* serial-test.rss */; };
+		4D450A4A1A5EF08A005F76EA /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D450A491A5EF08A005F76EA /* SWXMLHash.swift */; };
 		4D8110D11A5C816E00358ACA /* PodSplitteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8110B51A5C7FC600358ACA /* PodSplitteriOS.framework */; };
 		4D8110D51A5C835800358ACA /* PodSplitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D8110BA1A5C7FC600358ACA /* PodSplitter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4DDC91131A5D89A100FF551E /* PodSplitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC91121A5D89A100FF551E /* PodSplitter.swift */; };
@@ -26,22 +28,10 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		4D4BD9E01A5EE94100340CB6 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 16;
-			files = (
-				4D450A471A5EE974005F76EA /* serial-test.rss in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		4D36FC291A5ECFE100C35196 /* PodParserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodParserTest.swift; sourceTree = "<group>"; };
 		4D36FC2B1A5ED5CE00C35196 /* serial-test.rss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "serial-test.rss"; sourceTree = "<group>"; };
+		4D450A491A5EF08A005F76EA /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
 		4D8110B51A5C7FC600358ACA /* PodSplitteriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodSplitteriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D8110B91A5C7FC600358ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D8110BA1A5C7FC600358ACA /* PodSplitter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodSplitter.h; sourceTree = "<group>"; };
@@ -71,6 +61,7 @@
 			files = (
 				4D8110D11A5C816E00358ACA /* PodSplitteriOS.framework in Frameworks */,
 				EF2D56B95687AB027F532175 /* Pods_unit_tests.framework in Frameworks */,
+				4571A781F4714BA9604B01BC /* Pods_common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +105,7 @@
 				4D8110BA1A5C7FC600358ACA /* PodSplitter.h */,
 				4D8110B81A5C7FC600358ACA /* Supporting Files */,
 				4DDC91121A5D89A100FF551E /* PodSplitter.swift */,
+				4D450A491A5EF08A005F76EA /* SWXMLHash.swift */,
 			);
 			path = PodSplitter;
 			sourceTree = "<group>";
@@ -195,7 +187,6 @@
 				E2C19830AACA5588C73D07B0 /* Check Pods Manifest.lock */,
 				4D8110BC1A5C7FC600358ACA /* Sources */,
 				4D8110BD1A5C7FC600358ACA /* Frameworks */,
-				4D4BD9E01A5EE94100340CB6 /* CopyFiles */,
 				4D8110BE1A5C7FC600358ACA /* Resources */,
 				BB65122D84DE7AD78BA51076 /* Embed Pods Frameworks */,
 				02BD103BE370623744A38912 /* Copy Pods Resources */,
@@ -257,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D450A481A5EEF04005F76EA /* serial-test.rss in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +312,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-common/Pods-common-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DAC81122914E66E61628DAC0 /* Check Pods Manifest.lock */ = {
@@ -361,6 +353,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DDC91131A5D89A100FF551E /* PodSplitter.swift in Sources */,
+				4D450A4A1A5EF08A005F76EA /* SWXMLHash.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

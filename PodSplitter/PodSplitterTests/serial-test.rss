@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.serialpodcast.org/~d/styles/itemcontent.css"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.serialpodcast.org/~d/styles/itemcontent.css"?>
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0" xml:base="http://serialpodcast.org">
     <channel>
         <title>Serial</title>
@@ -13,7 +14,10 @@
         </itunes:owner>
         <itunes:category text="News &amp; Politics" />
         <itunes:image href="http://serialpodcast.org/sites/all/modules/custom/serial/img/serial-itunes-logo.png" />
-        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.serialpodcast.org/serialpodcast" /><feedburner:info uri="serialpodcast" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.serialpodcast.org/serialpodcast" />
+        <feedburner:info uri="serialpodcast" />
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+        <item>
             <title>Episode 12: What We Know</title>
             <link>http://feeds.serialpodcast.org/~r/serialpodcast/~3/_LnOrNUV5n4/</link>
             <description>On January 13, 1999, Adnan Syed was a hurt and vengeful ex-boyfriend who carried out a premeditated murder. Or he was a bewildered bystander, framed for a crime he could never have committed. After 15 months of reporting, we take out everything we’ve got - interviews and documents and police reports - we shake it all out, and we see what sticks.&lt;img src="//feeds.feedburner.com/~r/serialpodcast/~4/_LnOrNUV5n4" height="1" width="1" alt=""/&gt;</description>

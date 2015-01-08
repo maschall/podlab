@@ -25,5 +25,6 @@ target :unit_tests do
   
   pod 'Quick', :git => 'https://github.com/Quick/Quick'
   pod 'Nimble', :git => 'https://github.com/Quick/Nimble'
+  pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire'
 end
 
