@@ -11,19 +11,17 @@ import Alamofire
 
 public class PodSplitter: NSObject {
    
-    public func downloadPodcast( String, callback : ( Array<NSObject>, NSError? ) -> Void ) {
-        
+    public func downloadPodcast( podcastUrl : String, callback : ( Podcast?, NSError? ) -> Void ) {
+        self.downloadUrl(podcastUrl) { ( xml: String?, error: NSError? ) -> Void in
+            callback( xml != nil ? Podcast(xml: xml!) : nil, error )
+        }
     }
     
     func downloadUrl( podcastUrl : String, callback : ( String?, NSError? ) -> Void ) {
         Alamofire.request(.GET, podcastUrl)
                  .responseString { (request, response, xml, error) -> Void in
                     callback( xml, error );
-        };
-    }
-    
-    func parseXml( xml : NSString?, error: NSError?, callback: ( Array<NSObject>, NSError? ) -> Void ) {
-        
+        }
     }
     
 }

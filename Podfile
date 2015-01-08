@@ -8,6 +8,7 @@ target :application do
   xcodeproj 'PodLab/PodLab.xcodeproj/'
   link_with 'PodLab'
   
+  pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire'
 end
 
 target :common do

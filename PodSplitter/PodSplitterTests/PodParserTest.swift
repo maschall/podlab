@@ -12,60 +12,6 @@ import Nimble
 import PodSplitteriOS
 
 class PodParserTest: XCTestCase {
-
-    class Podcast : NSObject {
-        
-        var title : String
-        var link : String
-        var podcastDescription : String
-        var episodes : Array<Episode>;
-        
-        init(xml: String) {
-            var podcast = SWXMLHash.parse(xml);
-            
-            var channel = podcast["rss"]["channel"]
-            
-            title = channel["title"].element?.text ?? ""
-            link = channel["link"].element?.text ?? ""
-            podcastDescription = channel["description"].element?.text ?? ""
-            
-            episodes = channel["item"].all.map { item in Episode( item: item ) }
-            
-            super.init()
-        }
-    }
-    
-    class Episode : NSObject {
-        
-        var title : String
-        var link : String
-        var enclosure: Enclosure
-        
-        init(item: XMLIndexer) {
-            title = item["title"].element?.text ?? ""
-            link = item["link"].element?.text ?? ""
-            enclosure = Enclosure(enclosure: item["enclosure"])
-            
-            super.init()
-        }
-        
-    }
-    
-    class Enclosure: NSObject {
-    
-        var url : String
-        var length : Int
-        var type : String
-        
-        init(enclosure: XMLIndexer) {
-            url = enclosure.element?.attributes["url"] ?? "";
-            type = enclosure.element?.attributes["type"] ?? "";
-            length = enclosure.element?.attributes["length"]?.toInt() ?? 0
-            
-            super.init()
-        }
-        
-    }
     
     var podcast : Podcast?;
     
