@@ -20,6 +20,9 @@ end
 target :unit_tests do
   xcodeproj 'PodLab/PodLab.xcodeproj/'
   link_with 'PodLabTests'
+  xcodeproj 'PodSplitter/PodSplitter.xcodeproj/'
+  link_with 'PodSplitterTests'
+  
   pod 'Quick', :git => 'https://github.com/Quick/Quick'
   pod 'Nimble', :git => 'https://github.com/Quick/Nimble'
 end

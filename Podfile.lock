@@ -21,10 +21,10 @@ CHECKOUT OPTIONS:
     :commit: 488769c643c91275f9420b2b39806af1a0e668d6
     :git: https://github.com/Alamofire/Alamofire
   Nimble:
-    :commit: 89affdde2b3bc946b4ff33683dc3b573548e9c3c
+    :commit: 21b17c1427d850ad9f5d26ebeabece8a01da7d75
     :git: https://github.com/Quick/Nimble
   Quick:
-    :commit: e3638122b235cb32bdb95174ede3738b546478d8
+    :commit: 126fcf04471ff734a02bef99f0937c1e72d138fd
     :git: https://github.com/Quick/Quick
 
 SPEC CHECKSUMS:
