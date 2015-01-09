@@ -15,6 +15,9 @@
 		4DA1F0801A48B61400EB8327 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA1F07F1A48B61400EB8327 /* Images.xcassets */; };
 		4DA1F0831A48B61400EB8327 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DA1F0811A48B61400EB8327 /* LaunchScreen.xib */; };
 		4DA1F08F1A48B61400EB8327 /* PodLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA1F08E1A48B61400EB8327 /* PodLabTests.swift */; };
+		4DC9AD711A6032EB004890A4 /* PodPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC9AD701A6032EB004890A4 /* PodPlayer.framework */; };
+		4DC9AD761A60389B004890A4 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9AD741A60389B004890A4 /* PlayerViewController.swift */; };
+		4DC9AD771A60389B004890A4 /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DC9AD751A60389B004890A4 /* PlayerViewController.xib */; };
 		612FFB486A4C31A38296887E /* Pods_application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EDA3BA3E19809E885C592C /* Pods_application.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -42,6 +45,9 @@
 		4DA1F0881A48B61400EB8327 /* PodLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA1F08D1A48B61400EB8327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DA1F08E1A48B61400EB8327 /* PodLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodLabTests.swift; sourceTree = "<group>"; };
+		4DC9AD701A6032EB004890A4 /* PodPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PodPlayer.framework; path = "../PodPlayer/build/Debug-iphoneos/PodPlayer.framework"; sourceTree = "<group>"; };
+		4DC9AD741A60389B004890A4 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		4DC9AD751A60389B004890A4 /* PlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
 		5B73B5C86965177CDDAC7089 /* Pods-application.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-application.release.xcconfig"; path = "../Pods/Target Support Files/Pods-application/Pods-application.release.xcconfig"; sourceTree = "<group>"; };
 		79EDA3BA3E19809E885C592C /* Pods_application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BBFC9B50369D145486F10B /* Pods_unit_tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unit_tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC9AD711A6032EB004890A4 /* PodPlayer.framework in Frameworks */,
 				4D4016E21A5F33B700465B99 /* PodSplitteriOS.framework in Frameworks */,
 				612FFB486A4C31A38296887E /* Pods_application.framework in Frameworks */,
 			);
@@ -73,6 +80,7 @@
 		0CACC21A5A54DC21EC4A10B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4DC9AD701A6032EB004890A4 /* PodPlayer.framework */,
 				4D4016E11A5F33B700465B99 /* PodSplitteriOS.framework */,
 				4D98DA281A5F22CF00CDB55B /* PodSplitteriOS.framework */,
 				84BBFC9B50369D145486F10B /* Pods_unit_tests.framework */,
@@ -104,6 +112,7 @@
 		4DA1F0751A48B61400EB8327 /* PodLab */ = {
 			isa = PBXGroup;
 			children = (
+				4DD826291A602CB000D9AF60 /* Player */,
 				4DA1F0781A48B61400EB8327 /* AppDelegate.swift */,
 				4DA1F07C1A48B61400EB8327 /* Main.storyboard */,
 				4DA1F07F1A48B61400EB8327 /* Images.xcassets */,
@@ -137,6 +146,15 @@
 				4DA1F08D1A48B61400EB8327 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DD826291A602CB000D9AF60 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				4DC9AD741A60389B004890A4 /* PlayerViewController.swift */,
+				4DC9AD751A60389B004890A4 /* PlayerViewController.xib */,
+			);
+			name = Player;
 			sourceTree = "<group>";
 		};
 		87A2CA254A783CF83E61DEDE /* Pods */ = {
@@ -237,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DA1F07E1A48B61400EB8327 /* Main.storyboard in Resources */,
+				4DC9AD771A60389B004890A4 /* PlayerViewController.xib in Resources */,
 				4DA1F0831A48B61400EB8327 /* LaunchScreen.xib in Resources */,
 				4DA1F0801A48B61400EB8327 /* Images.xcassets in Resources */,
 			);
@@ -351,6 +370,7 @@
 			files = (
 				4D98DA2B1A5F24D700CDB55B /* PodcastTableViewController.swift in Sources */,
 				4DA1F0791A48B61400EB8327 /* AppDelegate.swift in Sources */,
+				4DC9AD761A60389B004890A4 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +497,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/mark/Projects/podlab-ios/PodSplitter/build/Debug-iphoneos",
+					"/Users/mark/Projects/podlab-ios/PodPlayer/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = PodLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -492,6 +513,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/mark/Projects/podlab-ios/PodSplitter/build/Debug-iphoneos",
+					"/Users/mark/Projects/podlab-ios/PodPlayer/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = PodLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

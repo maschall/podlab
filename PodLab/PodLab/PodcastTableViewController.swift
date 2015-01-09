@@ -8,6 +8,7 @@
 
 import UIKit
 import PodSplitteriOS
+import PodPlayer
 
 class PodcastTableViewController: UITableViewController {
     
@@ -23,11 +24,11 @@ class PodcastTableViewController: UITableViewController {
     }
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return 1;
+        return 1
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.podcast?.episodes.count ?? 0;
+        return self.podcast?.episodes.count ?? 0
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
@@ -36,11 +37,22 @@ class PodcastTableViewController: UITableViewController {
             cell = UITableViewCell(style: UITableViewCellStyle.Subtitle, reuseIdentifier: "episodeCell")
         }
         
-        var episode = self.podcast!.episodes[indexPath.row];
+        var episode = self.podcast!.episodes[indexPath.row]
         
-        cell?.textLabel?.text = episode.title;
+        cell?.textLabel?.text = episode.title
         
         return cell!
+    }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        var episode = self.podcast!.episodes[indexPath.row]
+        
+        var enclosure = episode.enclosure
+        
+        PodPlayer.prepare(enclosure.url)
+        PodPlayer.play()
+        
+        self.presentViewController(PlayerViewController(), animated: true, completion: nil)
     }
 
 }
