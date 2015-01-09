@@ -18,6 +18,13 @@ target :common do
   pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire'
 end
 
+target :itunes do
+  xcodeproj 'iTunesSearch/iTunesSearch.xcodeproj/'
+  link_with 'iTunesSearchiOS'
+  
+  pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire'
+end
+
 target :unit_tests do
   xcodeproj 'PodLab/PodLab.xcodeproj/'
   link_with 'PodLabTests'

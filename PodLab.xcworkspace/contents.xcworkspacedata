@@ -11,6 +11,9 @@
       location = "group:PodSplitter/PodSplitter.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:iTunesSearch/iTunesSearch.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
