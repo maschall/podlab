@@ -12,8 +12,18 @@ import Alamofire
 public class PodSplitter: NSObject {
    
     public func downloadPodcast( podcastUrl : String, callback : ( Podcast?, NSError? ) -> Void ) {
-        self.downloadUrl(podcastUrl) { ( xml: String?, error: NSError? ) -> Void in
-            callback( xml != nil ? Podcast(xml: xml!) : nil, error )
+        var podcast = Podcast( url: podcastUrl )
+        self.updatePodcast(podcast, callback: { (error) -> Void in
+            callback( podcast, error )
+        })
+    }
+    
+    public func updatePodcast( podcast: Podcast, callback : ( NSError? ) -> Void ) {
+        self.downloadUrl(podcast.url) { ( xml, error ) -> Void in
+            if let xml = xml {
+                podcast.updateData(xml)
+            }
+            callback( error )
         }
     }
     

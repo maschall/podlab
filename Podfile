@@ -14,6 +14,8 @@ end
 target :common do
   xcodeproj 'PodSplitter/PodSplitter.xcodeproj/'
   link_with 'PodSplitteriOS'
+  xcodeproj 'PodLabCommon/PodLabCommon.xcodeproj/'
+  link_with 'PodLabCommoniOS'
   
   pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire'
 end

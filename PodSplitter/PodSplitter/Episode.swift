@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class Episode : NSObject {
+public class Episode : NSObject, NSCoding {
     
     public var title : String
     public var link : String
@@ -20,6 +20,18 @@ public class Episode : NSObject {
         enclosure = Enclosure(enclosure: item["enclosure"])
         
         super.init()
+    }
+    
+    required public init(coder aDecoder: NSCoder) {
+        self.title = aDecoder.decodeObjectForKey("title") as String
+        self.link = aDecoder.decodeObjectForKey("link") as String
+        self.enclosure = aDecoder.decodeObjectForKey("enclosure") as Enclosure
+    }
+    
+    public func encodeWithCoder(aCoder: NSCoder) {
+        aCoder.encodeObject(self.title, forKey: "title")
+        aCoder.encodeObject(self.link, forKey: "link")
+        aCoder.encodeObject(self.enclosure, forKey: "enclosure")
     }
     
 }

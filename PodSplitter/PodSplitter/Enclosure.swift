@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class Enclosure: NSObject {
+public class Enclosure: NSObject, NSCoding {
     
     public var url : String
     public var length : Int
@@ -20,6 +20,18 @@ public class Enclosure: NSObject {
         length = enclosure.element?.attributes["length"]?.toInt() ?? 0
         
         super.init()
+    }
+    
+    public required init(coder aDecoder: NSCoder) {
+        self.url = aDecoder.decodeObjectForKey("url") as String
+        self.type = aDecoder.decodeObjectForKey("type") as String
+        self.length = aDecoder.decodeObjectForKey("length") as Int
+    }
+    
+    public func encodeWithCoder(aCoder: NSCoder) {
+        aCoder.encodeObject(self.url, forKey: "url")
+        aCoder.encodeObject(self.type, forKey: "type")
+        aCoder.encodeObject(self.length, forKey: "length")
     }
     
 }

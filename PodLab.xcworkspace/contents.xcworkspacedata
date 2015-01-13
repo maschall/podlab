@@ -5,6 +5,9 @@
       location = "group:PodLab/PodLab.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:PodLabCommon/PodLabCommon.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:PodPlayer/PodPlayer.xcodeproj">
    </FileRef>
    <FileRef
