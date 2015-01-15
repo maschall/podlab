@@ -20,9 +20,13 @@
         <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="allEpisodes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Episode" inverseName="podcast" inverseEntity="Episode" syncable="YES"/>
     </entity>
+    <entity name="Queue" representedClassName="Queue" syncable="YES">
+        <relationship name="episodes" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Episode" syncable="YES"/>
+    </entity>
     <elements>
         <element name="Enclosure" positionX="-198" positionY="-225" width="128" height="105"/>
         <element name="Episode" positionX="-200" positionY="18" width="128" height="120"/>
         <element name="Podcast" positionX="-486" positionY="27" width="128" height="120"/>
+        <element name="Queue" positionX="-342" positionY="-72" width="128" height="60"/>
     </elements>
 </model>

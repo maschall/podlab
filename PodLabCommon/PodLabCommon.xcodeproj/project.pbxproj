@@ -16,6 +16,8 @@
 		4D1D89CA1A683A3F0045640F /* Enclosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D89C91A683A3F0045640F /* Enclosure.swift */; };
 		4D1D89CC1A683A400045640F /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D89CB1A683A400045640F /* Podcast.swift */; };
 		4D1D89CE1A683A400045640F /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D89CD1A683A400045640F /* Episode.swift */; };
+		4D1D89D01A685C6A0045640F /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D89CF1A685C6A0045640F /* Queue.swift */; };
+		4D1D89D21A685C900045640F /* QueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1D89D11A685C900045640F /* QueueExtension.swift */; };
 		4D772E071A642A3000062F18 /* PodLabCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D772E061A642A3000062F18 /* PodLabCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D772E0D1A642A3000062F18 /* PodLabCommoniOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D772E011A642A3000062F18 /* PodLabCommoniOS.framework */; };
 		4D772E141A642A3000062F18 /* PodLabCommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D772E131A642A3000062F18 /* PodLabCommonTests.swift */; };
@@ -43,6 +45,8 @@
 		4D1D89C91A683A3F0045640F /* Enclosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enclosure.swift; sourceTree = "<group>"; };
 		4D1D89CB1A683A400045640F /* Podcast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
 		4D1D89CD1A683A400045640F /* Episode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		4D1D89CF1A685C6A0045640F /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		4D1D89D11A685C900045640F /* QueueExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueExtension.swift; sourceTree = "<group>"; };
 		4D772E011A642A3000062F18 /* PodLabCommoniOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodLabCommoniOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D772E051A642A3000062F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D772E061A642A3000062F18 /* PodLabCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodLabCommon.h; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				4D03C7611A65A4D0001F4122 /* Model.xcdatamodeld */,
+				4D1D89CF1A685C6A0045640F /* Queue.swift */,
 				4D1D89CD1A683A400045640F /* Episode.swift */,
 				4D1D89CB1A683A400045640F /* Podcast.swift */,
 				4D1D89C91A683A3F0045640F /* Enclosure.swift */,
@@ -94,6 +99,7 @@
 			children = (
 				4D03C7811A65AAB8001F4122 /* DatabaseExtension.swift */,
 				4D03C78D1A65B632001F4122 /* PodcastExtension.swift */,
+				4D1D89D11A685C900045640F /* QueueExtension.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -339,7 +345,9 @@
 				4D03C7651A65A63F001F4122 /* Database.swift in Sources */,
 				4D03C78E1A65B632001F4122 /* PodcastExtension.swift in Sources */,
 				4D03C7631A65A4D0001F4122 /* Model.xcdatamodeld in Sources */,
+				4D1D89D01A685C6A0045640F /* Queue.swift in Sources */,
 				4D03C7821A65AAB8001F4122 /* DatabaseExtension.swift in Sources */,
+				4D1D89D21A685C900045640F /* QueueExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
