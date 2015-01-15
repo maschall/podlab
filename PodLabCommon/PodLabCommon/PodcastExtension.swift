@@ -17,10 +17,16 @@ extension PodSplitteriOS.Podcast {
 
 extension Podcast {
     public func addEpisode( episode : Episode ) {
-        self.mutableOrderedSetValueForKey("episodes").addObject(episode)
+        self.mutableArrayValueForKey("episodes").addObject(episode)
     }
     
     public func removeEpisode( episode : Episode ) {
-        self.mutableOrderedSetValueForKey("episodes").removeObject(episode)
+        self.mutableArrayValueForKey("episodes").removeObject(episode)
+    }
+    
+    public var episodes : [Episode] {
+        get {
+            return self.allEpisodes.sortedArrayUsingDescriptors([NSSortDescriptor(key: "guid", ascending: false)]) as [Episode]
+        }
     }
 }

@@ -32,7 +32,7 @@ extension Database {
             var episodes = podcast.episodes.map({ (episode) -> Episode in
                 self.addEpisode(episode)
             })
-            newPodcast.setValue(NSOrderedSet(array: episodes), forKey: "episodes")
+            newPodcast.setValue(NSSet(array: episodes), forKey: "allEpisodes")
             
             addedPodcast = newPodcast
         } else {
@@ -60,10 +60,13 @@ extension Database {
             }
             
             var episodes = podcast.episodes.map({ (episode) -> Episode in
-                self.updateEpisode(episode)
+                var updatedEpisode = self.updateEpisode(episode)
+                if updatedEpisode.podcast.objectID != updatingPodcast.objectID {
+                    updatedEpisode.podcast = updatingPodcast
+                }
+                return updatedEpisode
             })
-            updatingPodcast.setValue(NSOrderedSet(array: episodes), forKey: "episodes")
-            
+                        
             outdatedPodcast = updatingPodcast
         } else {
             outdatedPodcast = addPodcast(podcast)
@@ -72,7 +75,6 @@ extension Database {
         return outdatedPodcast!
     }
     
-    // TODO switch to GUID
     func findEpisode( episode : PodSplitteriOS.Episode ) -> Episode? {
         var episodeRequest = NSFetchRequest(entityName: "Episode")
         episodeRequest.predicate = NSPredicate(format: "guid = %@", episode.guid)
@@ -89,6 +91,7 @@ extension Database {
             
             newEpisode.title = episode.title
             newEpisode.link = episode.link
+            newEpisode.guid = episode.guid
             newEpisode.enclosure = addEnclosure(episode.enclosure)
             
             addedEpisode = newEpisode
@@ -109,6 +112,9 @@ extension Database {
             }
             if updatingEpisode.link != episode.link {
                 updatingEpisode.link = episode.link
+            }
+            if updatingEpisode.guid != episode.guid {
+                updatingEpisode.guid = episode.guid
             }
             var updatedEnclosure = updateEnclosure(episode.enclosure)
             if updatingEpisode.enclosure.objectID != updatedEnclosure.objectID {
