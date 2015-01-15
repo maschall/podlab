@@ -33,9 +33,10 @@ public class SubscriptionManager: NSObject {
     
     public func addPodcast( podcastUrl : String ) {
         PodSplitter().downloadPodcast(podcastUrl) { (podcast, error) -> Void in
-            Database.sharedInstance.addPodcast(podcast!)
-            Database.sharedInstance.saveContext()
-            return
+            if error == nil {
+                Database.sharedInstance.addPodcast(podcast!)
+                Database.sharedInstance.saveContext()
+            }
         }
     }
     
