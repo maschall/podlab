@@ -6,7 +6,6 @@
 //  Copyright (c) 2015 Detroit Labs. All rights reserved.
 //
 
-import UIKit
 import Alamofire
 
 public class iTunesSearch: NSObject {

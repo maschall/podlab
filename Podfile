@@ -24,17 +24,18 @@ target :osx do
   platform :osx, '10.10'
   xcodeproj 'PodSplitter/PodSplitter.xcodeproj/'
   link_with 'PodSplitterOSX'
-  #xcodeproj 'PodLabCommon/PodLabCommon.xcodeproj/'
-  #link_with 'PodLabCommonOSX'
-  #xcodeproj 'PodLab/PodLab.xcodeproj/'
-  #link_with 'PodLab'
-  #xcodeproj 'iTunesSearch/iTunesSearch.xcodeproj/'
-  #link_with 'iTunesSearchOSX'
+  xcodeproj 'PodLabCommon/PodLabCommon.xcodeproj/'
+  link_with 'PodLabCommonOSX'
+  xcodeproj 'PodLab/PodLab.xcodeproj/'
+  link_with 'PodLabOSX'
+  xcodeproj 'iTunesSearch/iTunesSearch.xcodeproj/'
+  link_with 'iTunesSearchOSX'
   
   shared_pods
 end
 
 target :unit_tests do
+  platform :ios, '8.0'
   xcodeproj 'PodLab/PodLab.xcodeproj/'
   link_with 'PodLabTests'
   xcodeproj 'PodSplitter/PodSplitter.xcodeproj/'

@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		1421683A0FC4DC695B01F8EC /* Pods_unit_tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BBFC9B50369D145486F10B /* Pods_unit_tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4D201FB61A6866C50013871D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D201FB51A6866C50013871D /* AppDelegate.swift */; };
+		4D201FB81A6866C50013871D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D201FB71A6866C50013871D /* ViewController.swift */; };
+		4D201FBA1A6866C50013871D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D201FB91A6866C50013871D /* Images.xcassets */; };
+		4D201FBD1A6866C50013871D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D201FBB1A6866C50013871D /* Main.storyboard */; };
+		4D201FC91A6866C50013871D /* PodLabOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D201FC81A6866C50013871D /* PodLabOSXTests.swift */; };
+		4D301FE11A68658600A21747 /* Pods_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D301FE01A68658600A21747 /* Pods_ios.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4D4016E21A5F33B700465B99 /* PodSplitteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D4016E11A5F33B700465B99 /* PodSplitteriOS.framework */; };
 		4D5BD75B1A68636100AE9192 /* Pods-ios.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BD7591A68636100AE9192 /* Pods-ios.debug.xcconfig */; };
 		4D5BD75C1A68636100AE9192 /* Pods-ios.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BD75A1A68636100AE9192 /* Pods-ios.release.xcconfig */; };
 		4D772E221A642B0500062F18 /* PodLabCommoniOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D772E211A642B0500062F18 /* PodLabCommoniOS.framework */; };
 		4D829DB01A607C8E00A6674B /* iTunesSearchiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D829DAF1A607C8E00A6674B /* iTunesSearchiOS.framework */; };
 		4D98DA2B1A5F24D700CDB55B /* PodcastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98DA2A1A5F24D700CDB55B /* PodcastTableViewController.swift */; };
+		4D9D9EE51A6867B500F5F604 /* Pods-osx.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4D9D9EE31A6867B500F5F604 /* Pods-osx.debug.xcconfig */; };
+		4D9D9EE61A6867B500F5F604 /* Pods-osx.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4D9D9EE41A6867B500F5F604 /* Pods-osx.release.xcconfig */; };
+		4D9D9EE81A6867CB00F5F604 /* Pods_osx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9D9EE71A6867CB00F5F604 /* Pods_osx.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4DA1F0791A48B61400EB8327 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA1F0781A48B61400EB8327 /* AppDelegate.swift */; };
 		4DA1F07E1A48B61400EB8327 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA1F07C1A48B61400EB8327 /* Main.storyboard */; };
 		4DA1F0801A48B61400EB8327 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA1F07F1A48B61400EB8327 /* Images.xcassets */; };
@@ -23,10 +32,19 @@
 		4DC9AD7A1A605A4E004890A4 /* EpisodeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC9AD791A605A4E004890A4 /* EpisodeTableViewController.swift */; };
 		4DC9AD7C1A60703C004890A4 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC9AD7B1A60703C004890A4 /* AVKit.framework */; };
 		4DC9AD7E1A607139004890A4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DC9AD7D1A607139004890A4 /* AVFoundation.framework */; };
-		612FFB486A4C31A38296887E /* Pods_application.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79EDA3BA3E19809E885C592C /* Pods_application.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4DFC18861A68676400AE9A8F /* iTunesSearchOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFC18831A68676400AE9A8F /* iTunesSearchOSX.framework */; };
+		4DFC18871A68676400AE9A8F /* PodLabCommonOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFC18841A68676400AE9A8F /* PodLabCommonOSX.framework */; };
+		4DFC18881A68676400AE9A8F /* PodSplitterOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFC18851A68676400AE9A8F /* PodSplitterOSX.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		4D201FC31A6866C50013871D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DA1F06B1A48B61400EB8327 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D201FB01A6866C50013871D;
+			remoteInfo = PodLabOSX;
+		};
 		4DA1F0891A48B61400EB8327 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4DA1F06B1A48B61400EB8327 /* Project object */;
@@ -37,6 +55,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D201FB11A6866C50013871D /* PodLabOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodLabOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D201FB41A6866C50013871D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D201FB51A6866C50013871D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D201FB71A6866C50013871D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4D201FB91A6866C50013871D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D201FBC1A6866C50013871D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D201FC21A6866C50013871D /* PodLabOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodLabOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D201FC71A6866C50013871D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D201FC81A6866C50013871D /* PodLabOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodLabOSXTests.swift; sourceTree = "<group>"; };
+		4D301FE01A68658600A21747 /* Pods_ios.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_ios.framework; path = "../Pods/build/Debug-iphoneos/Pods_ios.framework"; sourceTree = "<group>"; };
 		4D4016E11A5F33B700465B99 /* PodSplitteriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PodSplitteriOS.framework; path = "../PodSplitter/build/Debug-iphoneos/PodSplitteriOS.framework"; sourceTree = "<group>"; };
 		4D5BD7591A68636100AE9192 /* Pods-ios.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-ios.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ios/Pods-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		4D5BD75A1A68636100AE9192 /* Pods-ios.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-ios.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ios/Pods-ios.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,6 +72,9 @@
 		4D829DAF1A607C8E00A6674B /* iTunesSearchiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iTunesSearchiOS.framework; path = "../iTunesSearch/build/Debug-iphoneos/iTunesSearchiOS.framework"; sourceTree = "<group>"; };
 		4D98DA281A5F22CF00CDB55B /* PodSplitteriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PodSplitteriOS.framework; path = "../PodSplitter/build/Debug-iphoneos/PodSplitteriOS.framework"; sourceTree = "<group>"; };
 		4D98DA2A1A5F24D700CDB55B /* PodcastTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastTableViewController.swift; sourceTree = "<group>"; };
+		4D9D9EE31A6867B500F5F604 /* Pods-osx.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-osx.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-osx/Pods-osx.debug.xcconfig"; sourceTree = "<group>"; };
+		4D9D9EE41A6867B500F5F604 /* Pods-osx.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-osx.release.xcconfig"; path = "../Pods/Target Support Files/Pods-osx/Pods-osx.release.xcconfig"; sourceTree = "<group>"; };
+		4D9D9EE71A6867CB00F5F604 /* Pods_osx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_osx.framework; path = "../../../Library/Developer/Xcode/DerivedData/PodLab-drssnqbubesrambknzkyzftyigfs/Build/Products/Debug/Pods_osx.framework"; sourceTree = "<group>"; };
 		4DA1F0731A48B61400EB8327 /* PodLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA1F0771A48B61400EB8327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DA1F0781A48B61400EB8327 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +88,9 @@
 		4DC9AD791A605A4E004890A4 /* EpisodeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeTableViewController.swift; sourceTree = "<group>"; };
 		4DC9AD7B1A60703C004890A4 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		4DC9AD7D1A607139004890A4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4DFC18831A68676400AE9A8F /* iTunesSearchOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iTunesSearchOSX.framework; path = ../iTunesSearch/build/Debug/iTunesSearchOSX.framework; sourceTree = "<group>"; };
+		4DFC18841A68676400AE9A8F /* PodLabCommonOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PodLabCommonOSX.framework; path = ../PodLabCommon/build/Debug/PodLabCommonOSX.framework; sourceTree = "<group>"; };
+		4DFC18851A68676400AE9A8F /* PodSplitterOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PodSplitterOSX.framework; path = ../PodSplitter/build/Debug/PodSplitterOSX.framework; sourceTree = "<group>"; };
 		79EDA3BA3E19809E885C592C /* Pods_application.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_application.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BBFC9B50369D145486F10B /* Pods_unit_tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unit_tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		953CCCEB22C3A8D45106F246 /* Pods-unit_tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.release.xcconfig"; path = "../Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -64,17 +98,35 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4D201FAE1A6866C50013871D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9D9EE81A6867CB00F5F604 /* Pods_osx.framework in Frameworks */,
+				4DFC18861A68676400AE9A8F /* iTunesSearchOSX.framework in Frameworks */,
+				4DFC18871A68676400AE9A8F /* PodLabCommonOSX.framework in Frameworks */,
+				4DFC18881A68676400AE9A8F /* PodSplitterOSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D201FBF1A6866C50013871D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4DA1F0701A48B61400EB8327 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D301FE11A68658600A21747 /* Pods_ios.framework in Frameworks */,
 				4D772E221A642B0500062F18 /* PodLabCommoniOS.framework in Frameworks */,
 				4DC9AD7E1A607139004890A4 /* AVFoundation.framework in Frameworks */,
 				4DC9AD7C1A60703C004890A4 /* AVKit.framework in Frameworks */,
 				4DC9AD711A6032EB004890A4 /* PodPlayer.framework in Frameworks */,
 				4D4016E21A5F33B700465B99 /* PodSplitteriOS.framework in Frameworks */,
 				4D829DB01A607C8E00A6674B /* iTunesSearchiOS.framework in Frameworks */,
-				612FFB486A4C31A38296887E /* Pods_application.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +144,11 @@
 		0CACC21A5A54DC21EC4A10B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D9D9EE71A6867CB00F5F604 /* Pods_osx.framework */,
+				4DFC18831A68676400AE9A8F /* iTunesSearchOSX.framework */,
+				4DFC18841A68676400AE9A8F /* PodLabCommonOSX.framework */,
+				4DFC18851A68676400AE9A8F /* PodSplitterOSX.framework */,
+				4D301FE01A68658600A21747 /* Pods_ios.framework */,
 				4D772E211A642B0500062F18 /* PodLabCommoniOS.framework */,
 				4D829DAF1A607C8E00A6674B /* iTunesSearchiOS.framework */,
 				4DC9AD7D1A607139004890A4 /* AVFoundation.framework */,
@@ -105,11 +162,50 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4D201FB21A6866C50013871D /* PodLabOSX */ = {
+			isa = PBXGroup;
+			children = (
+				4D201FB51A6866C50013871D /* AppDelegate.swift */,
+				4D201FB71A6866C50013871D /* ViewController.swift */,
+				4D201FB91A6866C50013871D /* Images.xcassets */,
+				4D201FBB1A6866C50013871D /* Main.storyboard */,
+				4D201FB31A6866C50013871D /* Supporting Files */,
+			);
+			path = PodLabOSX;
+			sourceTree = "<group>";
+		};
+		4D201FB31A6866C50013871D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D201FB41A6866C50013871D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D201FC51A6866C50013871D /* PodLabOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D201FC81A6866C50013871D /* PodLabOSXTests.swift */,
+				4D201FC61A6866C50013871D /* Supporting Files */,
+			);
+			path = PodLabOSXTests;
+			sourceTree = "<group>";
+		};
+		4D201FC61A6866C50013871D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D201FC71A6866C50013871D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		4DA1F06A1A48B61400EB8327 = {
 			isa = PBXGroup;
 			children = (
 				4DA1F0751A48B61400EB8327 /* PodLab */,
 				4DA1F08B1A48B61400EB8327 /* PodLabTests */,
+				4D201FB21A6866C50013871D /* PodLabOSX */,
+				4D201FC51A6866C50013871D /* PodLabOSXTests */,
 				4DA1F0741A48B61400EB8327 /* Products */,
 				87A2CA254A783CF83E61DEDE /* Pods */,
 				0CACC21A5A54DC21EC4A10B1 /* Frameworks */,
@@ -121,6 +217,8 @@
 			children = (
 				4DA1F0731A48B61400EB8327 /* PodLab.app */,
 				4DA1F0881A48B61400EB8327 /* PodLabTests.xctest */,
+				4D201FB11A6866C50013871D /* PodLabOSX.app */,
+				4D201FC21A6866C50013871D /* PodLabOSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -183,6 +281,8 @@
 		87A2CA254A783CF83E61DEDE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				4D9D9EE31A6867B500F5F604 /* Pods-osx.debug.xcconfig */,
+				4D9D9EE41A6867B500F5F604 /* Pods-osx.release.xcconfig */,
 				4D5BD7591A68636100AE9192 /* Pods-ios.debug.xcconfig */,
 				4D5BD75A1A68636100AE9192 /* Pods-ios.release.xcconfig */,
 				B1D110D2A894D80193E19634 /* Pods-unit_tests.debug.xcconfig */,
@@ -194,6 +294,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4D201FB01A6866C50013871D /* PodLabOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D201FCE1A6866C50013871D /* Build configuration list for PBXNativeTarget "PodLabOSX" */;
+			buildPhases = (
+				4D9D9EF11A686BFE00F5F604 /* Check Pods Manifest.lock */,
+				4D201FAD1A6866C50013871D /* Sources */,
+				4D201FAE1A6866C50013871D /* Frameworks */,
+				4D201FAF1A6866C50013871D /* Resources */,
+				4D9D9EF51A686C6600F5F604 /* Embed Pods Frameworks */,
+				4D9D9EF61A686C6B00F5F604 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PodLabOSX;
+			productName = PodLabOSX;
+			productReference = 4D201FB11A6866C50013871D /* PodLabOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D201FC11A6866C50013871D /* PodLabOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D201FCF1A6866C50013871D /* Build configuration list for PBXNativeTarget "PodLabOSXTests" */;
+			buildPhases = (
+				4D201FBE1A6866C50013871D /* Sources */,
+				4D201FBF1A6866C50013871D /* Frameworks */,
+				4D201FC01A6866C50013871D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D201FC41A6866C50013871D /* PBXTargetDependency */,
+			);
+			name = PodLabOSXTests;
+			productName = PodLabOSXTests;
+			productReference = 4D201FC21A6866C50013871D /* PodLabOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		4DA1F0721A48B61400EB8327 /* PodLab */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DA1F0921A48B61400EB8327 /* Build configuration list for PBXNativeTarget "PodLab" */;
@@ -244,6 +382,13 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Detroit Labs";
 				TargetAttributes = {
+					4D201FB01A6866C50013871D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4D201FC11A6866C50013871D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4D201FB01A6866C50013871D;
+					};
 					4DA1F0721A48B61400EB8327 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
@@ -268,11 +413,31 @@
 			targets = (
 				4DA1F0721A48B61400EB8327 /* PodLab */,
 				4DA1F0871A48B61400EB8327 /* PodLabTests */,
+				4D201FB01A6866C50013871D /* PodLabOSX */,
+				4D201FC11A6866C50013871D /* PodLabOSXTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		4D201FAF1A6866C50013871D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9D9EE61A6867B500F5F604 /* Pods-osx.release.xcconfig in Resources */,
+				4D201FBA1A6866C50013871D /* Images.xcassets in Resources */,
+				4D201FBD1A6866C50013871D /* Main.storyboard in Resources */,
+				4D9D9EE51A6867B500F5F604 /* Pods-osx.debug.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D201FC01A6866C50013871D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4DA1F0711A48B61400EB8327 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -310,6 +475,48 @@
 			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4D9D9EF11A686BFE00F5F604 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\ncat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\nexit 1\nfi\n";
+		};
+		4D9D9EF51A686C6600F5F604 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-osx/Pods-osx-frameworks.sh\"\n";
+		};
+		4D9D9EF61A686C6B00F5F604 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-osx/Pods-osx-resources.sh\"\n";
+		};
 		58A390461B2A46853C0C8A07 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -322,7 +529,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-application/Pods-application-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ios/Pods-ios-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CDAA86BB7060AE49DE35FA2F /* Check Pods Manifest.lock */ = {
@@ -352,7 +559,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-application/Pods-application-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ios/Pods-ios-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DEE08CBA2ED36A3432D4BCEB /* Embed Pods Frameworks */ = {
@@ -388,6 +595,23 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4D201FAD1A6866C50013871D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D201FB81A6866C50013871D /* ViewController.swift in Sources */,
+				4D201FB61A6866C50013871D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D201FBE1A6866C50013871D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D201FC91A6866C50013871D /* PodLabOSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4DA1F06F1A48B61400EB8327 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,6 +633,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		4D201FC41A6866C50013871D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D201FB01A6866C50013871D /* PodLabOSX */;
+			targetProxy = 4D201FC31A6866C50013871D /* PBXContainerItemProxy */;
+		};
 		4DA1F08A1A48B61400EB8327 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 4DA1F0721A48B61400EB8327 /* PodLab */;
@@ -417,6 +646,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		4D201FBB1A6866C50013871D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D201FBC1A6866C50013871D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		4DA1F07C1A48B61400EB8327 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,6 +673,96 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		4D201FCA1A6866C50013871D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D9D9EE31A6867B500F5F604 /* Pods-osx.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mark/Projects/podlab-ios/iTunesSearch/build/Debug",
+					"$(PROJECT_DIR)Common/build/Debug",
+					"/Users/mark/Projects/podlab-ios/PodSplitter/build/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/PodLab-drssnqbubesrambknzkyzftyigfs/Build/Products/Debug",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PodLabOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4D201FCB1A6866C50013871D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D9D9EE41A6867B500F5F604 /* Pods-osx.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mark/Projects/podlab-ios/iTunesSearch/build/Debug",
+					"$(PROJECT_DIR)Common/build/Debug",
+					"/Users/mark/Projects/podlab-ios/PodSplitter/build/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/PodLab-drssnqbubesrambknzkyzftyigfs/Build/Products/Debug",
+				);
+				INFOPLIST_FILE = PodLabOSX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4D201FCC1A6866C50013871D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PodLabOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PodLabOSX.app/Contents/MacOS/PodLabOSX";
+			};
+			name = Debug;
+		};
+		4D201FCD1A6866C50013871D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PodLabOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PodLabOSX.app/Contents/MacOS/PodLabOSX";
+			};
+			name = Release;
+		};
 		4DA1F0901A48B61400EB8327 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -524,6 +851,7 @@
 					"/Users/mark/Projects/podlab-ios/PodPlayer/build/Debug-iphoneos",
 					"/Users/mark/Projects/podlab-ios/iTunesSearch/build/Debug-iphoneos",
 					"$(PROJECT_DIR)Common/build/Debug-iphoneos",
+					"/Users/mark/Projects/podlab-ios/Pods/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = PodLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -542,6 +870,7 @@
 					"/Users/mark/Projects/podlab-ios/PodPlayer/build/Debug-iphoneos",
 					"/Users/mark/Projects/podlab-ios/iTunesSearch/build/Debug-iphoneos",
 					"$(PROJECT_DIR)Common/build/Debug-iphoneos",
+					"/Users/mark/Projects/podlab-ios/Pods/build/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = PodLab/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -588,6 +917,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4D201FCE1A6866C50013871D /* Build configuration list for PBXNativeTarget "PodLabOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D201FCA1A6866C50013871D /* Debug */,
+				4D201FCB1A6866C50013871D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D201FCF1A6866C50013871D /* Build configuration list for PBXNativeTarget "PodLabOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D201FCC1A6866C50013871D /* Debug */,
+				4D201FCD1A6866C50013871D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4DA1F06E1A48B61400EB8327 /* Build configuration list for PBXProject "PodLab" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
