@@ -1,5 +1,5 @@
 PODS:
-  - Alamofire (1.1.0)
+  - Alamofire (1.1.3)
   - Nimble (0.2.0)
   - Quick (0.2.0)
 
@@ -18,17 +18,17 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Alamofire:
-    :commit: 488769c643c91275f9420b2b39806af1a0e668d6
+    :commit: 048d2386743a8469d5ae5acf20d8985ac4afc5bd
     :git: https://github.com/Alamofire/Alamofire
   Nimble:
     :commit: 21b17c1427d850ad9f5d26ebeabece8a01da7d75
     :git: https://github.com/Quick/Nimble
   Quick:
-    :commit: 126fcf04471ff734a02bef99f0937c1e72d138fd
+    :commit: 20a51898c7999f6a1c13036b1c39951825e0f581
     :git: https://github.com/Quick/Quick
 
 SPEC CHECKSUMS:
-  Alamofire: 50d16b63df6f3f68abf40f6be107982503366ab3
+  Alamofire: bfc481e410edf5ca4bf5940d89b5d289fa0315cb
   Nimble: 79679d4cd5a3710db75e1dd9f5479f71842da6a6
   Quick: fdcce541eb5d73f5ac78f95c770ca6d6d69f0b81
 

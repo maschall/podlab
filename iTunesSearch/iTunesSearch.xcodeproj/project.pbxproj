@@ -12,6 +12,7 @@
 		4D4AE1EB1A607837005AD993 /* iTunesSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4AE1EA1A607837005AD993 /* iTunesSearchTests.swift */; };
 		4D4AE1F51A607857005AD993 /* iTunesSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4AE1F41A607857005AD993 /* iTunesSearch.swift */; };
 		89E872CC86113D5C5A788E3C /* Pods_itunes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7AD491D1BED0F055BBF451 /* Pods_itunes.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A030745EA8724B5F75860FFC /* Pods_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CB0CF3FBD30D0D980CD589 /* Pods_ios.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		296AE8FCD4397955C5205AD8 /* Pods-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ios/Pods-ios.release.xcconfig"; sourceTree = "<group>"; };
 		4D4AE1D81A607837005AD993 /* iTunesSearchiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iTunesSearchiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D4AE1DC1A607837005AD993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D4AE1DD1A607837005AD993 /* iTunesSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunesSearch.h; sourceTree = "<group>"; };
@@ -32,8 +34,8 @@
 		4D4AE1E91A607837005AD993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D4AE1EA1A607837005AD993 /* iTunesSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesSearchTests.swift; sourceTree = "<group>"; };
 		4D4AE1F41A607857005AD993 /* iTunesSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTunesSearch.swift; sourceTree = SOURCE_ROOT; };
-		6AB109103D60D7D902C1F06A /* Pods-itunes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itunes.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-itunes/Pods-itunes.debug.xcconfig"; sourceTree = "<group>"; };
-		E78AF1876387C17239591FBF /* Pods-itunes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itunes.release.xcconfig"; path = "../Pods/Target Support Files/Pods-itunes/Pods-itunes.release.xcconfig"; sourceTree = "<group>"; };
+		7EE3CF938E2774DEC93D97FC /* Pods-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ios/Pods-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		C6CB0CF3FBD30D0D980CD589 /* Pods_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA7AD491D1BED0F055BBF451 /* Pods_itunes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_itunes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -43,6 +45,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89E872CC86113D5C5A788E3C /* Pods_itunes.framework in Frameworks */,
+				A030745EA8724B5F75860FFC /* Pods_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				EA7AD491D1BED0F055BBF451 /* Pods_itunes.framework */,
+				C6CB0CF3FBD30D0D980CD589 /* Pods_ios.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,8 +127,8 @@
 		77DFC8DC781B90D111936FFF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6AB109103D60D7D902C1F06A /* Pods-itunes.debug.xcconfig */,
-				E78AF1876387C17239591FBF /* Pods-itunes.release.xcconfig */,
+				7EE3CF938E2774DEC93D97FC /* Pods-ios.debug.xcconfig */,
+				296AE8FCD4397955C5205AD8 /* Pods-ios.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -262,7 +266,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-itunes/Pods-itunes-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ios/Pods-ios-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E245ADA08EC2966BE8C1C9EA /* Embed Pods Frameworks */ = {
@@ -277,7 +281,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-itunes/Pods-itunes-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ios/Pods-ios-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -397,7 +401,7 @@
 		};
 		4D4AE1EF1A607837005AD993 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AB109103D60D7D902C1F06A /* Pods-itunes.debug.xcconfig */;
+			baseConfigurationReference = 7EE3CF938E2774DEC93D97FC /* Pods-ios.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
@@ -415,7 +419,7 @@
 		};
 		4D4AE1F01A607837005AD993 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E78AF1876387C17239591FBF /* Pods-itunes.release.xcconfig */;
+			baseConfigurationReference = 296AE8FCD4397955C5205AD8 /* Pods-ios.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
