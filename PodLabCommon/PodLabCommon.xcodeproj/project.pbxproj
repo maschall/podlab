@@ -8,8 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		42AC5C70D482539F4439869A /* Pods_common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A9C60FCD0BF84392883D07 /* Pods_common.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		4D6AF6AB1A6441130062CD2B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6AF6AA1A6441130062CD2B /* Persistence.swift */; };
-		4D6AF6AD1A6442350062CD2B /* FilePersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6AF6AC1A6442350062CD2B /* FilePersistence.swift */; };
+		4D03C7631A65A4D0001F4122 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D03C7611A65A4D0001F4122 /* Model.xcdatamodeld */; };
+		4D03C7651A65A63F001F4122 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D03C7641A65A63F001F4122 /* Database.swift */; };
+		4D03C77F1A65A908001F4122 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D03C77E1A65A908001F4122 /* CoreData.framework */; };
+		4D03C7821A65AAB8001F4122 /* DatabaseExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D03C7811A65AAB8001F4122 /* DatabaseExtension.swift */; };
+		4D03C7881A65ADAB001F4122 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D03C7871A65ADAB001F4122 /* Podcast.swift */; };
+		4D03C78A1A65ADAC001F4122 /* Enclosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D03C7891A65ADAC001F4122 /* Enclosure.swift */; };
+		4D03C78C1A65ADAC001F4122 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D03C78B1A65ADAC001F4122 /* Episode.swift */; };
+		4D03C78E1A65B632001F4122 /* PodcastExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D03C78D1A65B632001F4122 /* PodcastExtension.swift */; };
 		4D772E071A642A3000062F18 /* PodLabCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D772E061A642A3000062F18 /* PodLabCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D772E0D1A642A3000062F18 /* PodLabCommoniOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D772E011A642A3000062F18 /* PodLabCommoniOS.framework */; };
 		4D772E141A642A3000062F18 /* PodLabCommonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D772E131A642A3000062F18 /* PodLabCommonTests.swift */; };
@@ -29,8 +35,14 @@
 
 /* Begin PBXFileReference section */
 		011F40E979597FD3C8286369 /* Pods-common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-common.release.xcconfig"; path = "../Pods/Target Support Files/Pods-common/Pods-common.release.xcconfig"; sourceTree = "<group>"; };
-		4D6AF6AA1A6441130062CD2B /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		4D6AF6AC1A6442350062CD2B /* FilePersistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilePersistence.swift; sourceTree = "<group>"; };
+		4D03C7621A65A4D0001F4122 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		4D03C7641A65A63F001F4122 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		4D03C77E1A65A908001F4122 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4D03C7811A65AAB8001F4122 /* DatabaseExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseExtension.swift; sourceTree = "<group>"; };
+		4D03C7871A65ADAB001F4122 /* Podcast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Podcast.swift; sourceTree = "<group>"; };
+		4D03C7891A65ADAC001F4122 /* Enclosure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enclosure.swift; sourceTree = "<group>"; };
+		4D03C78B1A65ADAC001F4122 /* Episode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		4D03C78D1A65B632001F4122 /* PodcastExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastExtension.swift; sourceTree = "<group>"; };
 		4D772E011A642A3000062F18 /* PodLabCommoniOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodLabCommoniOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D772E051A642A3000062F18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D772E061A642A3000062F18 /* PodLabCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodLabCommon.h; sourceTree = "<group>"; };
@@ -48,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D03C77F1A65A908001F4122 /* CoreData.framework in Frameworks */,
 				4D772E1E1A642A8000062F18 /* PodSplitteriOS.framework in Frameworks */,
 				42AC5C70D482539F4439869A /* Pods_common.framework in Frameworks */,
 			);
@@ -64,13 +77,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D6AF6A91A6440DB0062CD2B /* Persistence */ = {
+		4D03C7601A65A4C5001F4122 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				4D6AF6AA1A6441130062CD2B /* Persistence.swift */,
-				4D6AF6AC1A6442350062CD2B /* FilePersistence.swift */,
+				4D03C7611A65A4D0001F4122 /* Model.xcdatamodeld */,
+				4D03C78B1A65ADAC001F4122 /* Episode.swift */,
+				4D03C7891A65ADAC001F4122 /* Enclosure.swift */,
+				4D03C7871A65ADAB001F4122 /* Podcast.swift */,
+				4D03C7641A65A63F001F4122 /* Database.swift */,
 			);
-			name = Persistence;
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		4D03C7801A65AAAA001F4122 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4D03C7811A65AAB8001F4122 /* DatabaseExtension.swift */,
+				4D03C78D1A65B632001F4122 /* PodcastExtension.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 		4D772DF71A642A3000062F18 = {
@@ -97,7 +122,8 @@
 		4D772E031A642A3000062F18 /* PodLabCommon */ = {
 			isa = PBXGroup;
 			children = (
-				4D6AF6A91A6440DB0062CD2B /* Persistence */,
+				4D03C7801A65AAAA001F4122 /* Extension */,
+				4D03C7601A65A4C5001F4122 /* CoreData */,
 				4D772E061A642A3000062F18 /* PodLabCommon.h */,
 				4D772E041A642A3000062F18 /* Supporting Files */,
 				4D772E1F1A642ABA00062F18 /* SubscriptionManager.swift */,
@@ -133,6 +159,7 @@
 		9C5BC4A48BB8106F2DB6F046 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D03C77E1A65A908001F4122 /* CoreData.framework */,
 				67A9C60FCD0BF84392883D07 /* Pods_common.framework */,
 			);
 			name = Frameworks;
@@ -305,9 +332,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D6AF6AD1A6442350062CD2B /* FilePersistence.swift in Sources */,
+				4D03C78A1A65ADAC001F4122 /* Enclosure.swift in Sources */,
 				4D772E201A642ABA00062F18 /* SubscriptionManager.swift in Sources */,
-				4D6AF6AB1A6441130062CD2B /* Persistence.swift in Sources */,
+				4D03C78C1A65ADAC001F4122 /* Episode.swift in Sources */,
+				4D03C7651A65A63F001F4122 /* Database.swift in Sources */,
+				4D03C78E1A65B632001F4122 /* PodcastExtension.swift in Sources */,
+				4D03C7631A65A4D0001F4122 /* Model.xcdatamodeld in Sources */,
+				4D03C7821A65AAB8001F4122 /* DatabaseExtension.swift in Sources */,
+				4D03C7881A65ADAB001F4122 /* Podcast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +551,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4D03C7611A65A4D0001F4122 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4D03C7621A65A4D0001F4122 /* Model.xcdatamodel */,
+			);
+			currentVersion = 4D03C7621A65A4D0001F4122 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4D772DF81A642A3000062F18 /* Project object */;
 }

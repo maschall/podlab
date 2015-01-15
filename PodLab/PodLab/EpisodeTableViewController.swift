@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import PodSplitteriOS
+import PodLabCommoniOS
 import AVKit
 import AVFoundation
 
@@ -26,7 +26,7 @@ class EpisodeTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell = tableView.dequeueReusableCellWithIdentifier("episodeCell") as UITableViewCell?
         
-        var episode = self.podcast!.episodes[indexPath.item]
+        var episode = self.podcast!.episodes[indexPath.item] as Episode
         
         cell?.textLabel?.text = episode.title
         
@@ -35,7 +35,7 @@ class EpisodeTableViewController: UITableViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "episodeSelected" {
-            var episode = self.podcast!.episodes[self.tableView.indexPathForSelectedRow()!.item]
+            var episode = self.podcast!.episodes[self.tableView.indexPathForSelectedRow()!.item] as Episode
             
             var player = segue.destinationViewController as AVPlayerViewController
             player.player = AVPlayer(URL: NSURL(string: episode.enclosure.url))

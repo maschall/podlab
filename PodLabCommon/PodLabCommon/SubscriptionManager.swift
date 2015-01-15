@@ -8,14 +8,21 @@
 
 import UIKit
 import PodSplitteriOS
+import CoreData
 
 let manager = SubscriptionManager()
 
 public class SubscriptionManager: NSObject {
-    public var podcasts : [Podcast]
+    
+    public var podcastFetchedResultsController : NSFetchedResultsController
     
     public override init() {
-        self.podcasts = FilePersistence().load("subscription.plist") as? [Podcast] ?? []
+        let podcastFetchRequest = NSFetchRequest(entityName: "Podcast")
+        podcastFetchRequest.sortDescriptors = [NSSortDescriptor(key: "title", ascending: true)]
+        
+        self.podcastFetchedResultsController = NSFetchedResultsController(fetchRequest: podcastFetchRequest, managedObjectContext: Database.sharedInstance.managedObjectContext!, sectionNameKeyPath: nil, cacheName: nil)
+        
+        self.podcastFetchedResultsController.performFetch(nil)
         
         super.init()
     }
@@ -24,37 +31,29 @@ public class SubscriptionManager: NSObject {
         return manager
     }
     
-    func persist() {
-        FilePersistence().persist(self.podcasts, key: "subscription.plist")
+    public func addPodcast( podcastUrl : String ) {
+        PodSplitter().downloadPodcast(podcastUrl) { (podcast, error) -> Void in
+            Database.sharedInstance.addPodcast(podcast!)
+            Database.sharedInstance.saveContext()
+            return
+        }
     }
     
-    public func addPodcast( podcast : Podcast ) {
-        self.podcasts.append(podcast)
-        
-        self.persist()
-    }
-    
-    public func removePodcast( index : Int ) {
-        self.podcasts.removeAtIndex( index )
-        
-        self.persist()
-    }
-    
-    public func movePodcast( source : Int, destination : Int ) {
-        let podcast = self.podcasts.removeAtIndex(source)
-        self.podcasts.insert(podcast, atIndex: destination)
-        
-        self.persist()
+    public func removePodcast( podcast : Podcast ) {
+        Database.sharedInstance.managedObjectContext?.deleteObject(podcast)
+        Database.sharedInstance.saveContext()
     }
     
     public func updateAll(callback : (NSError?) -> Void) {
         var error : NSError? = nil
         
-        for podcast in self.podcasts {
-            update(podcast) {
-                (updateError) -> Void in
-                if let updateError = updateError {
-                    error = updateError
+        for section in self.podcastFetchedResultsController.sections as [NSFetchedResultsSectionInfo] {
+            for podcast in section.objects as [Podcast] {
+                update(podcast) {
+                    (updateError) -> Void in
+                    if let updateError = updateError {
+                        error = updateError
+                    }
                 }
             }
         }
@@ -63,8 +62,11 @@ public class SubscriptionManager: NSObject {
     }
     
     public func update( podcast : Podcast, callback : (NSError?) -> Void ) {
-        PodSplitter().updatePodcast( podcast, callback )
-        
-        self.persist()
+        var updatedPodcast = PodSplitteriOS.Podcast( podcast: podcast )
+        PodSplitter().updatePodcast( updatedPodcast ) { error in
+            Database.sharedInstance.updatePodcast( updatedPodcast )
+            Database.sharedInstance.saveContext()
+            return
+        }
     }
 }
