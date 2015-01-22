@@ -12,12 +12,24 @@ import CoreData
 
 class PodcastTableViewController: UITableViewController, UIAlertViewDelegate, NSFetchedResultsControllerDelegate {
     
+    var podcastFetchedResultsController : NSFetchedResultsController
+
+    required init(coder aDecoder: NSCoder) {
+        var subscriptionManager = SubscriptionManager.instance()
+
+        self.podcastFetchedResultsController = NSFetchedResultsController(fetchRequest: subscriptionManager.podcastFetchRequest, managedObjectContext:subscriptionManager.managedObjectContext, sectionNameKeyPath: nil, cacheName: nil)
+        
+        self.podcastFetchedResultsController.performFetch(nil)
+        
+        super.init(coder: aDecoder)
+
+        self.podcastFetchedResultsController.delegate = self
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Add, target: self, action: Selector("add:"))
-        
-        SubscriptionManager.instance().podcastFetchedResultsController.delegate = self
     }
 
     override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -25,7 +37,7 @@ class PodcastTableViewController: UITableViewController, UIAlertViewDelegate, NS
     }
     
     func sectionInfo( section : Int ) -> NSFetchedResultsSectionInfo {
-        return SubscriptionManager.instance().podcastFetchedResultsController.sections![section] as NSFetchedResultsSectionInfo
+        return self.podcastFetchedResultsController.sections![section] as NSFetchedResultsSectionInfo
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

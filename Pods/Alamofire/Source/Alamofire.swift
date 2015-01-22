@@ -1261,7 +1261,7 @@ extension Request: DebugPrintable {
         if let cookieStorage = session.configuration.HTTPCookieStorage {
             if let cookies = cookieStorage.cookiesForURL(URL) as? [NSHTTPCookie] {
                 if !cookies.isEmpty {
-                    let string = cookies.reduce(""){ $0 + "\($1.name)=\($1.value ?? String());" }
+                    let string = cookies.reduce(""){ $0 + "\($1.name)=\($1.value);" }
                     components.append("-b \"\(string.substringToIndex(string.endIndex.predecessor()))\"")
                 }
             }

@@ -6,23 +6,29 @@
 //  Copyright (c) 2015 Detroit Labs. All rights reserved.
 //
 
-import UIKit
-import PodSplitteriOS
+#if os(iOS)
+    import PodSplitteriOS
+    #else
+    import PodSplitterOSX
+#endif
+
 import CoreData
 
 let manager = SubscriptionManager()
 
 public class SubscriptionManager: NSObject {
     
-    public var podcastFetchedResultsController : NSFetchedResultsController
+    public var managedObjectContext : NSManagedObjectContext {
+        get {
+            return Database.sharedInstance.managedObjectContext!
+        }
+    }
+    
+    public var podcastFetchRequest : NSFetchRequest;
     
     public override init() {
-        let podcastFetchRequest = NSFetchRequest(entityName: "Podcast")
-        podcastFetchRequest.sortDescriptors = [NSSortDescriptor(key: "title", ascending: true)]
-        
-        self.podcastFetchedResultsController = NSFetchedResultsController(fetchRequest: podcastFetchRequest, managedObjectContext: Database.sharedInstance.managedObjectContext!, sectionNameKeyPath: nil, cacheName: nil)
-        
-        self.podcastFetchedResultsController.performFetch(nil)
+        self.podcastFetchRequest = NSFetchRequest(entityName: "Podcast")
+        self.podcastFetchRequest.sortDescriptors = [NSSortDescriptor(key: "title", ascending: true)]
         
         super.init()
     }
@@ -48,13 +54,13 @@ public class SubscriptionManager: NSObject {
     public func updateAll(callback : (NSError?) -> Void) {
         var error : NSError? = nil
         
-        for section in self.podcastFetchedResultsController.sections as [NSFetchedResultsSectionInfo] {
-            for podcast in section.objects as [Podcast] {
-                update(podcast) {
-                    (updateError) -> Void in
-                    if let updateError = updateError {
-                        error = updateError
-                    }
+        var podcasts = self.managedObjectContext.executeFetchRequest(self.podcastFetchRequest, error: nil) as [Podcast]
+        
+        for podcast in podcasts {
+            update(podcast) {
+                (updateError) -> Void in
+                if let updateError = updateError {
+                    error = updateError
                 }
             }
         }
@@ -63,7 +69,7 @@ public class SubscriptionManager: NSObject {
     }
     
     public func update( podcast : Podcast, callback : (NSError?) -> Void ) {
-        var updatedPodcast = PodSplitteriOS.Podcast( podcast: podcast )
+        var updatedPodcast = PodSplitterPodcast( podcast: podcast )
         PodSplitter().updatePodcast( updatedPodcast ) { error in
             Database.sharedInstance.updatePodcast( updatedPodcast )
             Database.sharedInstance.saveContext()

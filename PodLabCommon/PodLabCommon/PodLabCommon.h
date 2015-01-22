@@ -6,8 +6,6 @@
 //  Copyright (c) 2015 Detroit Labs. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
 //! Project version number for PodLabCommon.
 FOUNDATION_EXPORT double PodLabCommonVersionNumber;
 

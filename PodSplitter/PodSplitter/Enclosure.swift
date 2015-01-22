@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Detroit Labs. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 public class Enclosure: NSObject, NSCoding {
     

@@ -8,7 +8,6 @@
 
 import Foundation
 import CoreData
-import PodSplitteriOS
 
 extension Database {
     func findPodcast( url : String ) -> Podcast? {
@@ -18,7 +17,7 @@ extension Database {
         return Database.sharedInstance.managedObjectContext?.executeFetchRequest(podcastRequest, error: nil)?.first as Podcast?
     }
     
-    func addPodcast( podcast : PodSplitteriOS.Podcast ) -> Podcast {
+    func addPodcast( podcast : PodSplitterPodcast ) -> Podcast {
         
         var addedPodcast = findPodcast( podcast.url )
         
@@ -42,7 +41,7 @@ extension Database {
         return addedPodcast!
     }
     
-    func updatePodcast( podcast : PodSplitteriOS.Podcast ) -> Podcast {
+    func updatePodcast( podcast : PodSplitterPodcast ) -> Podcast {
         var outdatedPodcast = findPodcast( podcast.url )
         
         if let updatingPodcast = outdatedPodcast {
@@ -75,7 +74,7 @@ extension Database {
         return outdatedPodcast!
     }
     
-    func findEpisode( episode : PodSplitteriOS.Episode ) -> Episode? {
+    func findEpisode( episode : PodSplitterEpisode ) -> Episode? {
         var episodeRequest = NSFetchRequest(entityName: "Episode")
         episodeRequest.predicate = NSPredicate(format: "guid = %@", episode.guid)
         
@@ -83,7 +82,7 @@ extension Database {
         return Database.sharedInstance.managedObjectContext?.executeFetchRequest(episodeRequest, error: nil)?.first as Episode?
     }
     
-    func addEpisode( episode : PodSplitteriOS.Episode ) -> Episode {
+    func addEpisode( episode : PodSplitterEpisode ) -> Episode {
         var addedEpisode = findEpisode( episode )
         
         if addedEpisode == nil {
@@ -103,7 +102,7 @@ extension Database {
         return addedEpisode!
     }
     
-    func updateEpisode( episode : PodSplitteriOS.Episode ) -> Episode {
+    func updateEpisode( episode : PodSplitterEpisode ) -> Episode {
         var outdatedEpisode = findEpisode( episode )
         
         if let updatingEpisode = outdatedEpisode {
@@ -129,14 +128,14 @@ extension Database {
         return outdatedEpisode!
     }
     
-    func findEnclosure( enclosure : PodSplitteriOS.Enclosure ) -> Enclosure? {
+    func findEnclosure( enclosure : PodSplitterEnclosure ) -> Enclosure? {
         var enclosureRequest = NSFetchRequest(entityName: "Enclosure")
         enclosureRequest.predicate = NSPredicate(format: "url = %@", enclosure.url)
         
         return Database.sharedInstance.managedObjectContext?.executeFetchRequest(enclosureRequest, error: nil)?.first as Enclosure?
     }
     
-    func addEnclosure( enclosure : PodSplitteriOS.Enclosure ) -> Enclosure {
+    func addEnclosure( enclosure : PodSplitterEnclosure ) -> Enclosure {
         var addedEnclosure = findEnclosure( enclosure )
         
         if addedEnclosure == nil {
@@ -154,7 +153,7 @@ extension Database {
         return addedEnclosure!
     }
     
-    func updateEnclosure( enclosure : PodSplitteriOS.Enclosure ) -> Enclosure {
+    func updateEnclosure( enclosure : PodSplitterEnclosure ) -> Enclosure {
         var outdatedEnclosure = findEnclosure( enclosure )
         
         if let updatingEnclosure = outdatedEnclosure {

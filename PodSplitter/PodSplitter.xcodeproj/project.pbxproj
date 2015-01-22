@@ -11,6 +11,11 @@
 		4D36FC2A1A5ECFE100C35196 /* PodParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D36FC291A5ECFE100C35196 /* PodParserTest.swift */; };
 		4D450A481A5EEF04005F76EA /* serial-test.rss in Resources */ = {isa = PBXBuildFile; fileRef = 4D36FC2B1A5ED5CE00C35196 /* serial-test.rss */; };
 		4D450A4A1A5EF08A005F76EA /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D450A491A5EF08A005F76EA /* SWXMLHash.swift */; };
+		4D56953D1A6873A200004B10 /* PodSplitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDC91121A5D89A100FF551E /* PodSplitter.swift */; };
+		4D56953E1A6873A200004B10 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D450A491A5EF08A005F76EA /* SWXMLHash.swift */; };
+		4D56953F1A6873A200004B10 /* Podcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98DA2C1A5F262200CDB55B /* Podcast.swift */; };
+		4D5695401A6873A200004B10 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98DA2E1A5F263700CDB55B /* Episode.swift */; };
+		4D5695411A6873A200004B10 /* Enclosure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98DA301A5F264A00CDB55B /* Enclosure.swift */; };
 		4D5BD7531A68633B00AE9192 /* Pods-ios.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BD7511A68633B00AE9192 /* Pods-ios.debug.xcconfig */; };
 		4D5BD7541A68633B00AE9192 /* Pods-ios.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4D5BD7521A68633B00AE9192 /* Pods-ios.release.xcconfig */; };
 		4D8110D11A5C816E00358ACA /* PodSplitteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8110B51A5C7FC600358ACA /* PodSplitteriOS.framework */; };
@@ -530,6 +535,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D5695411A6873A200004B10 /* Enclosure.swift in Sources */,
+				4D56953D1A6873A200004B10 /* PodSplitter.swift in Sources */,
+				4D5695401A6873A200004B10 /* Episode.swift in Sources */,
+				4D56953E1A6873A200004B10 /* SWXMLHash.swift in Sources */,
+				4D56953F1A6873A200004B10 /* Podcast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,7 +592,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_MODULE_NAME = "";
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -622,7 +632,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_MODULE_NAME = "";
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -647,7 +657,6 @@
 				INFOPLIST_FILE = PodSplitter/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -670,7 +679,6 @@
 				INFOPLIST_FILE = PodSplitter/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -729,7 +737,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -751,7 +758,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;

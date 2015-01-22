@@ -7,9 +7,20 @@
 //
 
 import Foundation
-import PodSplitteriOS
 
-extension PodSplitteriOS.Podcast {
+#if os(iOS)
+    import PodSplitteriOS
+    typealias PodSplitterPodcast = PodSplitteriOS.Podcast
+    typealias PodSplitterEpisode = PodSplitteriOS.Episode
+    typealias PodSplitterEnclosure = PodSplitteriOS.Enclosure
+    #else
+    import PodSplitterOSX
+    typealias PodSplitterPodcast = PodSplitterOSX.Podcast
+    typealias PodSplitterEpisode = PodSplitterOSX.Episode
+    typealias PodSplitterEnclosure = PodSplitterOSX.Enclosure
+#endif
+
+extension PodSplitterPodcast {
     convenience init( podcast : Podcast ) {
         self.init(url: podcast.url)
     }
