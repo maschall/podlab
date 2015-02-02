@@ -8,8 +8,12 @@
 
 import Alamofire
 
-public class PodSplitter: NSObject {
+public class PodSplitter {
    
+    public init() {
+        
+    }
+    
     public func downloadPodcast( podcastUrl : String, callback : ( Podcast?, NSError? ) -> Void ) {
         var podcast = Podcast( url: podcastUrl )
         self.updatePodcast(podcast, callback: { (error) -> Void in

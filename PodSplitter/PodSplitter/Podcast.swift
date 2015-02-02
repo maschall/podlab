@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Podcast : NSObject, NSCoding {
+public class Podcast : NSCoding {
     
     public var url: String
     public var title : String = ""
@@ -18,8 +18,6 @@ public class Podcast : NSObject, NSCoding {
     
     public init(url : String) {
         self.url = url
-        
-        super.init()
     }
     
     public required init(coder aDecoder: NSCoder) {

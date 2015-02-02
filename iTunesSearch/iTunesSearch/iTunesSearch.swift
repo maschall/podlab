@@ -8,7 +8,7 @@
 
 import Alamofire
 
-public class iTunesSearch: NSObject {
+public class iTunesSearch {
     
     public class func search( term: String, callback: ( [[String: AnyObject]]?, NSError? ) -> Void ) {
         Alamofire.request(.GET, "http://itunes.apple.com/search?limit=200&media=podcast&term=\(term)")

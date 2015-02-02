@@ -16,7 +16,7 @@ import CoreData
 
 let manager = SubscriptionManager()
 
-public class SubscriptionManager: NSObject {
+public class SubscriptionManager {
     
     public var managedObjectContext : NSManagedObjectContext {
         get {
@@ -26,11 +26,9 @@ public class SubscriptionManager: NSObject {
     
     public var podcastFetchRequest : NSFetchRequest;
     
-    public override init() {
+    public init() {
         self.podcastFetchRequest = NSFetchRequest(entityName: "Podcast")
         self.podcastFetchRequest.sortDescriptors = [NSSortDescriptor(key: "title", ascending: true)]
-        
-        super.init()
     }
     
     public class func instance() -> SubscriptionManager {

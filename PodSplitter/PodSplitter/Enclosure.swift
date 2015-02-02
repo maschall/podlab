@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Enclosure: NSObject, NSCoding {
+public class Enclosure: NSCoding {
     
     public var url : String
     public var length : Int
@@ -18,8 +18,6 @@ public class Enclosure: NSObject, NSCoding {
         url = enclosure.element?.attributes["url"] ?? "";
         type = enclosure.element?.attributes["type"] ?? "";
         length = enclosure.element?.attributes["length"]?.toInt() ?? 0
-        
-        super.init()
     }
     
     public required init(coder aDecoder: NSCoder) {

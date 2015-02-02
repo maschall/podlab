@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class Episode : NSObject, NSCoding {
+public class Episode : NSCoding {
     
     public var title : String
     public var link : String
@@ -20,8 +20,6 @@ public class Episode : NSObject, NSCoding {
         link = item["link"].element?.text ?? ""
         guid = item["guid"].element?.text ?? ""
         enclosure = Enclosure(enclosure: item["enclosure"])
-        
-        super.init()
     }
     
     required public init(coder aDecoder: NSCoder) {

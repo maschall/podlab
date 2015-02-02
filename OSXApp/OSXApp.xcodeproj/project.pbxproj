@@ -13,6 +13,7 @@
 		4D0C4B941A7FD750007A9D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C4B921A7FD750007A9D97 /* Main.storyboard */; };
 		4D0C4BA01A7FD750007A9D97 /* OSXAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C4B9F1A7FD750007A9D97 /* OSXAppTests.swift */; };
 		4DAF7CD91A7FDBF9003DCE48 /* PodLabCommonOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAF7CD81A7FDBF9003DCE48 /* PodLabCommonOSX.framework */; };
+		4DCD98F41A800D8400E54806 /* PodSplitterOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCD98F31A800D8400E54806 /* PodSplitterOSX.framework */; };
 		6FEA2C399CFCB24C8B63D428 /* Pods_OSXApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2E14A29CE8F227D2162A45 /* Pods_OSXApp.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		4D0C4B9E1A7FD750007A9D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D0C4B9F1A7FD750007A9D97 /* OSXAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSXAppTests.swift; sourceTree = "<group>"; };
 		4DAF7CD81A7FDBF9003DCE48 /* PodLabCommonOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PodLabCommonOSX.framework; path = "../../../Library/Developer/Xcode/DerivedData/PodLab-drssnqbubesrambknzkyzftyigfs/Build/Products/Debug/PodLabCommonOSX.framework"; sourceTree = "<group>"; };
+		4DCD98F31A800D8400E54806 /* PodSplitterOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PodSplitterOSX.framework; path = "../../../Library/Developer/Xcode/DerivedData/PodLab-drssnqbubesrambknzkyzftyigfs/Build/Products/Debug/PodSplitterOSX.framework"; sourceTree = "<group>"; };
 		75FDD737C59C068C082B21D3 /* Pods-OSXApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXApp.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-OSXApp/Pods-OSXApp.debug.xcconfig"; sourceTree = "<group>"; };
 		A2EDFDD1916770AA89EFAD3D /* Pods-OSXApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXApp.release.xcconfig"; path = "../Pods/Target Support Files/Pods-OSXApp/Pods-OSXApp.release.xcconfig"; sourceTree = "<group>"; };
 		BD2E14A29CE8F227D2162A45 /* Pods_OSXApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OSXApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCD98F41A800D8400E54806 /* PodSplitterOSX.framework in Frameworks */,
 				4DAF7CD91A7FDBF9003DCE48 /* PodLabCommonOSX.framework in Frameworks */,
 				6FEA2C399CFCB24C8B63D428 /* Pods_OSXApp.framework in Frameworks */,
 			);
@@ -132,6 +135,7 @@
 		FCDBC7FBA977FC70CF358CB8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4DCD98F31A800D8400E54806 /* PodSplitterOSX.framework */,
 				BD2E14A29CE8F227D2162A45 /* Pods_OSXApp.framework */,
 			);
 			name = Frameworks;

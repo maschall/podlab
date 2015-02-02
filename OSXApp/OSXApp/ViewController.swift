@@ -41,12 +41,6 @@ class ViewController: NSViewController {
         alert.accessoryView = textfield
         if alert.runModal() == NSAlertFirstButtonReturn {
             SubscriptionManager.instance().addPodcast(textfield.stringValue)
-            
-                Alamofire.request(.GET,
-                    textfield.stringValue)
-                        .responseString({ (_, _, test, _) -> Void in
-                            println(test)
-                        })
         }
     }
 

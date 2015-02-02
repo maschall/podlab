@@ -8,10 +8,7 @@
 
 import CoreData
 
-class Database: NSObject {
-    override init() {
-        super.init()
-    }
+class Database {
     
     class var sharedInstance : Database {
         struct Static {
@@ -28,13 +25,14 @@ class Database: NSObject {
     
     lazy var managedObjectModel: NSManagedObjectModel = {
         // The managed object model for the application. This property is not optional. It is a fatal error for the application not to be able to find and load its model.
-        let modelURL = NSBundle(forClass: self.classForCoder).URLForResource("Model", withExtension: "momd")!
+        let modelURL = NSBundle(forClass: self.dynamicType ).URLForResource("Model", withExtension: "momd")!
         var bundleModel = NSManagedObjectModel(contentsOfURL: modelURL)!
         
         var objectModel = NSManagedObjectModel()
         objectModel.entities = bundleModel.entities.map { ( entity ) -> NSEntityDescription in
             var entityCopy = entity.copy() as NSEntityDescription
-            entityCopy.managedObjectClassName = "PodLabCommoniOS." + entity.managedObjectClassName
+            var moduleName = _stdlib_getDemangledTypeName(self).componentsSeparatedByString(".").first
+            entityCopy.managedObjectClassName = "\(moduleName!).\(entity.managedObjectClassName)"
             return entityCopy
         }
         
