@@ -1,0 +1,6 @@
+framework module Pods_PodSplitteriOS {
+  umbrella header "Pods-PodSplitteriOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

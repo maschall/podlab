@@ -2,8 +2,8 @@
 //  PodSplitterOSX.h
 //  PodSplitterOSX
 //
-//  Created by Mark Schall on 1/15/15.
-//  Copyright (c) 2015 Detroit Labs. All rights reserved.
+//  Created by Mark Schall on 2/2/15.
+//
 //
 
 #import <Cocoa/Cocoa.h>

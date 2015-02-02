@@ -2,16 +2,19 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:PodLab/PodLab.xcodeproj">
+      location = "group:iOSApp/iOSApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OSXApp/OSXApp.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:PodLabCommon/PodLabCommon.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:PodPlayer/PodPlayer.xcodeproj">
+      location = "group:PodSplitter/PodSplitter.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:PodSplitter/PodSplitter.xcodeproj">
+      location = "group:PodPlayer/PodPlayer.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:iTunesSearch/iTunesSearch.xcodeproj">
