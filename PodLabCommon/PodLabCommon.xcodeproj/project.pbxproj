@@ -118,6 +118,29 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4D181BD01A8128590074A20F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4DAF7CA11A7FDB8F003DCE48 /* DatabaseExtension.swift */,
+				4DAF7CA71A7FDB8F003DCE48 /* PodcastExtension.swift */,
+				4DAF7CA91A7FDB8F003DCE48 /* QueueExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		4D181BD11A8128660074A20F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DAF7CA01A7FDB8F003DCE48 /* Database.swift */,
+				4DAF7CA21A7FDB8F003DCE48 /* Enclosure.swift */,
+				4DAF7CA31A7FDB8F003DCE48 /* Episode.swift */,
+				4DAF7CA41A7FDB8F003DCE48 /* Model.xcdatamodeld */,
+				4DAF7CA61A7FDB8F003DCE48 /* Podcast.swift */,
+				4DAF7CA81A7FDB8F003DCE48 /* Queue.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		4D3AB5C81A7FCE6C008339F4 = {
 			isa = PBXGroup;
 			children = (
@@ -197,15 +220,8 @@
 		4D3AB6211A7FD04C008339F4 /* PodLabCommon */ = {
 			isa = PBXGroup;
 			children = (
-				4DAF7CA01A7FDB8F003DCE48 /* Database.swift */,
-				4DAF7CA11A7FDB8F003DCE48 /* DatabaseExtension.swift */,
-				4DAF7CA21A7FDB8F003DCE48 /* Enclosure.swift */,
-				4DAF7CA31A7FDB8F003DCE48 /* Episode.swift */,
-				4DAF7CA41A7FDB8F003DCE48 /* Model.xcdatamodeld */,
-				4DAF7CA61A7FDB8F003DCE48 /* Podcast.swift */,
-				4DAF7CA71A7FDB8F003DCE48 /* PodcastExtension.swift */,
-				4DAF7CA81A7FDB8F003DCE48 /* Queue.swift */,
-				4DAF7CA91A7FDB8F003DCE48 /* QueueExtension.swift */,
+				4D181BD11A8128660074A20F /* Models */,
+				4D181BD01A8128590074A20F /* Extensions */,
 				4DAF7CAA1A7FDB8F003DCE48 /* SubscriptionManager.swift */,
 			);
 			path = PodLabCommon;

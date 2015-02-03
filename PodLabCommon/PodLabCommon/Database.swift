@@ -10,7 +10,7 @@ import CoreData
 
 class Database {
     
-    class var sharedInstance : Database {
+    class var instance : Database {
         struct Static {
             static let instance : Database = Database()
         }
