@@ -38,11 +38,12 @@ class EpisodeTableViewController: UITableViewController {
             var episode = self.podcast!.episodes[self.tableView.indexPathForSelectedRow()!.item] as Episode
             
             var player = segue.destinationViewController as AVPlayerViewController
-            player.player = AVPlayer(URL: NSURL(string: episode.enclosure.url))
+            player.player = AVPlayer(URL: episode.path)
             player.player.play()
+            
+            
         }
         
         super.prepareForSegue(segue, sender: sender)
     }
-    
 }

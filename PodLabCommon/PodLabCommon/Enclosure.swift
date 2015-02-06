@@ -9,11 +9,11 @@
 import Foundation
 import CoreData
 
-public class Enclosure: NSManagedObject {
+class Enclosure: NSManagedObject {
 
-    @NSManaged public var length: NSNumber
-    @NSManaged public var type: String
-    @NSManaged public var url: String
-    @NSManaged public var episode: Episode
+    @NSManaged var length: NSNumber
+    @NSManaged var type: String
+    @NSManaged var url: String
+    @NSManaged var episode: Episode
 
 }
