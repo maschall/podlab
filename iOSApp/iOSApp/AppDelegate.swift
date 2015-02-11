@@ -16,9 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        SubscriptionManager.instance.updateAll { (_) -> Void in
-            
-        }
+        SubscriptionManager.instance.updateAll( nil )
         return true
     }
 

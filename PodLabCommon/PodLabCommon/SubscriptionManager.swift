@@ -58,7 +58,7 @@ public class SubscriptionManager {
         Database.instance.saveContext()
     }
     
-    public func updateAll(callback : (NSError?) -> Void) {
+    public func updateAll(callback : ((NSError?) -> Void)?) {
         var error : NSError? = nil
         
         var podcasts = self.managedObjectContext.executeFetchRequest(self.podcastFetchRequest, error: nil) as [Podcast]
@@ -72,15 +72,15 @@ public class SubscriptionManager {
             }
         }
         
-        callback(error)
+        callback?(error)
     }
     
-    public func update( podcast : Podcast, callback : (NSError?) -> Void ) {
+    public func update( podcast : Podcast, callback : ((NSError?) -> Void)? ) {
         var updatedPodcast = PodSplitterPodcast( podcast: podcast )
         PodSplitter().updatePodcast( updatedPodcast ) { error in
             Database.instance.updatePodcast( updatedPodcast )
             Database.instance.saveContext()
-            return
+            callback?(error)
         }
     }
 }

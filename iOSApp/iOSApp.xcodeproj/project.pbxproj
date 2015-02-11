@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4D0C4BB81A7FD760007A9D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C4BB71A7FD760007A9D97 /* AppDelegate.swift */; };
-		4D0C4BBB1A7FD760007A9D97 /* iOSApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C4BB91A7FD760007A9D97 /* iOSApp.xcdatamodeld */; };
 		4D0C4BC01A7FD760007A9D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C4BBE1A7FD760007A9D97 /* Main.storyboard */; };
 		4D0C4BC21A7FD760007A9D97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C4BC11A7FD760007A9D97 /* Images.xcassets */; };
 		4D0C4BC51A7FD760007A9D97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C4BC31A7FD760007A9D97 /* LaunchScreen.xib */; };
 		4D0C4BD11A7FD760007A9D97 /* iOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C4BD01A7FD760007A9D97 /* iOSAppTests.swift */; };
+		4D1CE4DD1A85167E00AB7676 /* QueueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CE4DC1A85167E00AB7676 /* QueueTableViewController.swift */; };
 		4DAF7C9E1A7FDB75003DCE48 /* EpisodeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF7C9C1A7FDB75003DCE48 /* EpisodeTableViewController.swift */; };
 		4DAF7C9F1A7FDB75003DCE48 /* PodcastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF7C9D1A7FDB75003DCE48 /* PodcastTableViewController.swift */; };
 		4DAF7CD71A7FDBEE003DCE48 /* PodLabCommoniOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAF7CD61A7FDBEE003DCE48 /* PodLabCommoniOS.framework */; };
@@ -48,13 +48,13 @@
 		4D0C4BB21A7FD760007A9D97 /* iOSApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0C4BB61A7FD760007A9D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D0C4BB71A7FD760007A9D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D0C4BBA1A7FD760007A9D97 /* iOSApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSApp.xcdatamodel; sourceTree = "<group>"; };
 		4D0C4BBF1A7FD760007A9D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D0C4BC11A7FD760007A9D97 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4D0C4BC41A7FD760007A9D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4D0C4BCA1A7FD760007A9D97 /* iOSAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0C4BCF1A7FD760007A9D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D0C4BD01A7FD760007A9D97 /* iOSAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSAppTests.swift; sourceTree = "<group>"; };
+		4D1CE4DC1A85167E00AB7676 /* QueueTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueTableViewController.swift; sourceTree = "<group>"; };
 		4DAF7C9C1A7FDB75003DCE48 /* EpisodeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeTableViewController.swift; sourceTree = "<group>"; };
 		4DAF7C9D1A7FDB75003DCE48 /* PodcastTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastTableViewController.swift; sourceTree = "<group>"; };
 		4DAF7CD61A7FDBEE003DCE48 /* PodLabCommoniOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PodLabCommoniOS.framework; path = "../PodLabCommon/build/Debug-iphoneos/PodLabCommoniOS.framework"; sourceTree = "<group>"; };
@@ -108,13 +108,10 @@
 		4D0C4BB41A7FD760007A9D97 /* iOSApp */ = {
 			isa = PBXGroup;
 			children = (
-				4DAF7C9C1A7FDB75003DCE48 /* EpisodeTableViewController.swift */,
-				4DAF7C9D1A7FDB75003DCE48 /* PodcastTableViewController.swift */,
-				4D0C4BB71A7FD760007A9D97 /* AppDelegate.swift */,
-				4D0C4BBE1A7FD760007A9D97 /* Main.storyboard */,
+				4D1CE4E01A85169A00AB7676 /* UI */,
+				4D1CE4DF1A85169000AB7676 /* App */,
+				4D1CE4DE1A85168400AB7676 /* Controllers */,
 				4D0C4BC11A7FD760007A9D97 /* Images.xcassets */,
-				4D0C4BC31A7FD760007A9D97 /* LaunchScreen.xib */,
-				4D0C4BB91A7FD760007A9D97 /* iOSApp.xcdatamodeld */,
 				4D0C4BB51A7FD760007A9D97 /* Supporting Files */,
 			);
 			path = iOSApp;
@@ -143,6 +140,33 @@
 				4D0C4BCF1A7FD760007A9D97 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D1CE4DE1A85168400AB7676 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DAF7C9C1A7FDB75003DCE48 /* EpisodeTableViewController.swift */,
+				4DAF7C9D1A7FDB75003DCE48 /* PodcastTableViewController.swift */,
+				4D1CE4DC1A85167E00AB7676 /* QueueTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4D1CE4DF1A85169000AB7676 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4D0C4BB71A7FD760007A9D97 /* AppDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		4D1CE4E01A85169A00AB7676 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4D0C4BBE1A7FD760007A9D97 /* Main.storyboard */,
+				4D0C4BC31A7FD760007A9D97 /* LaunchScreen.xib */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 		4E4249898A2A0934A5F9821C /* Pods */ = {
@@ -317,7 +341,7 @@
 			files = (
 				4DAF7C9F1A7FDB75003DCE48 /* PodcastTableViewController.swift in Sources */,
 				4D0C4BB81A7FD760007A9D97 /* AppDelegate.swift in Sources */,
-				4D0C4BBB1A7FD760007A9D97 /* iOSApp.xcdatamodeld in Sources */,
+				4D1CE4DD1A85167E00AB7676 /* QueueTableViewController.swift in Sources */,
 				4DAF7C9E1A7FDB75003DCE48 /* EpisodeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,19 +562,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		4D0C4BB91A7FD760007A9D97 /* iOSApp.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				4D0C4BBA1A7FD760007A9D97 /* iOSApp.xcdatamodel */,
-			);
-			currentVersion = 4D0C4BBA1A7FD760007A9D97 /* iOSApp.xcdatamodel */;
-			path = iOSApp.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 4D0C4BAA1A7FD760007A9D97 /* Project object */;
 }

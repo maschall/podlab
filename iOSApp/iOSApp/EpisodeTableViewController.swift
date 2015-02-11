@@ -40,8 +40,6 @@ class EpisodeTableViewController: UITableViewController {
             var player = segue.destinationViewController as AVPlayerViewController
             player.player = AVPlayer(URL: episode.path)
             player.player.play()
-            
-            
         }
         
         super.prepareForSegue(segue, sender: sender)
