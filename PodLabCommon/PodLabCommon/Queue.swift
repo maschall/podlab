@@ -11,6 +11,6 @@ import CoreData
 
 public class Queue: NSManagedObject {
 
-    @NSManaged public var podcasts: NSOrderedSet
+    @NSManaged public var episodes: NSOrderedSet
 
 }

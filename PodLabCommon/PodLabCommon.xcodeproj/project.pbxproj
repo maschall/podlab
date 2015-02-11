@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		020C3AEB707953C04EE766A4 /* Pods_PodLabCommonOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11895B65933D3BB1B3AA7589 /* Pods_PodLabCommonOSX.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		44C206696E2ECCBE608BAD4C /* Pods_PodLabCommoniOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376CFFA93078A5EF3BAA3E25 /* Pods_PodLabCommoniOS.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4D181BD61A8133BB0074A20F /* EpisodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D181BD51A8133BB0074A20F /* EpisodeExtension.swift */; };
+		4D181BD71A8133BB0074A20F /* EpisodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D181BD51A8133BB0074A20F /* EpisodeExtension.swift */; };
+		4D181BD91A8199F40074A20F /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D181BD81A8199F40074A20F /* DownloadManager.swift */; };
+		4D181BDA1A8199F40074A20F /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D181BD81A8199F40074A20F /* DownloadManager.swift */; };
 		4D3AB5EF1A7FCF51008339F4 /* PodLabCommonOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D3AB5EE1A7FCF51008339F4 /* PodLabCommonOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D3AB5F51A7FCF52008339F4 /* PodLabCommonOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3AB5E91A7FCF51008339F4 /* PodLabCommonOSX.framework */; };
 		4D3AB5FC1A7FCF52008339F4 /* PodLabCommonOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AB5FB1A7FCF52008339F4 /* PodLabCommonOSXTests.swift */; };
@@ -51,6 +55,8 @@
 		11895B65933D3BB1B3AA7589 /* Pods_PodLabCommonOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodLabCommonOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		376CFFA93078A5EF3BAA3E25 /* Pods_PodLabCommoniOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodLabCommoniOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4213EA6ED5AF2D4E596C30A2 /* Pods-PodLabCommonOSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodLabCommonOSX.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-PodLabCommonOSX/Pods-PodLabCommonOSX.debug.xcconfig"; sourceTree = "<group>"; };
+		4D181BD51A8133BB0074A20F /* EpisodeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeExtension.swift; sourceTree = "<group>"; };
+		4D181BD81A8199F40074A20F /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
 		4D3AB5E91A7FCF51008339F4 /* PodLabCommonOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodLabCommonOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3AB5ED1A7FCF51008339F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D3AB5EE1A7FCF51008339F4 /* PodLabCommonOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodLabCommonOSX.h; sourceTree = "<group>"; };
@@ -116,6 +122,30 @@
 				66BA04C98FB93032D050D934 /* Pods-PodLabCommoniOS.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D181BD01A8128590074A20F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4DAF7CA11A7FDB8F003DCE48 /* DatabaseExtension.swift */,
+				4DAF7CA71A7FDB8F003DCE48 /* PodcastExtension.swift */,
+				4DAF7CA91A7FDB8F003DCE48 /* QueueExtension.swift */,
+				4D181BD51A8133BB0074A20F /* EpisodeExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		4D181BD11A8128660074A20F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4DAF7CA01A7FDB8F003DCE48 /* Database.swift */,
+				4DAF7CA21A7FDB8F003DCE48 /* Enclosure.swift */,
+				4DAF7CA31A7FDB8F003DCE48 /* Episode.swift */,
+				4DAF7CA41A7FDB8F003DCE48 /* Model.xcdatamodeld */,
+				4DAF7CA61A7FDB8F003DCE48 /* Podcast.swift */,
+				4DAF7CA81A7FDB8F003DCE48 /* Queue.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		4D3AB5C81A7FCE6C008339F4 = {
@@ -197,16 +227,10 @@
 		4D3AB6211A7FD04C008339F4 /* PodLabCommon */ = {
 			isa = PBXGroup;
 			children = (
-				4DAF7CA01A7FDB8F003DCE48 /* Database.swift */,
-				4DAF7CA11A7FDB8F003DCE48 /* DatabaseExtension.swift */,
-				4DAF7CA21A7FDB8F003DCE48 /* Enclosure.swift */,
-				4DAF7CA31A7FDB8F003DCE48 /* Episode.swift */,
-				4DAF7CA41A7FDB8F003DCE48 /* Model.xcdatamodeld */,
-				4DAF7CA61A7FDB8F003DCE48 /* Podcast.swift */,
-				4DAF7CA71A7FDB8F003DCE48 /* PodcastExtension.swift */,
-				4DAF7CA81A7FDB8F003DCE48 /* Queue.swift */,
-				4DAF7CA91A7FDB8F003DCE48 /* QueueExtension.swift */,
+				4D181BD11A8128660074A20F /* Models */,
+				4D181BD01A8128590074A20F /* Extensions */,
 				4DAF7CAA1A7FDB8F003DCE48 /* SubscriptionManager.swift */,
+				4D181BD81A8199F40074A20F /* DownloadManager.swift */,
 			);
 			path = PodLabCommon;
 			sourceTree = "<group>";
@@ -469,9 +493,11 @@
 				4DAF7CB21A7FDB8F003DCE48 /* Queue.swift in Sources */,
 				4DAF7CAF1A7FDB8F003DCE48 /* Model.xcdatamodeld in Sources */,
 				4DAF7CB41A7FDB8F003DCE48 /* SubscriptionManager.swift in Sources */,
+				4D181BD91A8199F40074A20F /* DownloadManager.swift in Sources */,
 				4DAF7CAC1A7FDB8F003DCE48 /* DatabaseExtension.swift in Sources */,
 				4DAF7CAB1A7FDB8F003DCE48 /* Database.swift in Sources */,
 				4DAF7CB11A7FDB8F003DCE48 /* PodcastExtension.swift in Sources */,
+				4D181BD61A8133BB0074A20F /* EpisodeExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,9 +520,11 @@
 				4DAF7CBA1A7FDB9E003DCE48 /* PodcastExtension.swift in Sources */,
 				4DAF7CBD1A7FDB9E003DCE48 /* SubscriptionManager.swift in Sources */,
 				4DAF7CB61A7FDB99003DCE48 /* DatabaseExtension.swift in Sources */,
+				4D181BDA1A8199F40074A20F /* DownloadManager.swift in Sources */,
 				4DAF7CBE1A7FDBA1003DCE48 /* Model.xcdatamodeld in Sources */,
 				4DAF7CB51A7FDB99003DCE48 /* Database.swift in Sources */,
 				4DAF7CB91A7FDB9E003DCE48 /* Podcast.swift in Sources */,
+				4D181BD71A8133BB0074A20F /* EpisodeExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

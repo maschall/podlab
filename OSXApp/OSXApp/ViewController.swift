@@ -17,10 +17,10 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.arrayController.managedObjectContext = SubscriptionManager.instance().managedObjectContext
+        self.arrayController.managedObjectContext = SubscriptionManager.instance.managedObjectContext
         
-        self.arrayController.entityName = SubscriptionManager.instance().podcastFetchRequest.entityName
-        self.arrayController.sortDescriptors = SubscriptionManager.instance().podcastFetchRequest.sortDescriptors
+        self.arrayController.entityName = SubscriptionManager.instance.podcastFetchRequest.entityName
+        self.arrayController.sortDescriptors = SubscriptionManager.instance.podcastFetchRequest.sortDescriptors
         self.arrayController.fetchWithRequest(nil, merge: false, error: nil)
         
         // Do any additional setup after loading the view.
@@ -40,7 +40,7 @@ class ViewController: NSViewController {
         var textfield = NSTextField(frame: NSRect(x: 0.0, y: 0.0, width: 200.0, height: 24.0))
         alert.accessoryView = textfield
         if alert.runModal() == NSAlertFirstButtonReturn {
-            SubscriptionManager.instance().addPodcast(textfield.stringValue)
+            SubscriptionManager.instance.addPodcast(textfield.stringValue)
         }
     }
 

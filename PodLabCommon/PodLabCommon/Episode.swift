@@ -14,7 +14,7 @@ public class Episode: NSManagedObject {
     @NSManaged var guid: String
     @NSManaged public var link: String
     @NSManaged public var title: String
-    @NSManaged public var enclosure: Enclosure
+    @NSManaged var enclosure: Enclosure
     @NSManaged public var podcast: Podcast
 
 }

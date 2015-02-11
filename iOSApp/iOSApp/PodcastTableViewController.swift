@@ -15,7 +15,7 @@ class PodcastTableViewController: UITableViewController, UIAlertViewDelegate, NS
     var podcastFetchedResultsController : NSFetchedResultsController
 
     required init(coder aDecoder: NSCoder) {
-        var subscriptionManager = SubscriptionManager.instance()
+        var subscriptionManager = SubscriptionManager.instance
 
         self.podcastFetchedResultsController = NSFetchedResultsController(fetchRequest: subscriptionManager.podcastFetchRequest, managedObjectContext:subscriptionManager.managedObjectContext, sectionNameKeyPath: nil, cacheName: nil)
         
@@ -67,7 +67,7 @@ class PodcastTableViewController: UITableViewController, UIAlertViewDelegate, NS
     }
     
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        SubscriptionManager.instance().removePodcast(podcastAt(indexPath))
+        SubscriptionManager.instance.removePodcast(podcastAt(indexPath))
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -88,7 +88,7 @@ class PodcastTableViewController: UITableViewController, UIAlertViewDelegate, NS
     func alertView(alertView: UIAlertView, didDismissWithButtonIndex buttonIndex: Int) {
         if buttonIndex == 1 {
             let textfield = alertView.textFieldAtIndex(0)!
-            SubscriptionManager.instance().addPodcast(textfield.text)
+            SubscriptionManager.instance.addPodcast(textfield.text)
         }
     }
     

@@ -20,7 +20,13 @@ public class SubscriptionManager {
     
     public var managedObjectContext : NSManagedObjectContext {
         get {
-            return Database.sharedInstance.managedObjectContext!
+            return Database.instance.managedObjectContext!
+        }
+    }
+    
+    public var queue : Queue {
+        get {
+            return Database.instance.queue();
         }
     }
     
@@ -31,25 +37,28 @@ public class SubscriptionManager {
         self.podcastFetchRequest.sortDescriptors = [NSSortDescriptor(key: "title", ascending: true)]
     }
     
-    public class func instance() -> SubscriptionManager {
-        return manager
+    public class var instance : SubscriptionManager {
+        struct Static {
+            static let instance : SubscriptionManager = SubscriptionManager()
+        }
+        return Static.instance
     }
     
     public func addPodcast( podcastUrl : String ) {
         PodSplitter().downloadPodcast(podcastUrl) { (podcast, error) -> Void in
             if error == nil {
-                Database.sharedInstance.addPodcast(podcast!)
-                Database.sharedInstance.saveContext()
+                Database.instance.addPodcast(podcast!)
+                Database.instance.saveContext()
             }
         }
     }
     
     public func removePodcast( podcast : Podcast ) {
-        Database.sharedInstance.managedObjectContext?.deleteObject(podcast)
-        Database.sharedInstance.saveContext()
+        Database.instance.managedObjectContext?.deleteObject(podcast)
+        Database.instance.saveContext()
     }
     
-    public func updateAll(callback : (NSError?) -> Void) {
+    public func updateAll(callback : ((NSError?) -> Void)?) {
         var error : NSError? = nil
         
         var podcasts = self.managedObjectContext.executeFetchRequest(self.podcastFetchRequest, error: nil) as [Podcast]
@@ -63,15 +72,15 @@ public class SubscriptionManager {
             }
         }
         
-        callback(error)
+        callback?(error)
     }
     
-    public func update( podcast : Podcast, callback : (NSError?) -> Void ) {
+    public func update( podcast : Podcast, callback : ((NSError?) -> Void)? ) {
         var updatedPodcast = PodSplitterPodcast( podcast: podcast )
         PodSplitter().updatePodcast( updatedPodcast ) { error in
-            Database.sharedInstance.updatePodcast( updatedPodcast )
-            Database.sharedInstance.saveContext()
-            return
+            Database.instance.updatePodcast( updatedPodcast )
+            Database.instance.saveContext()
+            callback?(error)
         }
     }
 }
