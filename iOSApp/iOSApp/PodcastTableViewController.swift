@@ -80,7 +80,7 @@ class PodcastTableViewController: UITableViewController, UIAlertViewDelegate, NS
     }
 
     func add( sender : UIBarButtonItem ) {
-        let alert = UIAlertView(title: "Add Podcast", message: "What podcast would you like to subscribe to?", delegate: self, cancelButtonTitle: "Cancel", otherButtonTitles: "Subscribe")
+        let alert = UIAlertView(title: "Add Podcast Feed", message: "What podcast would you like to subscribe to?", delegate: self, cancelButtonTitle: "Cancel", otherButtonTitles: "Subscribe")
         alert.alertViewStyle = UIAlertViewStyle.PlainTextInput
         alert.show()
     }

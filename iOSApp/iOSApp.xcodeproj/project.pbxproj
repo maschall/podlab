@@ -18,6 +18,12 @@
 		4DAF7CD71A7FDBEE003DCE48 /* PodLabCommoniOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAF7CD61A7FDBEE003DCE48 /* PodLabCommoniOS.framework */; };
 		4DAF7CDB1A7FE2CE003DCE48 /* PodSplitteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAF7CDA1A7FE2CE003DCE48 /* PodSplitteriOS.framework */; };
 		4DCDBF461A938383003BE9EA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDBF451A938383003BE9EA /* MainTabBarController.swift */; };
+		4DCDBF4B1A939D51003BE9EA /* PodcastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDBF491A939D51003BE9EA /* PodcastTableViewCell.swift */; };
+		4DCDBF4C1A939D51003BE9EA /* PodcastTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCDBF4A1A939D51003BE9EA /* PodcastTableViewCell.xib */; };
+		4DCDBF511A939D6C003BE9EA /* EpisodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDBF4F1A939D6C003BE9EA /* EpisodeTableViewCell.swift */; };
+		4DCDBF521A939D6C003BE9EA /* EpisodeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCDBF501A939D6C003BE9EA /* EpisodeTableViewCell.xib */; };
+		4DCDBF571A939D86003BE9EA /* QueueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDBF551A939D86003BE9EA /* QueueTableViewCell.swift */; };
+		4DCDBF581A939D86003BE9EA /* QueueTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DCDBF561A939D86003BE9EA /* QueueTableViewCell.xib */; };
 		9313E74DE0EA751496FFAE9E /* Pods_iOSApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5CA303D53B07334C7EE7FA /* Pods_iOSApp.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -61,6 +67,12 @@
 		4DAF7CD61A7FDBEE003DCE48 /* PodLabCommoniOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PodLabCommoniOS.framework; path = "../PodLabCommon/build/Debug-iphoneos/PodLabCommoniOS.framework"; sourceTree = "<group>"; };
 		4DAF7CDA1A7FE2CE003DCE48 /* PodSplitteriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PodSplitteriOS.framework; path = "../PodSplitter/build/Debug-iphoneos/PodSplitteriOS.framework"; sourceTree = "<group>"; };
 		4DCDBF451A938383003BE9EA /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		4DCDBF491A939D51003BE9EA /* PodcastTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastTableViewCell.swift; sourceTree = "<group>"; };
+		4DCDBF4A1A939D51003BE9EA /* PodcastTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PodcastTableViewCell.xib; sourceTree = "<group>"; };
+		4DCDBF4F1A939D6C003BE9EA /* EpisodeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpisodeTableViewCell.swift; sourceTree = "<group>"; };
+		4DCDBF501A939D6C003BE9EA /* EpisodeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EpisodeTableViewCell.xib; sourceTree = "<group>"; };
+		4DCDBF551A939D86003BE9EA /* QueueTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueTableViewCell.swift; sourceTree = "<group>"; };
+		4DCDBF561A939D86003BE9EA /* QueueTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QueueTableViewCell.xib; sourceTree = "<group>"; };
 		56BA87751586DA1B6B5DBFCE /* Pods-iOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSApp.release.xcconfig"; path = "../Pods/Target Support Files/Pods-iOSApp/Pods-iOSApp.release.xcconfig"; sourceTree = "<group>"; };
 		CA5CA303D53B07334C7EE7FA /* Pods_iOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -166,10 +178,24 @@
 		4D1CE4E01A85169A00AB7676 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				4DCDBF481A939D2F003BE9EA /* Cells */,
 				4D0C4BBE1A7FD760007A9D97 /* Main.storyboard */,
 				4D0C4BC31A7FD760007A9D97 /* LaunchScreen.xib */,
 			);
 			name = UI;
+			sourceTree = "<group>";
+		};
+		4DCDBF481A939D2F003BE9EA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4DCDBF491A939D51003BE9EA /* PodcastTableViewCell.swift */,
+				4DCDBF4A1A939D51003BE9EA /* PodcastTableViewCell.xib */,
+				4DCDBF4F1A939D6C003BE9EA /* EpisodeTableViewCell.swift */,
+				4DCDBF501A939D6C003BE9EA /* EpisodeTableViewCell.xib */,
+				4DCDBF551A939D86003BE9EA /* QueueTableViewCell.swift */,
+				4DCDBF561A939D86003BE9EA /* QueueTableViewCell.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 		4E4249898A2A0934A5F9821C /* Pods */ = {
@@ -276,6 +302,9 @@
 			files = (
 				4D0C4BC01A7FD760007A9D97 /* Main.storyboard in Resources */,
 				4D0C4BC51A7FD760007A9D97 /* LaunchScreen.xib in Resources */,
+				4DCDBF4C1A939D51003BE9EA /* PodcastTableViewCell.xib in Resources */,
+				4DCDBF581A939D86003BE9EA /* QueueTableViewCell.xib in Resources */,
+				4DCDBF521A939D6C003BE9EA /* EpisodeTableViewCell.xib in Resources */,
 				4D0C4BC21A7FD760007A9D97 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,9 +372,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DAF7C9F1A7FDB75003DCE48 /* PodcastTableViewController.swift in Sources */,
+				4DCDBF511A939D6C003BE9EA /* EpisodeTableViewCell.swift in Sources */,
 				4D0C4BB81A7FD760007A9D97 /* AppDelegate.swift in Sources */,
+				4DCDBF571A939D86003BE9EA /* QueueTableViewCell.swift in Sources */,
 				4DCDBF461A938383003BE9EA /* MainTabBarController.swift in Sources */,
 				4D1CE4DD1A85167E00AB7676 /* QueueTableViewController.swift in Sources */,
+				4DCDBF4B1A939D51003BE9EA /* PodcastTableViewCell.swift in Sources */,
 				4DAF7C9E1A7FDB75003DCE48 /* EpisodeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

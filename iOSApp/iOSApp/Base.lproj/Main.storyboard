@@ -102,7 +102,7 @@
             </objects>
             <point key="canvasLocation" x="-441" y="619"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Explore-->
         <scene sceneID="pPE-8W-Ivn">
             <objects>
                 <tableViewController id="j3E-1f-EDy" sceneMemberID="viewController">
@@ -123,18 +123,18 @@
                             <outlet property="delegate" destination="j3E-1f-EDy" id="r3c-2K-ORc"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="97I-Wx-3lX"/>
+                    <navigationItem key="navigationItem" title="Explore" id="97I-Wx-3lX"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Wm-ih-FTN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-441" y="1352"/>
         </scene>
-        <!--Item-->
+        <!--Explore-->
         <scene sceneID="4w0-W7-J5Y">
             <objects>
                 <navigationController id="hHJ-3c-0zN" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <tabBarItem key="tabBarItem" title="Item" id="zRI-zm-vuC"/>
+                    <tabBarItem key="tabBarItem" title="Explore" id="zRI-zm-vuC"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IXc-C5-bzg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
