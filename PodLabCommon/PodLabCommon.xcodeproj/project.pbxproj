@@ -39,6 +39,8 @@
 		4DAF7CBC1A7FDB9E003DCE48 /* QueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF7CA91A7FDB8F003DCE48 /* QueueExtension.swift */; };
 		4DAF7CBD1A7FDB9E003DCE48 /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF7CAA1A7FDB8F003DCE48 /* SubscriptionManager.swift */; };
 		4DAF7CBE1A7FDBA1003DCE48 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF7CA41A7FDB8F003DCE48 /* Model.xcdatamodeld */; };
+		4DCDBF441A937F39003BE9EA /* PlayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDBF431A937F39003BE9EA /* PlayManager.swift */; };
+		4DCDBF471A9387D3003BE9EA /* PlayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDBF431A937F39003BE9EA /* PlayManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,7 @@
 		4DAF7CA81A7FDB8F003DCE48 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		4DAF7CA91A7FDB8F003DCE48 /* QueueExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueExtension.swift; sourceTree = "<group>"; };
 		4DAF7CAA1A7FDB8F003DCE48 /* SubscriptionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionManager.swift; sourceTree = "<group>"; };
+		4DCDBF431A937F39003BE9EA /* PlayManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayManager.swift; sourceTree = "<group>"; };
 		66BA04C98FB93032D050D934 /* Pods-PodLabCommoniOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodLabCommoniOS.release.xcconfig"; path = "../Pods/Target Support Files/Pods-PodLabCommoniOS/Pods-PodLabCommoniOS.release.xcconfig"; sourceTree = "<group>"; };
 		859EFBE0EC9CFE23B72C77D8 /* Pods-PodLabCommoniOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodLabCommoniOS.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-PodLabCommoniOS/Pods-PodLabCommoniOS.debug.xcconfig"; sourceTree = "<group>"; };
 		93F9B819F03447B24ED67FF0 /* Pods-PodLabCommonOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodLabCommonOSX.release.xcconfig"; path = "../Pods/Target Support Files/Pods-PodLabCommonOSX/Pods-PodLabCommonOSX.release.xcconfig"; sourceTree = "<group>"; };
@@ -231,6 +234,7 @@
 				4D181BD01A8128590074A20F /* Extensions */,
 				4DAF7CAA1A7FDB8F003DCE48 /* SubscriptionManager.swift */,
 				4D181BD81A8199F40074A20F /* DownloadManager.swift */,
+				4DCDBF431A937F39003BE9EA /* PlayManager.swift */,
 			);
 			path = PodLabCommon;
 			sourceTree = "<group>";
@@ -489,6 +493,7 @@
 				4DAF7CAD1A7FDB8F003DCE48 /* Enclosure.swift in Sources */,
 				4DAF7CAE1A7FDB8F003DCE48 /* Episode.swift in Sources */,
 				4DAF7CB01A7FDB8F003DCE48 /* Podcast.swift in Sources */,
+				4DCDBF441A937F39003BE9EA /* PlayManager.swift in Sources */,
 				4DAF7CB31A7FDB8F003DCE48 /* QueueExtension.swift in Sources */,
 				4DAF7CB21A7FDB8F003DCE48 /* Queue.swift in Sources */,
 				4DAF7CAF1A7FDB8F003DCE48 /* Model.xcdatamodeld in Sources */,
@@ -516,6 +521,7 @@
 				4DAF7CB71A7FDB99003DCE48 /* Enclosure.swift in Sources */,
 				4DAF7CBC1A7FDB9E003DCE48 /* QueueExtension.swift in Sources */,
 				4DAF7CBB1A7FDB9E003DCE48 /* Queue.swift in Sources */,
+				4DCDBF471A9387D3003BE9EA /* PlayManager.swift in Sources */,
 				4DAF7CB81A7FDB99003DCE48 /* Episode.swift in Sources */,
 				4DAF7CBA1A7FDB9E003DCE48 /* PodcastExtension.swift in Sources */,
 				4DAF7CBD1A7FDB9E003DCE48 /* SubscriptionManager.swift in Sources */,

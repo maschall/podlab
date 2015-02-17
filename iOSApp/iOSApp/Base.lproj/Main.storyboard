@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="PYC-ur-0Kl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pT3-nt-yMK">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Podcasts-->
         <scene sceneID="HiS-g0-IUA">
             <objects>
                 <navigationController id="PYC-ur-0Kl" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="H7k-5l-rrb"/>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Podcasts" id="H7k-5l-rrb"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fSX-c4-mHF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -21,26 +22,10 @@
             </objects>
             <point key="canvasLocation" x="-1118" y="-80"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="UwC-y9-Vg5">
-            <objects>
-                <navigationController id="iKc-Bl-2Dd" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="qdf-rC-4G1">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="pT3-nt-yMK" kind="relationship" relationship="rootViewController" id="KaQ-iy-e99"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PED-n7-NvE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2786" y="619"/>
-        </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="SVP-hK-iPS">
             <objects>
-                <tabBarController id="pT3-nt-yMK" sceneMemberID="viewController">
+                <tabBarController id="pT3-nt-yMK" customClass="MainTabBarController" customModule="iOSApp" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="lhZ-cm-2yg"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="DQg-jl-lVv">
@@ -50,19 +35,20 @@
                     </tabBar>
                     <connections>
                         <segue destination="rVQ-wQ-UQD" kind="relationship" relationship="viewControllers" id="gog-za-A3D"/>
-                        <segue destination="hHJ-3c-0zN" kind="relationship" relationship="viewControllers" id="aSK-Ca-qae"/>
+                        <segue destination="PYC-ur-0Kl" kind="relationship" relationship="viewControllers" id="LXi-Z4-RYw"/>
+                        <segue destination="0Tl-jZ-5i2" kind="relationship" relationship="viewControllers" id="uU4-UX-yxh"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IeQ-BR-vyv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2008" y="619"/>
         </scene>
-        <!--Podcast Table View Controller-->
+        <!--Podcasts-->
         <scene sceneID="q20-1O-taD">
             <objects>
-                <tableViewController automaticallyAdjustsScrollViewInsets="NO" id="Bp6-C2-VnN" customClass="PodcastTableViewController" customModule="iOSApp" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="Bp6-C2-VnN" customClass="PodcastTableViewController" customModule="iOSApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="S3E-eQ-hLO">
-                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -82,18 +68,18 @@
                         </connections>
                     </tableView>
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <navigationItem key="navigationItem" id="DCu-Zx-eln"/>
+                    <navigationItem key="navigationItem" title="Podcasts" id="DCu-Zx-eln"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0TH-0L-iO2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-441" y="-80"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Queue-->
         <scene sceneID="HTS-Dk-KGd">
             <objects>
-                <tableViewController id="ghv-Wo-9sZ" sceneMemberID="viewController">
+                <tableViewController title="Queue" id="ghv-Wo-9sZ" customClass="QueueTableViewController" customModule="iOSApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="7Zu-V3-IEH">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
@@ -109,7 +95,8 @@
                             <outlet property="delegate" destination="ghv-Wo-9sZ" id="65p-Qb-N0P"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="4Er-9b-9rn"/>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" title="Queue" id="4Er-9b-9rn"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q10-ym-IXy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -146,6 +133,7 @@
         <scene sceneID="4w0-W7-J5Y">
             <objects>
                 <navigationController id="hHJ-3c-0zN" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
                     <tabBarItem key="tabBarItem" title="Item" id="zRI-zm-vuC"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IXc-C5-bzg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -159,11 +147,12 @@
             </objects>
             <point key="canvasLocation" x="-1118" y="1352"/>
         </scene>
-        <!--Item-->
+        <!--Queue-->
         <scene sceneID="6Jz-Rv-i8J">
             <objects>
                 <navigationController id="rVQ-wQ-UQD" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="7Cc-tA-wE0"/>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Queue" id="7Cc-tA-wE0"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="h68-Vw-dti">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -176,7 +165,7 @@
             </objects>
             <point key="canvasLocation" x="-1118" y="619"/>
         </scene>
-        <!--Episode Table View Controller-->
+        <!--Episodes-->
         <scene sceneID="pb4-KZ-ozq">
             <objects>
                 <tableViewController id="8Am-a0-SPc" customClass="EpisodeTableViewController" customModule="iOSApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -190,9 +179,6 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xeX-lO-Dhp" id="Rcq-EW-scl">
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <segue destination="0Tl-jZ-5i2" kind="show" identifier="episodeSelected" id="RwO-C9-ITs"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -200,20 +186,22 @@
                             <outlet property="delegate" destination="8Am-a0-SPc" id="l4r-Bx-gk6"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="Episodes" id="NDw-9a-cJ9"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GeL-qC-oSA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="223" y="-80"/>
         </scene>
-        <!--AV Player View Controller-->
+        <!--Now Playing-->
         <scene sceneID="q5T-9u-Vrc">
             <objects>
                 <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="0Tl-jZ-5i2" sceneMemberID="viewController">
                     <extendedEdge key="edgesForExtendedLayout"/>
+                    <tabBarItem key="tabBarItem" title="Now Playing" id="0gv-0h-V9m"/>
                 </avPlayerViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zR3-di-Q30" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="887" y="-80"/>
+            <point key="canvasLocation" x="-2008" y="-80"/>
         </scene>
     </scenes>
 </document>

@@ -17,6 +17,7 @@
 		4DAF7C9F1A7FDB75003DCE48 /* PodcastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF7C9D1A7FDB75003DCE48 /* PodcastTableViewController.swift */; };
 		4DAF7CD71A7FDBEE003DCE48 /* PodLabCommoniOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAF7CD61A7FDBEE003DCE48 /* PodLabCommoniOS.framework */; };
 		4DAF7CDB1A7FE2CE003DCE48 /* PodSplitteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAF7CDA1A7FE2CE003DCE48 /* PodSplitteriOS.framework */; };
+		4DCDBF461A938383003BE9EA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDBF451A938383003BE9EA /* MainTabBarController.swift */; };
 		9313E74DE0EA751496FFAE9E /* Pods_iOSApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5CA303D53B07334C7EE7FA /* Pods_iOSApp.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		4DAF7C9D1A7FDB75003DCE48 /* PodcastTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodcastTableViewController.swift; sourceTree = "<group>"; };
 		4DAF7CD61A7FDBEE003DCE48 /* PodLabCommoniOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PodLabCommoniOS.framework; path = "../PodLabCommon/build/Debug-iphoneos/PodLabCommoniOS.framework"; sourceTree = "<group>"; };
 		4DAF7CDA1A7FE2CE003DCE48 /* PodSplitteriOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PodSplitteriOS.framework; path = "../PodSplitter/build/Debug-iphoneos/PodSplitteriOS.framework"; sourceTree = "<group>"; };
+		4DCDBF451A938383003BE9EA /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		56BA87751586DA1B6B5DBFCE /* Pods-iOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSApp.release.xcconfig"; path = "../Pods/Target Support Files/Pods-iOSApp/Pods-iOSApp.release.xcconfig"; sourceTree = "<group>"; };
 		CA5CA303D53B07334C7EE7FA /* Pods_iOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -148,6 +150,7 @@
 				4DAF7C9C1A7FDB75003DCE48 /* EpisodeTableViewController.swift */,
 				4DAF7C9D1A7FDB75003DCE48 /* PodcastTableViewController.swift */,
 				4D1CE4DC1A85167E00AB7676 /* QueueTableViewController.swift */,
+				4DCDBF451A938383003BE9EA /* MainTabBarController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 			files = (
 				4DAF7C9F1A7FDB75003DCE48 /* PodcastTableViewController.swift in Sources */,
 				4D0C4BB81A7FD760007A9D97 /* AppDelegate.swift in Sources */,
+				4DCDBF461A938383003BE9EA /* MainTabBarController.swift in Sources */,
 				4D1CE4DD1A85167E00AB7676 /* QueueTableViewController.swift in Sources */,
 				4DAF7C9E1A7FDB75003DCE48 /* EpisodeTableViewController.swift in Sources */,
 			);

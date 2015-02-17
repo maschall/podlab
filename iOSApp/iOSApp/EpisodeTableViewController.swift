@@ -33,15 +33,8 @@ class EpisodeTableViewController: UITableViewController {
         return cell!
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "episodeSelected" {
-            var episode = self.podcast!.episodes[self.tableView.indexPathForSelectedRow()!.item] as Episode
-            
-            var player = segue.destinationViewController as AVPlayerViewController
-            player.player = AVPlayer(URL: episode.path)
-            player.player.play()
-        }
-        
-        super.prepareForSegue(segue, sender: sender)
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+         var episode = self.podcast!.episodes[self.tableView.indexPathForSelectedRow()!.item] as Episode
+        PlayManager.instance.playEpisode( episode )
     }
 }
