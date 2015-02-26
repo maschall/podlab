@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		44AE0E96D22A28A13A122017 /* Pods_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4276DCB764C64012483BC0A1 /* Pods_ios.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4D3AB66B1A7FD086008339F4 /* iTunesSearchOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D3AB66A1A7FD086008339F4 /* iTunesSearchOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D3AB6711A7FD086008339F4 /* iTunesSearchOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3AB6651A7FD086008339F4 /* iTunesSearchOSX.framework */; };
 		4D3AB6781A7FD086008339F4 /* iTunesSearchOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AB6771A7FD086008339F4 /* iTunesSearchOSXTests.swift */; };
@@ -16,9 +15,6 @@
 		4DAF7C941A7FDA52003DCE48 /* iTunesSearchiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF7C931A7FDA52003DCE48 /* iTunesSearchiOSTests.swift */; };
 		4DAF7CD41A7FDBD0003DCE48 /* iTunesSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF7CD31A7FDBD0003DCE48 /* iTunesSearch.swift */; };
 		4DAF7CD51A7FDBD0003DCE48 /* iTunesSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF7CD31A7FDBD0003DCE48 /* iTunesSearch.swift */; };
-		5BFD29AE78A317CFBF1B4837 /* Pods_iTunesSearchiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C9F48D1EE6CE030FCDF9BB /* Pods_iTunesSearchiOS.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		FA44D8E674B111B4E81AD825 /* Pods_osx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B2E510559BADD71414BF628 /* Pods_osx.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		FAF658DEFA143F49BDA96F5D /* Pods_iTunesSearchOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628AC016878D72FAAEBB8D0F /* Pods_iTunesSearchOSX.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4276DCB764C64012483BC0A1 /* Pods_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		46C9F48D1EE6CE030FCDF9BB /* Pods_iTunesSearchiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunesSearchiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2E8E6A1A9EA5DC0034C672 /* Pods-OSX.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-OSX.debug.xcconfig"; path = "/Users/mark/Projects/podlab/OSXApp/../Pods/Target Support Files/Pods-OSX/Pods-OSX.debug.xcconfig"; sourceTree = "<absolute>"; };
+		4D2E8E6B1A9EA5DC0034C672 /* Pods-OSX.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Pods-OSX.release.xcconfig"; path = "/Users/mark/Projects/podlab/OSXApp/../Pods/Target Support Files/Pods-OSX/Pods-OSX.release.xcconfig"; sourceTree = "<absolute>"; };
+		4D2E8E721A9EA5F70034C672 /* Pods-iOS.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-iOS.debug.xcconfig"; path = "/Users/mark/Projects/podlab/iOSApp/../Pods/Target Support Files/Pods-iOS/Pods-iOS.debug.xcconfig"; sourceTree = "<absolute>"; };
+		4D2E8E731A9EA5F70034C672 /* Pods-iOS.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "Pods-iOS.release.xcconfig"; path = "/Users/mark/Projects/podlab/iOSApp/../Pods/Target Support Files/Pods-iOS/Pods-iOS.release.xcconfig"; sourceTree = "<absolute>"; };
 		4D3AB6651A7FD086008339F4 /* iTunesSearchOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iTunesSearchOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D3AB6691A7FD086008339F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D3AB66A1A7FD086008339F4 /* iTunesSearchOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iTunesSearchOSX.h; sourceTree = "<group>"; };
@@ -54,16 +52,6 @@
 		4DAF7C921A7FDA52003DCE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DAF7C931A7FDA52003DCE48 /* iTunesSearchiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesSearchiOSTests.swift; sourceTree = "<group>"; };
 		4DAF7CD31A7FDBD0003DCE48 /* iTunesSearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTunesSearch.swift; sourceTree = "<group>"; };
-		51852B44BFBEC32CBBFC6941 /* Pods-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ios/Pods-ios.debug.xcconfig"; sourceTree = "<group>"; };
-		5B2E510559BADD71414BF628 /* Pods_osx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_osx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		628AC016878D72FAAEBB8D0F /* Pods_iTunesSearchOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunesSearchOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F0451B4457FDB186457BDC0 /* Pods-osx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-osx.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-osx/Pods-osx.debug.xcconfig"; sourceTree = "<group>"; };
-		7EA642F95904E97AEADD0857 /* Pods-iTunesSearchiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesSearchiOS.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-iTunesSearchiOS/Pods-iTunesSearchiOS.debug.xcconfig"; sourceTree = "<group>"; };
-		91F6F23DF436A037BCAEA2EB /* Pods-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ios/Pods-ios.release.xcconfig"; sourceTree = "<group>"; };
-		D83E6319213EBAAE653850E9 /* Pods-iTunesSearchOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesSearchOSX.release.xcconfig"; path = "../Pods/Target Support Files/Pods-iTunesSearchOSX/Pods-iTunesSearchOSX.release.xcconfig"; sourceTree = "<group>"; };
-		DDF62773D3EED388184C23D5 /* Pods-iTunesSearchiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesSearchiOS.release.xcconfig"; path = "../Pods/Target Support Files/Pods-iTunesSearchiOS/Pods-iTunesSearchiOS.release.xcconfig"; sourceTree = "<group>"; };
-		E2A0C439A93DFAE5B160E1A7 /* Pods-iTunesSearchOSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesSearchOSX.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-iTunesSearchOSX/Pods-iTunesSearchOSX.debug.xcconfig"; sourceTree = "<group>"; };
-		F6F5D31764999391A749AFB6 /* Pods-osx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-osx.release.xcconfig"; path = "../Pods/Target Support Files/Pods-osx/Pods-osx.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA44D8E674B111B4E81AD825 /* Pods_osx.framework in Frameworks */,
-				FAF658DEFA143F49BDA96F5D /* Pods_iTunesSearchOSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,8 +74,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44AE0E96D22A28A13A122017 /* Pods_ios.framework in Frameworks */,
-				5BFD29AE78A317CFBF1B4837 /* Pods_iTunesSearchiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,14 +192,10 @@
 		75BFE1BE9A2976210748920C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				51852B44BFBEC32CBBFC6941 /* Pods-ios.debug.xcconfig */,
-				91F6F23DF436A037BCAEA2EB /* Pods-ios.release.xcconfig */,
-				6F0451B4457FDB186457BDC0 /* Pods-osx.debug.xcconfig */,
-				F6F5D31764999391A749AFB6 /* Pods-osx.release.xcconfig */,
-				E2A0C439A93DFAE5B160E1A7 /* Pods-iTunesSearchOSX.debug.xcconfig */,
-				7EA642F95904E97AEADD0857 /* Pods-iTunesSearchiOS.debug.xcconfig */,
-				D83E6319213EBAAE653850E9 /* Pods-iTunesSearchOSX.release.xcconfig */,
-				DDF62773D3EED388184C23D5 /* Pods-iTunesSearchiOS.release.xcconfig */,
+				4D2E8E721A9EA5F70034C672 /* Pods-iOS.debug.xcconfig */,
+				4D2E8E731A9EA5F70034C672 /* Pods-iOS.release.xcconfig */,
+				4D2E8E6A1A9EA5DC0034C672 /* Pods-OSX.debug.xcconfig */,
+				4D2E8E6B1A9EA5DC0034C672 /* Pods-OSX.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -223,10 +203,6 @@
 		A8F743D9DCFD6222E7FC81A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4276DCB764C64012483BC0A1 /* Pods_ios.framework */,
-				5B2E510559BADD71414BF628 /* Pods_osx.framework */,
-				628AC016878D72FAAEBB8D0F /* Pods_iTunesSearchOSX.framework */,
-				46C9F48D1EE6CE030FCDF9BB /* Pods_iTunesSearchiOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -447,7 +423,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-iTunesSearchiOS/Pods-iTunesSearchiOS-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-iOS/Pods-iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AA4E64D88271C5C05440B507 /* Embed Pods Frameworks */ = {
@@ -462,7 +438,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-iTunesSearchiOS/Pods-iTunesSearchiOS-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-iOS/Pods-iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BE2B332AE2FFF030211C5893 /* Embed Pods Frameworks */ = {
@@ -477,7 +453,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-iTunesSearchOSX/Pods-iTunesSearchOSX-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-OSX/Pods-OSX-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DB1D938EB074624C09DC8931 /* Copy Pods Resources */ = {
@@ -492,7 +468,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-iTunesSearchOSX/Pods-iTunesSearchOSX-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-OSX/Pods-OSX-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -562,7 +538,7 @@
 		};
 		4D3AB6791A7FD086008339F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2A0C439A93DFAE5B160E1A7 /* Pods-iTunesSearchOSX.debug.xcconfig */;
+			baseConfigurationReference = 4D2E8E6A1A9EA5DC0034C672 /* Pods-OSX.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -586,6 +562,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/PodLab-avqqmofnvtlxcwhagvlqixnnlfji/Build/Products/Debug",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -618,7 +598,7 @@
 		};
 		4D3AB67A1A7FD086008339F4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D83E6319213EBAAE653850E9 /* Pods-iTunesSearchOSX.release.xcconfig */;
+			baseConfigurationReference = 4D2E8E6B1A9EA5DC0034C672 /* Pods-OSX.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -644,6 +624,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/PodLab-avqqmofnvtlxcwhagvlqixnnlfji/Build/Products/Debug",
+				);
 				FRAMEWORK_VERSION = A;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -757,7 +741,7 @@
 		};
 		4DAF7C961A7FDA52003DCE48 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EA642F95904E97AEADD0857 /* Pods-iTunesSearchiOS.debug.xcconfig */;
+			baseConfigurationReference = 4D2E8E731A9EA5F70034C672 /* Pods-iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -781,6 +765,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mark/Projects/podlab/Pods/../build/Debug-iphoneos",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -813,7 +801,7 @@
 		};
 		4DAF7C971A7FDA52003DCE48 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDF62773D3EED388184C23D5 /* Pods-iTunesSearchiOS.release.xcconfig */;
+			baseConfigurationReference = 4D2E8E731A9EA5F70034C672 /* Pods-iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -838,6 +826,10 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/mark/Projects/podlab/Pods/../build/Debug-iphoneos",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;

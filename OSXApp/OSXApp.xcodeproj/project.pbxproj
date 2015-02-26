@@ -12,9 +12,7 @@
 		4D0C4B911A7FD750007A9D97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C4B901A7FD750007A9D97 /* Images.xcassets */; };
 		4D0C4B941A7FD750007A9D97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0C4B921A7FD750007A9D97 /* Main.storyboard */; };
 		4D0C4BA01A7FD750007A9D97 /* OSXAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C4B9F1A7FD750007A9D97 /* OSXAppTests.swift */; };
-		4DAF7CD91A7FDBF9003DCE48 /* PodLabCommonOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAF7CD81A7FDBF9003DCE48 /* PodLabCommonOSX.framework */; };
-		4DCD98F41A800D8400E54806 /* PodSplitterOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DCD98F31A800D8400E54806 /* PodSplitterOSX.framework */; };
-		6FEA2C399CFCB24C8B63D428 /* Pods_OSXApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD2E14A29CE8F227D2162A45 /* Pods_OSXApp.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A62AE4751BF923E7381622B2 /* Pods_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC69D6F1D4C106B36038D39 /* Pods_OSX.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4AC69D6F1D4C106B36038D39 /* Pods_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0C4B871A7FD750007A9D97 /* OSXApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSXApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0C4B8B1A7FD750007A9D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D0C4B8C1A7FD750007A9D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,11 +36,8 @@
 		4D0C4B991A7FD750007A9D97 /* OSXAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSXAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D0C4B9E1A7FD750007A9D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D0C4B9F1A7FD750007A9D97 /* OSXAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSXAppTests.swift; sourceTree = "<group>"; };
-		4DAF7CD81A7FDBF9003DCE48 /* PodLabCommonOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PodLabCommonOSX.framework; path = "../../../Library/Developer/Xcode/DerivedData/PodLab-drssnqbubesrambknzkyzftyigfs/Build/Products/Debug/PodLabCommonOSX.framework"; sourceTree = "<group>"; };
-		4DCD98F31A800D8400E54806 /* PodSplitterOSX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PodSplitterOSX.framework; path = "../../../Library/Developer/Xcode/DerivedData/PodLab-drssnqbubesrambknzkyzftyigfs/Build/Products/Debug/PodSplitterOSX.framework"; sourceTree = "<group>"; };
-		75FDD737C59C068C082B21D3 /* Pods-OSXApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXApp.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-OSXApp/Pods-OSXApp.debug.xcconfig"; sourceTree = "<group>"; };
-		A2EDFDD1916770AA89EFAD3D /* Pods-OSXApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXApp.release.xcconfig"; path = "../Pods/Target Support Files/Pods-OSXApp/Pods-OSXApp.release.xcconfig"; sourceTree = "<group>"; };
-		BD2E14A29CE8F227D2162A45 /* Pods_OSXApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OSXApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDF7B109179F60BF922F51A /* Pods-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSX.release.xcconfig"; path = "../Pods/Target Support Files/Pods-OSX/Pods-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		FE7548B05B9C3290DF01C613 /* Pods-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSX.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-OSX/Pods-OSX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,9 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DCD98F41A800D8400E54806 /* PodSplitterOSX.framework in Frameworks */,
-				4DAF7CD91A7FDBF9003DCE48 /* PodLabCommonOSX.framework in Frameworks */,
-				6FEA2C399CFCB24C8B63D428 /* Pods_OSXApp.framework in Frameworks */,
+				A62AE4751BF923E7381622B2 /* Pods_OSX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +62,6 @@
 		4D0C4B7E1A7FD750007A9D97 = {
 			isa = PBXGroup;
 			children = (
-				4DAF7CD81A7FDBF9003DCE48 /* PodLabCommonOSX.framework */,
 				4D0C4B891A7FD750007A9D97 /* OSXApp */,
 				4D0C4B9C1A7FD750007A9D97 /* OSXAppTests */,
 				4D0C4B881A7FD750007A9D97 /* Products */,
@@ -126,8 +119,8 @@
 		C37E716FB54C6BCC9FEF699D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				75FDD737C59C068C082B21D3 /* Pods-OSXApp.debug.xcconfig */,
-				A2EDFDD1916770AA89EFAD3D /* Pods-OSXApp.release.xcconfig */,
+				FE7548B05B9C3290DF01C613 /* Pods-OSX.debug.xcconfig */,
+				8EDF7B109179F60BF922F51A /* Pods-OSX.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -135,8 +128,7 @@
 		FCDBC7FBA977FC70CF358CB8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4DCD98F31A800D8400E54806 /* PodSplitterOSX.framework */,
-				BD2E14A29CE8F227D2162A45 /* Pods_OSXApp.framework */,
+				4AC69D6F1D4C106B36038D39 /* Pods_OSX.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -251,7 +243,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-OSXApp/Pods-OSXApp-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-OSX/Pods-OSX-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C46433C64D570D7904D7E1C8 /* Copy Pods Resources */ = {
@@ -266,7 +258,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-OSXApp/Pods-OSXApp-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-OSX/Pods-OSX-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D28734F4345F1457C298B92F /* Check Pods Manifest.lock */ = {
@@ -405,7 +397,7 @@
 		};
 		4D0C4BA41A7FD750007A9D97 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75FDD737C59C068C082B21D3 /* Pods-OSXApp.debug.xcconfig */;
+			baseConfigurationReference = FE7548B05B9C3290DF01C613 /* Pods-OSX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -421,7 +413,7 @@
 		};
 		4D0C4BA51A7FD750007A9D97 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2EDFDD1916770AA89EFAD3D /* Pods-OSXApp.release.xcconfig */;
+			baseConfigurationReference = 8EDF7B109179F60BF922F51A /* Pods-OSX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;

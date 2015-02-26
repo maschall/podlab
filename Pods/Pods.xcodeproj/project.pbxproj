@@ -7,1407 +7,447 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		058A2C7260C0A862D79AEC75 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3735B8E2AE1281EB002A7 /* Alamofire.swift */; };
-		121CFFF3573CE77D0C526F76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D3F943B02BAE9FD067C40B /* Foundation.framework */; };
-		126C52B334D32FCD85837E78 /* Pods-iTunesSearchiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D02EFD5A0721FCBF7FDE544C /* Pods-iTunesSearchiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1991B5476989BD3A6436EEE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D3F943B02BAE9FD067C40B /* Foundation.framework */; };
-		1CF4AF27BE4233FDAF432EE5 /* Pods-PodLabCommonOSX-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5241E2FB050C48252B499CD9 /* Pods-PodLabCommonOSX-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		262C4179E029698787927291 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3735B8E2AE1281EB002A7 /* Alamofire.swift */; };
-		26662294AD501844A4F2CCAF /* Pods-iOSApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D11F45B2E013E12D8BCF6B /* Pods-iOSApp-dummy.m */; };
-		29FD8DCE9A9AA1D52D2B9F88 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1214E5D7BA06EE2131E320 /* Cocoa.framework */; };
-		324A0227497110552A7AFE1B /* Pods-iTunesSearchOSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A95BA8DD4B88C83EB2E8F7 /* Pods-iTunesSearchOSX-dummy.m */; };
-		34FBC132D7CE9BEE66AE0777 /* Pods-iOSApp-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 231C775D9AE9FA695E6EFA62 /* Pods-iOSApp-Alamofire-dummy.m */; };
-		3841A340B90FEE6CAA0188D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D3F943B02BAE9FD067C40B /* Foundation.framework */; };
-		390E8513DDCA7A2FAA4E6ADB /* Pods-OSXApp-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D56833180777A65F0566A9C1 /* Pods-OSXApp-Alamofire-dummy.m */; };
-		394B2C1E768707625A3A991D /* Pods-iOSApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4178A57C28DBB311566A1E4C /* Pods-iOSApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		418258DCCC39F4DC83E93132 /* Pods-PodLabCommonOSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55534F9AE8D61D63B37E3D51 /* Pods-PodLabCommonOSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		434CCCE3D9D5CF669F30D377 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D3F943B02BAE9FD067C40B /* Foundation.framework */; };
-		4891EC5606E633A0D4A7CEB6 /* Pods-PodSplitterOSX-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 448AC3D0E150423B02782D62 /* Pods-PodSplitterOSX-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		496901D884C56EA21D5125FF /* Pods-iOSApp-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E486884DFE897C580F63022B /* Pods-iOSApp-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E226E239E191532E9068BBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D3F943B02BAE9FD067C40B /* Foundation.framework */; };
-		54536CB90DF14CFE979CECF6 /* Pods-PodLabCommonOSX-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F88B8B2D5D948419973CA59 /* Pods-PodLabCommonOSX-Alamofire-dummy.m */; };
-		58D261009DCCEB7807A5F2C3 /* Pods-iTunesSearchiOS-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E964350F9B6AD9E9439858CD /* Pods-iTunesSearchiOS-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D122203CD7D791075F6F0EE /* Pods-PodSplitterOSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A67D3A6692F153A45F0DF31 /* Pods-PodSplitterOSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F19D7017D37AAB0E6DE4E97 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1214E5D7BA06EE2131E320 /* Cocoa.framework */; };
-		7592AB556D759F26C7EA83F8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1214E5D7BA06EE2131E320 /* Cocoa.framework */; };
-		76EC7BC1486DD55FF8EA5E1D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3735B8E2AE1281EB002A7 /* Alamofire.swift */; };
-		8BA4CE55B190262B45EC576D /* Pods-iTunesSearchOSX-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F458441673D8717169CA1EC /* Pods-iTunesSearchOSX-Alamofire-dummy.m */; };
-		8D94C35B37D35D49B0548F1A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1214E5D7BA06EE2131E320 /* Cocoa.framework */; };
-		8FDDFE54253E84E660521EDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D3F943B02BAE9FD067C40B /* Foundation.framework */; };
-		8FE7D36E898E30DA1B240F9B /* Pods-PodSplitteriOS-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD718FDCECEE88DD0FED24D8 /* Pods-PodSplitteriOS-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92B6201EE3E63C6951A13F58 /* Pods-PodSplitterOSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 508670DE71C47E04E08ED513 /* Pods-PodSplitterOSX-dummy.m */; };
-		93C9C66D1981BCA89F5DCF3D /* Pods-PodLabCommoniOS-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 991642F554FA03B6FBF32E94 /* Pods-PodLabCommoniOS-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97938D5D478CB2C25132D69D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3735B8E2AE1281EB002A7 /* Alamofire.swift */; };
-		98295FF772D593F76374187E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3735B8E2AE1281EB002A7 /* Alamofire.swift */; };
-		9DA105F566285D5D720287E3 /* Pods-OSXApp-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D362D942192925BEB03063A /* Pods-OSXApp-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2AABEDC309A5278B580AD95 /* Pods-iTunesSearchOSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BD9B80C9D69550E47B62EDD /* Pods-iTunesSearchOSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEFACEC8E5366D8829D945D4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1214E5D7BA06EE2131E320 /* Cocoa.framework */; };
-		B41B91B1D51D82749546BFCF /* Pods-OSXApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D868DBF39CAE753D5FF86E /* Pods-OSXApp-dummy.m */; };
-		B50C3C90D80BA23264FB9784 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3735B8E2AE1281EB002A7 /* Alamofire.swift */; };
-		C60202074DA72498F9554C4B /* Pods-PodLabCommonOSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CB5292D88307D3FB90EB3F /* Pods-PodLabCommonOSX-dummy.m */; };
-		C71AFECF346C70B8F2B93F70 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3735B8E2AE1281EB002A7 /* Alamofire.swift */; };
-		C7510467B6FCDA49F8C5CCAD /* Pods-PodSplitterOSX-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE8CE2CA89572FB83DF9D3E /* Pods-PodSplitterOSX-Alamofire-dummy.m */; };
-		C837B9D8112A92563362DA71 /* Pods-PodSplitteriOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 791204D23657309A1C75A612 /* Pods-PodSplitteriOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9344918E870BEF52B1DCC6F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1214E5D7BA06EE2131E320 /* Cocoa.framework */; };
-		C9BCA70960CAF8ACE7385CE6 /* Pods-PodLabCommoniOS-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF4488E8A7F64D3357E8E75A /* Pods-PodLabCommoniOS-Alamofire-dummy.m */; };
-		D2ECF5CCF8BACAD329A82BE2 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A3735B8E2AE1281EB002A7 /* Alamofire.swift */; };
-		D350D4AFFB6204D2001234DB /* Pods-PodLabCommoniOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 358FE00ED14BBE1B8C2DDED0 /* Pods-PodLabCommoniOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D650F6737DD7B391A63FCFD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D3F943B02BAE9FD067C40B /* Foundation.framework */; };
-		DAD8E9CDFE9700AD6D6C1760 /* Pods-PodLabCommoniOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C91C3C59C13B39D992FD9717 /* Pods-PodLabCommoniOS-dummy.m */; };
-		E769123D28D42A3824D0B2CC /* Pods-iTunesSearchiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FBF325EDFC6BF4154359D4A /* Pods-iTunesSearchiOS-dummy.m */; };
-		E9B9A7BBA8317730159EE5FF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1214E5D7BA06EE2131E320 /* Cocoa.framework */; };
-		EC479154136BB9358598EE6C /* Pods-PodSplitteriOS-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 217607FEFF6C36E75D9625F8 /* Pods-PodSplitteriOS-Alamofire-dummy.m */; };
-		EE70C7DE275B6707EB2F45A2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A1214E5D7BA06EE2131E320 /* Cocoa.framework */; };
-		EE89CAB22EA8CA24AF125F87 /* Pods-iTunesSearchiOS-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7593AEBA195868E167407C /* Pods-iTunesSearchiOS-Alamofire-dummy.m */; };
-		EFE399E7CEB5224C6B79AECB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D3F943B02BAE9FD067C40B /* Foundation.framework */; };
-		F1EF2C5E3ED6B4F1BBED2CA8 /* Pods-iTunesSearchOSX-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D0837AC9EE3EF2A20AD48B8 /* Pods-iTunesSearchOSX-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4D8D4790F1D9C4EC61619CC /* Pods-OSXApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D3526F98B3A8343C9E880C /* Pods-OSXApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F69593C88FAAFD4DF38C08BD /* Pods-PodSplitteriOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD382B4FFE8035FFCFC88E3 /* Pods-PodSplitteriOS-dummy.m */; };
+		11B13EDD37AE74E9C6B96099 /* Pods-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A9EE44CD032CF0EB1F5DC2 /* Pods-iOS-dummy.m */; };
+		2AA320E498A44DBF9A6B2BA2 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9843A94C87BA8C1214F211DE /* Alamofire.swift */; };
+		44E735710717C7C5819D3051 /* Pods-OSX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1396F53AA20D9BE230F28F4 /* Pods-OSX-dummy.m */; };
+		4C42692DE9F04479B1EF9E4E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9843A94C87BA8C1214F211DE /* Alamofire.swift */; };
+		607931EE1A726BB379E7DF1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51AB8677331E2AE9D0DC4E9 /* Foundation.framework */; };
+		64A33B582C3C2ADF4549DCBF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100D97CFBB007FF52D617E3F /* Cocoa.framework */; };
+		763832BD529E7E1F1A4F641D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100D97CFBB007FF52D617E3F /* Cocoa.framework */; };
+		8B8618247F4DF0F63E6840C8 /* Pods-OSX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B46F2C6B4398DE26CE01D83 /* Pods-OSX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		912EEDAAAD07AF1360C6A119 /* Pods-iOS-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88EC6F1C6E8B27C096D208AD /* Pods-iOS-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C86799BEE1D81A06815CA995 /* Pods-OSX-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F69BA614D4D743AF3C14EBB3 /* Pods-OSX-Alamofire-dummy.m */; };
+		D04B45F31841690AE625385B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51AB8677331E2AE9D0DC4E9 /* Foundation.framework */; };
+		D26D086A2D701D5AB8AAC5B1 /* Pods-iOS-Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5827D86DAA4763924BA70695 /* Pods-iOS-Alamofire-dummy.m */; };
+		EDE252DA57DEC2C6A637D9EA /* Pods-OSX-Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A215B84E1875E763A75C55E7 /* Pods-OSX-Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFA5ECF6410E083D10043087 /* Pods-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4AA1AD8C4BF97C03C92EED3 /* Pods-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1221976BC47EE9BD43179158 /* PBXContainerItemProxy */ = {
+		9290DB3E14E0845F0A0F424F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EFADAC5F1D4D8FAD3FDD8279 /* Project object */;
+			containerPortal = E29305C892DE5723DCE1FD64 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8641D96691B96C4951D0C25F;
-			remoteInfo = "Pods-PodSplitteriOS-Alamofire";
+			remoteGlobalIDString = DEEFA348A7F17E1D59A09244;
+			remoteInfo = "Pods-iOS-Alamofire";
 		};
-		26520FD35094CF0F77821045 /* PBXContainerItemProxy */ = {
+		FEECF3EBE6D7DA66917B3D6D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EFADAC5F1D4D8FAD3FDD8279 /* Project object */;
+			containerPortal = E29305C892DE5723DCE1FD64 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4F94D45D15F4736921E40E87;
-			remoteInfo = "Pods-PodLabCommonOSX-Alamofire";
-		};
-		41AC16F6264E7CF033CF26E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EFADAC5F1D4D8FAD3FDD8279 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C0EE1B5EB7C0F1F720FAE331;
-			remoteInfo = "Pods-iTunesSearchOSX-Alamofire";
-		};
-		4E725222C9DAF9238FB30353 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EFADAC5F1D4D8FAD3FDD8279 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E1B7B49F17BCE7895AEA205B;
-			remoteInfo = "Pods-PodSplitterOSX-Alamofire";
-		};
-		4ECD0477D4E41B118E075941 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EFADAC5F1D4D8FAD3FDD8279 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CF537A194AA4B61BA05F05C2;
-			remoteInfo = "Pods-PodLabCommoniOS-Alamofire";
-		};
-		83EF6B517E997583D00DFE88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EFADAC5F1D4D8FAD3FDD8279 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FFA91E8F31301D209333CECD;
-			remoteInfo = "Pods-OSXApp-Alamofire";
-		};
-		D7B99AF8E395B1B7E8975B99 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EFADAC5F1D4D8FAD3FDD8279 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B49700002436F3E54EB4DE5D;
-			remoteInfo = "Pods-iOSApp-Alamofire";
-		};
-		F5AD7E001FD3DCA55C2C00B0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EFADAC5F1D4D8FAD3FDD8279 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 83852D041E90D3F5A2A003A5;
-			remoteInfo = "Pods-iTunesSearchiOS-Alamofire";
+			remoteGlobalIDString = 10D05D1EC02592F9E1138422;
+			remoteInfo = "Pods-OSX-Alamofire";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00D11F45B2E013E12D8BCF6B /* Pods-iOSApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSApp-dummy.m"; sourceTree = "<group>"; };
-		01FE233AF1DCB138689C4FCE /* Pods-PodSplitterOSX-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-PodSplitterOSX-Alamofire-prefix.pch"; path = "../Pods-PodSplitterOSX-Alamofire/Pods-PodSplitterOSX-Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		03D619EA8C109052089EBCDC /* Pods_PodSplitterOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodSplitterOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		040395085CE02323FC18297C /* Pods-iTunesSearchOSX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iTunesSearchOSX-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0459614585319032AA826C7D /* Pods-PodLabCommonOSX-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PodLabCommonOSX-environment.h"; sourceTree = "<group>"; };
-		08A3735B8E2AE1281EB002A7 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		0A10C0D5D0D8E9ABABCD941B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BD9B80C9D69550E47B62EDD /* Pods-iTunesSearchOSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iTunesSearchOSX-umbrella.h"; sourceTree = "<group>"; };
-		0D0810DB62BB50BBDF0467A0 /* Pods_iOSApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D362D942192925BEB03063A /* Pods-OSXApp-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OSXApp-Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		1369DC6FDDCCF234E6E9E3C4 /* Pods-iTunesSearchOSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesSearchOSX.debug.xcconfig"; sourceTree = "<group>"; };
-		14852B3605476D5A5688AE83 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		16D3526F98B3A8343C9E880C /* Pods-OSXApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OSXApp-umbrella.h"; sourceTree = "<group>"; };
-		181E90E3D9A93D38F333929B /* Pods-iTunesSearchiOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iTunesSearchiOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1AE4A3C9452DA2B2094E069F /* Pods-iTunesSearchiOS-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesSearchiOS-Alamofire-Private.xcconfig"; path = "../Pods-iTunesSearchiOS-Alamofire/Pods-iTunesSearchiOS-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
-		1C308FE76F04A926592818B4 /* Pods-PodSplitteriOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PodSplitteriOS.modulemap"; sourceTree = "<group>"; };
-		1C7E33ACBEACCECCB8F4F007 /* Pods-PodSplitteriOS-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-PodSplitteriOS-Alamofire.modulemap"; path = "../Pods-PodSplitteriOS-Alamofire/Pods-PodSplitteriOS-Alamofire.modulemap"; sourceTree = "<group>"; };
-		1D25129CA6F65972DE9E916E /* Pods-iOSApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iOSApp.modulemap"; sourceTree = "<group>"; };
-		1EAA7C8879B26486129E895F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FBF325EDFC6BF4154359D4A /* Pods-iTunesSearchiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iTunesSearchiOS-dummy.m"; sourceTree = "<group>"; };
-		210750BFE557741B95F73756 /* Pods-OSXApp-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSXApp-Alamofire.xcconfig"; sourceTree = "<group>"; };
-		217607FEFF6C36E75D9625F8 /* Pods-PodSplitteriOS-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-PodSplitteriOS-Alamofire-dummy.m"; path = "../Pods-PodSplitteriOS-Alamofire/Pods-PodSplitteriOS-Alamofire-dummy.m"; sourceTree = "<group>"; };
-		2238B5BEA74061C6E4926F50 /* Pods-iTunesSearchiOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iTunesSearchiOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		231C775D9AE9FA695E6EFA62 /* Pods-iOSApp-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-iOSApp-Alamofire-dummy.m"; path = "../Pods-iOSApp-Alamofire/Pods-iOSApp-Alamofire-dummy.m"; sourceTree = "<group>"; };
-		263773E0466131CE6D58442C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-PodSplitterOSX-Alamofire/Info.plist"; sourceTree = "<group>"; };
-		27B818DB58BECD5679DFAD0E /* Pods-PodSplitterOSX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PodSplitterOSX-acknowledgements.plist"; sourceTree = "<group>"; };
-		293C3021129C68F02E8661DC /* Pods-PodLabCommoniOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PodLabCommoniOS.modulemap"; sourceTree = "<group>"; };
-		298FF5B656866BB6365E4CE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-iTunesSearchOSX-Alamofire/Info.plist"; sourceTree = "<group>"; };
-		2A1214E5D7BA06EE2131E320 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		2B790C5130671FB6F7248084 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C070A66BEB99EDA47CC8163 /* Pods_iTunesSearchiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunesSearchiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C474DF8AE241A2BC6FC8A7C /* Pods-iTunesSearchOSX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iTunesSearchOSX-acknowledgements.plist"; sourceTree = "<group>"; };
-		2C49D1103271C790E5EC1FF9 /* Pods-PodSplitteriOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodSplitteriOS.debug.xcconfig"; sourceTree = "<group>"; };
-		2D0837AC9EE3EF2A20AD48B8 /* Pods-iTunesSearchOSX-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-iTunesSearchOSX-Alamofire-umbrella.h"; path = "../Pods-iTunesSearchOSX-Alamofire/Pods-iTunesSearchOSX-Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		2DFAF9B5254B9631FAE96D25 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F91806294CF0ADE6312C596 /* Pods-PodLabCommonOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodLabCommonOSX.release.xcconfig"; sourceTree = "<group>"; };
-		310E3EDE0508B232C9BFDB9D /* Pods-iTunesSearchOSX-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iTunesSearchOSX-resources.sh"; sourceTree = "<group>"; };
-		358FE00ED14BBE1B8C2DDED0 /* Pods-PodLabCommoniOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PodLabCommoniOS-umbrella.h"; sourceTree = "<group>"; };
-		367531E372B995F9BB010BAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-PodLabCommonOSX-Alamofire/Info.plist"; sourceTree = "<group>"; };
-		3924CF5298CAC05AD70EB603 /* Pods-PodLabCommoniOS-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-PodLabCommoniOS-Alamofire-prefix.pch"; path = "../Pods-PodLabCommoniOS-Alamofire/Pods-PodLabCommoniOS-Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		3A0B8946E1C1BED785AD519B /* Pods-PodSplitteriOS-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PodSplitteriOS-environment.h"; sourceTree = "<group>"; };
-		3B0F20C25824BE1ED86B4D1D /* Pods-iOSApp-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-iOSApp-Alamofire-prefix.pch"; path = "../Pods-iOSApp-Alamofire/Pods-iOSApp-Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		3C17165C9E7C94C2A114550B /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CC80107EBAFF440DF53E551 /* Pods-OSXApp-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OSXApp-Alamofire.modulemap"; sourceTree = "<group>"; };
-		3CF542720E414C749A3C3E3F /* Pods-iTunesSearchiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesSearchiOS.release.xcconfig"; sourceTree = "<group>"; };
-		3D1222E31198FB0435D4EAA5 /* Pods-PodSplitterOSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PodSplitterOSX.modulemap"; sourceTree = "<group>"; };
-		3E91863364F78F8976C2DB1F /* Pods_PodLabCommoniOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodLabCommoniOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F5055B5EC148E913562F3EE /* Pods_iTunesSearchOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunesSearchOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F88A5B68EF7CCE427EEFD60 /* Pods-PodSplitteriOS-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodSplitteriOS-Alamofire.xcconfig"; path = "../Pods-PodSplitteriOS-Alamofire/Pods-PodSplitteriOS-Alamofire.xcconfig"; sourceTree = "<group>"; };
-		4178A57C28DBB311566A1E4C /* Pods-iOSApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSApp-umbrella.h"; sourceTree = "<group>"; };
-		41E21E2CA2EE5B53B44E4E89 /* Pods-PodLabCommonOSX-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodLabCommonOSX-Alamofire.xcconfig"; path = "../Pods-PodLabCommonOSX-Alamofire/Pods-PodLabCommonOSX-Alamofire.xcconfig"; sourceTree = "<group>"; };
-		4210AA9B5223AC90F70A1FE0 /* Pods-iTunesSearchiOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iTunesSearchiOS-resources.sh"; sourceTree = "<group>"; };
-		43D868DBF39CAE753D5FF86E /* Pods-OSXApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OSXApp-dummy.m"; sourceTree = "<group>"; };
-		448AC3D0E150423B02782D62 /* Pods-PodSplitterOSX-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-PodSplitterOSX-Alamofire-umbrella.h"; path = "../Pods-PodSplitterOSX-Alamofire/Pods-PodSplitterOSX-Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		45FAFC428727E4B5F75E4BA8 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		474542F9F7D1C68584391A8B /* Pods-iOSApp-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSApp-Alamofire.xcconfig"; path = "../Pods-iOSApp-Alamofire/Pods-iOSApp-Alamofire.xcconfig"; sourceTree = "<group>"; };
-		476C0B4E168C0CD8630C47F3 /* Pods-PodLabCommonOSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodLabCommonOSX.debug.xcconfig"; sourceTree = "<group>"; };
-		4A67D3A6692F153A45F0DF31 /* Pods-PodSplitterOSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PodSplitterOSX-umbrella.h"; sourceTree = "<group>"; };
-		4A8841EB0B90AF6EF00DE653 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		508670DE71C47E04E08ED513 /* Pods-PodSplitterOSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PodSplitterOSX-dummy.m"; sourceTree = "<group>"; };
-		5241E2FB050C48252B499CD9 /* Pods-PodLabCommonOSX-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-PodLabCommonOSX-Alamofire-umbrella.h"; path = "../Pods-PodLabCommonOSX-Alamofire/Pods-PodLabCommonOSX-Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		542AF9968C701E7796977030 /* Pods-iTunesSearchOSX-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesSearchOSX-Alamofire-Private.xcconfig"; path = "../Pods-iTunesSearchOSX-Alamofire/Pods-iTunesSearchOSX-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
-		54EA0E4372A56814E9A2B464 /* Pods-iTunesSearchiOS-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-iTunesSearchiOS-Alamofire-prefix.pch"; path = "../Pods-iTunesSearchiOS-Alamofire/Pods-iTunesSearchiOS-Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		551DEA8FE60C904305045837 /* Pods-PodSplitteriOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PodSplitteriOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		55534F9AE8D61D63B37E3D51 /* Pods-PodLabCommonOSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PodLabCommonOSX-umbrella.h"; sourceTree = "<group>"; };
-		57B90380186A2A4F95D96687 /* Pods-OSXApp-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OSXApp-environment.h"; sourceTree = "<group>"; };
-		5CEAABA57A1A6C409B15A082 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F458441673D8717169CA1EC /* Pods-iTunesSearchOSX-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-iTunesSearchOSX-Alamofire-dummy.m"; path = "../Pods-iTunesSearchOSX-Alamofire/Pods-iTunesSearchOSX-Alamofire-dummy.m"; sourceTree = "<group>"; };
-		5F5BB90FFF118B5FCCC391BD /* Pods-PodSplitteriOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PodSplitteriOS-resources.sh"; sourceTree = "<group>"; };
-		60B5B8FD8E0D659E4BEC8353 /* Pods-iOSApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSApp-resources.sh"; sourceTree = "<group>"; };
-		62F0D276C33656F43C58B773 /* Pods_PodSplitteriOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodSplitteriOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6546BFD0701878F3B2886CFB /* Pods-OSXApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OSXApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		65B8C6F0639D1BEA56BE2D68 /* Pods-PodSplitteriOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodSplitteriOS.release.xcconfig"; sourceTree = "<group>"; };
-		692476B91080B3D57986CF52 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		69ACC5C2042FA08F2166BB9F /* Pods-iTunesSearchiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesSearchiOS.debug.xcconfig"; sourceTree = "<group>"; };
-		6AEC01DF33229300563D339C /* Pods-PodSplitterOSX-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodSplitterOSX-Alamofire.xcconfig"; path = "../Pods-PodSplitterOSX-Alamofire/Pods-PodSplitterOSX-Alamofire.xcconfig"; sourceTree = "<group>"; };
-		6F435C382A78E33044C37509 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-iTunesSearchiOS-Alamofire/Info.plist"; sourceTree = "<group>"; };
-		6FC7CE6B3F1196A77A82E64D /* Pods-PodLabCommonOSX-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PodLabCommonOSX-resources.sh"; sourceTree = "<group>"; };
-		70C33D3920A96F9A7ECDD83D /* Pods-PodSplitterOSX-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodSplitterOSX-Alamofire-Private.xcconfig"; path = "../Pods-PodSplitterOSX-Alamofire/Pods-PodSplitterOSX-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
-		7188C318192F83530F7336B9 /* Pods-PodSplitterOSX-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-PodSplitterOSX-Alamofire.modulemap"; path = "../Pods-PodSplitterOSX-Alamofire/Pods-PodSplitterOSX-Alamofire.modulemap"; sourceTree = "<group>"; };
-		7909DEFBDFEBE7FBA32727D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-PodLabCommoniOS-Alamofire/Info.plist"; sourceTree = "<group>"; };
-		791204D23657309A1C75A612 /* Pods-PodSplitteriOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PodSplitteriOS-umbrella.h"; sourceTree = "<group>"; };
-		7A2FC5E7528C8A4B4727356B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7BB4BA8A26EADA4A3630881D /* Pods-PodSplitterOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodSplitterOSX.release.xcconfig"; sourceTree = "<group>"; };
-		7DA8709F8C4D6E0F9CB17B03 /* Pods-PodLabCommoniOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PodLabCommoniOS-frameworks.sh"; sourceTree = "<group>"; };
-		81C7FD2416EE2221B41002B4 /* Pods-PodLabCommonOSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PodLabCommonOSX.modulemap"; sourceTree = "<group>"; };
-		881443303023E8014EF32FB1 /* Pods-iTunesSearchOSX-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-iTunesSearchOSX-Alamofire-prefix.pch"; path = "../Pods-iTunesSearchOSX-Alamofire/Pods-iTunesSearchOSX-Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		8A265501583EAF0598CD1893 /* Pods-iTunesSearchiOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iTunesSearchiOS-frameworks.sh"; sourceTree = "<group>"; };
-		8A94C259B97250B73E836522 /* Pods-PodLabCommoniOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PodLabCommoniOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		8B26D88263F299FA391AA374 /* Pods-PodSplitterOSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodSplitterOSX.debug.xcconfig"; sourceTree = "<group>"; };
-		8C419FB0236CF573258996B1 /* Pods-iOSApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSApp.release.xcconfig"; sourceTree = "<group>"; };
-		8CDE2604A4357C8F354E9E34 /* Pods-iTunesSearchiOS-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iTunesSearchiOS-environment.h"; sourceTree = "<group>"; };
-		8DE8CE2CA89572FB83DF9D3E /* Pods-PodSplitterOSX-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-PodSplitterOSX-Alamofire-dummy.m"; path = "../Pods-PodSplitterOSX-Alamofire/Pods-PodSplitterOSX-Alamofire-dummy.m"; sourceTree = "<group>"; };
-		904B64ED457A80E1A1E330F8 /* Pods-iTunesSearchiOS-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesSearchiOS-Alamofire.xcconfig"; path = "../Pods-iTunesSearchiOS-Alamofire/Pods-iTunesSearchiOS-Alamofire.xcconfig"; sourceTree = "<group>"; };
-		95DC5415C610F7F58DA9C4AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98365EEBF6D7AFBC983164A3 /* Pods-PodSplitterOSX-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PodSplitterOSX-frameworks.sh"; sourceTree = "<group>"; };
-		991642F554FA03B6FBF32E94 /* Pods-PodLabCommoniOS-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-PodLabCommoniOS-Alamofire-umbrella.h"; path = "../Pods-PodLabCommoniOS-Alamofire/Pods-PodLabCommoniOS-Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		9A3FE90FD08A97865ADC9744 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9AC660B5DF96CA5B3E5E31F9 /* Pods-iTunesSearchOSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iTunesSearchOSX.release.xcconfig"; sourceTree = "<group>"; };
-		9F88B8B2D5D948419973CA59 /* Pods-PodLabCommonOSX-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-PodLabCommonOSX-Alamofire-dummy.m"; path = "../Pods-PodLabCommonOSX-Alamofire/Pods-PodLabCommonOSX-Alamofire-dummy.m"; sourceTree = "<group>"; };
-		A2A95BA8DD4B88C83EB2E8F7 /* Pods-iTunesSearchOSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iTunesSearchOSX-dummy.m"; sourceTree = "<group>"; };
-		A2AF0A92FB32639A0022EC41 /* Pods_PodLabCommonOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodLabCommonOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6F6B822F2BE78B279171D7B /* Pods-PodLabCommonOSX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PodLabCommonOSX-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A7804018E817C4E4A4C9C8B0 /* Pods-iOSApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSApp.debug.xcconfig"; sourceTree = "<group>"; };
-		AAE8E07DFDDEE2691FA1BA88 /* Pods-iTunesSearchOSX-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iTunesSearchOSX-environment.h"; sourceTree = "<group>"; };
-		ACD382B4FFE8035FFCFC88E3 /* Pods-PodSplitteriOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PodSplitteriOS-dummy.m"; sourceTree = "<group>"; };
-		B018D7B224C22D2EAF1612AB /* Pods-PodLabCommoniOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodLabCommoniOS.debug.xcconfig"; sourceTree = "<group>"; };
-		B2954330A9AAD0D0D7B0DE06 /* Pods-PodSplitterOSX-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PodSplitterOSX-environment.h"; sourceTree = "<group>"; };
-		B2D8E646BE5E960D1D56D852 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B58DA3B42A1DAB39C082D661 /* Pods-PodLabCommoniOS-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PodLabCommoniOS-environment.h"; sourceTree = "<group>"; };
-		B81ADF076045FE14EE166649 /* Pods-PodLabCommoniOS-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-PodLabCommoniOS-Alamofire.modulemap"; path = "../Pods-PodLabCommoniOS-Alamofire/Pods-PodLabCommoniOS-Alamofire.modulemap"; sourceTree = "<group>"; };
-		B8BBDA8471E73FA920D1E453 /* Pods_OSXApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OSXApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB7919439F4BD67CC2624916 /* Pods-PodLabCommoniOS-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodLabCommoniOS-Alamofire-Private.xcconfig"; path = "../Pods-PodLabCommoniOS-Alamofire/Pods-PodLabCommoniOS-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
-		BC7593AEBA195868E167407C /* Pods-iTunesSearchiOS-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-iTunesSearchiOS-Alamofire-dummy.m"; path = "../Pods-iTunesSearchiOS-Alamofire/Pods-iTunesSearchiOS-Alamofire-dummy.m"; sourceTree = "<group>"; };
-		BD23A793CAE01B863BB3A0CE /* Pods-PodSplitteriOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PodSplitteriOS-frameworks.sh"; sourceTree = "<group>"; };
-		BD718FDCECEE88DD0FED24D8 /* Pods-PodSplitteriOS-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-PodSplitteriOS-Alamofire-umbrella.h"; path = "../Pods-PodSplitteriOS-Alamofire/Pods-PodSplitteriOS-Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		BE2E09BF71F6DE32244C505B /* Pods-PodLabCommoniOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PodLabCommoniOS-resources.sh"; sourceTree = "<group>"; };
-		C6CB5292D88307D3FB90EB3F /* Pods-PodLabCommonOSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PodLabCommonOSX-dummy.m"; sourceTree = "<group>"; };
-		C6D37DF3097078E0A339AD3D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-iOSApp-Alamofire/Info.plist"; sourceTree = "<group>"; };
-		C82411810B2771589FE50E72 /* Pods-iOSApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSApp-frameworks.sh"; sourceTree = "<group>"; };
-		C89D9D4AB16F7267C7E88403 /* Pods-OSXApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSXApp.debug.xcconfig"; sourceTree = "<group>"; };
-		C91C3C59C13B39D992FD9717 /* Pods-PodLabCommoniOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PodLabCommoniOS-dummy.m"; sourceTree = "<group>"; };
-		C91EBA1C15374AD04985FB26 /* Pods-PodLabCommoniOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PodLabCommoniOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CA03D840CEF7752733443BE3 /* Pods-PodSplitteriOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PodSplitteriOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		CBB25F1DACA81C3696F64BEB /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD46E933EE26ED685DED5006 /* Pods-iTunesSearchiOS-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-iTunesSearchiOS-Alamofire.modulemap"; path = "../Pods-iTunesSearchiOS-Alamofire/Pods-iTunesSearchiOS-Alamofire.modulemap"; sourceTree = "<group>"; };
-		CD76785AE007EE7F532A6B72 /* Pods-PodSplitterOSX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PodSplitterOSX-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CE81413B0BF6886B0A5B2746 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CF4488E8A7F64D3357E8E75A /* Pods-PodLabCommoniOS-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-PodLabCommoniOS-Alamofire-dummy.m"; path = "../Pods-PodLabCommoniOS-Alamofire/Pods-PodLabCommoniOS-Alamofire-dummy.m"; sourceTree = "<group>"; };
-		CF659BA889B083BA723A0402 /* Pods-iTunesSearchOSX-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iTunesSearchOSX-frameworks.sh"; sourceTree = "<group>"; };
-		D02EFD5A0721FCBF7FDE544C /* Pods-iTunesSearchiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iTunesSearchiOS-umbrella.h"; sourceTree = "<group>"; };
-		D07E6A4AAC333E0E55B7C37E /* Pods-PodLabCommonOSX-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodLabCommonOSX-Alamofire-Private.xcconfig"; path = "../Pods-PodLabCommonOSX-Alamofire/Pods-PodLabCommonOSX-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
-		D14B330B679AA5D7E38FEE44 /* Pods-PodLabCommonOSX-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-PodLabCommonOSX-Alamofire.modulemap"; path = "../Pods-PodLabCommonOSX-Alamofire/Pods-PodLabCommonOSX-Alamofire.modulemap"; sourceTree = "<group>"; };
-		D15F44E2C12F13C71CAE2E6D /* Pods-PodLabCommoniOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodLabCommoniOS.release.xcconfig"; sourceTree = "<group>"; };
-		D4AA4001EA7A34EA814B71E4 /* Pods-PodLabCommonOSX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PodLabCommonOSX-acknowledgements.plist"; sourceTree = "<group>"; };
-		D505D73241BAB03300B1A639 /* Pods-iOSApp-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-iOSApp-Alamofire.modulemap"; path = "../Pods-iOSApp-Alamofire/Pods-iOSApp-Alamofire.modulemap"; sourceTree = "<group>"; };
-		D541B011479240B6D8F864EA /* Pods-OSXApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSXApp.release.xcconfig"; sourceTree = "<group>"; };
-		D5458BE1D74586033FF1DE1B /* Pods-OSXApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OSXApp-frameworks.sh"; sourceTree = "<group>"; };
-		D56833180777A65F0566A9C1 /* Pods-OSXApp-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OSXApp-Alamofire-dummy.m"; sourceTree = "<group>"; };
-		D56FCA569352C410EC088F7A /* Pods-iTunesSearchiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iTunesSearchiOS.modulemap"; sourceTree = "<group>"; };
-		D90CC6ADBFFEF32DC287C6B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA4236AA4A4A4B2A642C6692 /* Pods-iTunesSearchOSX-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunesSearchOSX-Alamofire.xcconfig"; path = "../Pods-iTunesSearchOSX-Alamofire/Pods-iTunesSearchOSX-Alamofire.xcconfig"; sourceTree = "<group>"; };
-		DB72D8EA560F38A53D12F0B7 /* Pods-PodSplitteriOS-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodSplitteriOS-Alamofire-Private.xcconfig"; path = "../Pods-PodSplitteriOS-Alamofire/Pods-PodSplitteriOS-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
-		DBAF3A9A1658BEC5ACF83E51 /* Pods-iOSApp-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSApp-Alamofire-Private.xcconfig"; path = "../Pods-iOSApp-Alamofire/Pods-iOSApp-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
-		DBB2D981297689A5804604CE /* Pods-iTunesSearchOSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iTunesSearchOSX.modulemap"; sourceTree = "<group>"; };
-		E0AF6F93C8C14E0F89F7BC91 /* Pods-OSXApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OSXApp.modulemap"; sourceTree = "<group>"; };
-		E0C762CB76DA66D75420B062 /* Pods-PodLabCommonOSX-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PodLabCommonOSX-frameworks.sh"; sourceTree = "<group>"; };
-		E28D8841B77151CD71714D94 /* Pods-OSXApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OSXApp-resources.sh"; sourceTree = "<group>"; };
-		E486884DFE897C580F63022B /* Pods-iOSApp-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-iOSApp-Alamofire-umbrella.h"; path = "../Pods-iOSApp-Alamofire/Pods-iOSApp-Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		E83246C84DE2A88D3A64E6AB /* Pods-PodSplitterOSX-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PodSplitterOSX-resources.sh"; sourceTree = "<group>"; };
-		E84892EDB024AED9BAF315CC /* Pods-iOSApp-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSApp-environment.h"; sourceTree = "<group>"; };
-		E964350F9B6AD9E9439858CD /* Pods-iTunesSearchiOS-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-iTunesSearchiOS-Alamofire-umbrella.h"; path = "../Pods-iTunesSearchiOS-Alamofire/Pods-iTunesSearchiOS-Alamofire-umbrella.h"; sourceTree = "<group>"; };
-		EEA1312FAB822691CCA862F3 /* Pods-iOSApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		F1B42C974D524DD79DCE7EAF /* Pods-PodLabCommonOSX-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-PodLabCommonOSX-Alamofire-prefix.pch"; path = "../Pods-PodLabCommonOSX-Alamofire/Pods-PodLabCommonOSX-Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		F1D3F943B02BAE9FD067C40B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		F2DD77309684B14D4BC06FEF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-PodSplitteriOS-Alamofire/Info.plist"; sourceTree = "<group>"; };
-		F44AF0382860A66DDE465458 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F4CAF44155E56027BAF6369B /* Pods-OSXApp-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OSXApp-Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		F508B60ED10D6841A9E365C9 /* Pods-PodSplitteriOS-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-PodSplitteriOS-Alamofire-prefix.pch"; path = "../Pods-PodSplitteriOS-Alamofire/Pods-PodSplitteriOS-Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		F636ECCE2C9305CDE68D2D54 /* Pods-PodLabCommoniOS-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodLabCommoniOS-Alamofire.xcconfig"; path = "../Pods-PodLabCommoniOS-Alamofire/Pods-PodLabCommoniOS-Alamofire.xcconfig"; sourceTree = "<group>"; };
-		F73625EDFE2A47090037DD01 /* Pods-OSXApp-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSXApp-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
-		FDB3C1CD0681A8605DC1EA0E /* Pods-iTunesSearchOSX-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-iTunesSearchOSX-Alamofire.modulemap"; path = "../Pods-iTunesSearchOSX-Alamofire/Pods-iTunesSearchOSX-Alamofire.modulemap"; sourceTree = "<group>"; };
-		FF50AC6850100631775F62A5 /* Pods-OSXApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OSXApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		FFBF954A271E0C19CE3EE984 /* Pods-iOSApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0094A55C98D310211E4D332B /* Pods-OSX-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OSX-acknowledgements.plist"; sourceTree = "<group>"; };
+		05777581474137803C81DC72 /* Pods-iOS-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-environment.h"; sourceTree = "<group>"; };
+		100D97CFBB007FF52D617E3F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		13A52B586EF69118DC509E10 /* Pods-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		1476F0F2854FC4EA7EEFC4B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-iOS-Alamofire/Info.plist"; sourceTree = "<group>"; };
+		1B46F2C6B4398DE26CE01D83 /* Pods-OSX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OSX-umbrella.h"; sourceTree = "<group>"; };
+		37A820F2E4EB1FB37CC4226D /* Pods-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-resources.sh"; sourceTree = "<group>"; };
+		3947CBFB3FB3345A1AB6A95B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A22AD585019E0C558692285 /* Pods-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		53089957944021A8CB7075B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		577EFF11C5755FB62DC33F49 /* Pods-OSX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OSX.modulemap"; sourceTree = "<group>"; };
+		5827D86DAA4763924BA70695 /* Pods-iOS-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-iOS-Alamofire-dummy.m"; path = "../Pods-iOS-Alamofire/Pods-iOS-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		6124BC597E54B6AA66B7D600 /* Pods-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		6B4522EE2074829F3C0FC2D6 /* Pods-iOS-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Alamofire-Private.xcconfig"; path = "../Pods-iOS-Alamofire/Pods-iOS-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		6FAD1FEBA97BBFC91420C2EF /* Pods_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		717ACDA32A698CF3C4CC7BA9 /* Pods-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iOS.modulemap"; sourceTree = "<group>"; };
+		739B9A9921F196B3253CA886 /* Pods-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		79D2D354B5E4CF29A44F9C22 /* Pods-OSX-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OSX-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B879DEEE1C2B5D7EA516C77 /* Pods-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		88EC6F1C6E8B27C096D208AD /* Pods-iOS-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-iOS-Alamofire-umbrella.h"; path = "../Pods-iOS-Alamofire/Pods-iOS-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		8C30FCA4C218955DE7AC8B8E /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		90F671C3E8192B1BD0C0217A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929651967C5BAB4162B8E756 /* Pods_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9843A94C87BA8C1214F211DE /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		A215B84E1875E763A75C55E7 /* Pods-OSX-Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OSX-Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		B61C3D6AF3E94169E7A373D2 /* Pods-iOS-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-iOS-Alamofire.modulemap"; path = "../Pods-iOS-Alamofire/Pods-iOS-Alamofire.modulemap"; sourceTree = "<group>"; };
+		BCA5B9683A29E073F2E08C78 /* Pods-OSX-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OSX-resources.sh"; sourceTree = "<group>"; };
+		C35F2CC5E3303F81C4FB89EE /* Pods-OSX-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OSX-frameworks.sh"; sourceTree = "<group>"; };
+		C9B6ABEF3A2AC630DC105AEF /* Pods-OSX-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OSX-environment.h"; sourceTree = "<group>"; };
+		CCF902A3CAB6331C5BAFA69A /* Pods-OSX-Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-OSX-Alamofire.modulemap"; sourceTree = "<group>"; };
+		D1396F53AA20D9BE230F28F4 /* Pods-OSX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OSX-dummy.m"; sourceTree = "<group>"; };
+		D4AA1AD8C4BF97C03C92EED3 /* Pods-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-umbrella.h"; sourceTree = "<group>"; };
+		D60877DF972612E7CE7727E7 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D740014BF9BEFE15193BC818 /* Pods-OSX-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OSX-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		DCB63BA1BAA337131460BBAC /* Pods-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-frameworks.sh"; sourceTree = "<group>"; };
+		E0586521B6765948A4EDFD53 /* Pods-iOS-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Alamofire.xcconfig"; path = "../Pods-iOS-Alamofire/Pods-iOS-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		E4A9EE44CD032CF0EB1F5DC2 /* Pods-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-dummy.m"; sourceTree = "<group>"; };
+		E60B274BF84EC312ACA025FB /* Pods-OSX-Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSX-Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		ECA70704453FCFD0D623EAE3 /* Pods-OSX-Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OSX-Alamofire.xcconfig"; sourceTree = "<group>"; };
+		F2781D937B06BE0E69E63848 /* Pods-iOS-Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-iOS-Alamofire-prefix.pch"; path = "../Pods-iOS-Alamofire/Pods-iOS-Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		F51AB8677331E2AE9D0DC4E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F5BF9D37016B428A64C7865A /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69BA614D4D743AF3C14EBB3 /* Pods-OSX-Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OSX-Alamofire-dummy.m"; sourceTree = "<group>"; };
+		FBD80608388643A00D8062B4 /* Pods-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0F731A86D7F1CF4CA5405D1F /* Frameworks */ = {
+		4E9C760ECB9DCA7C0F8CCCF7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7592AB556D759F26C7EA83F8 /* Cocoa.framework in Frameworks */,
+				763832BD529E7E1F1A4F641D /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16AC2BF2FA824C958A1FD4D0 /* Frameworks */ = {
+		9E847F8B1BAD5C19814D40C6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FDDFE54253E84E660521EDA /* Foundation.framework in Frameworks */,
+				D04B45F31841690AE625385B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		274295DA30235235D02124F5 /* Frameworks */ = {
+		C36F6C6CB17B294D9C1EBD3F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1991B5476989BD3A6436EEE3 /* Foundation.framework in Frameworks */,
+				64A33B582C3C2ADF4549DCBF /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F1D1AB9A0998DDC00AFF8DA /* Frameworks */ = {
+		CD590E585BC6F7FB45A9D7C4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9344918E870BEF52B1DCC6F /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		356683697A363D95FFC5961E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F19D7017D37AAB0E6DE4E97 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3E2FA20D7D61311C07DA296F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E9B9A7BBA8317730159EE5FF /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		49063D73D7C1B23596683337 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AEFACEC8E5366D8829D945D4 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		65B184AC02FCAE863B1FACB9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D650F6737DD7B391A63FCFD6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		750FEA85B745865DC11B870D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				434CCCE3D9D5CF669F30D377 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9249D431C82DB907A659E636 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				121CFFF3573CE77D0C526F76 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		95C7CC79462F9330C9FC10BB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4E226E239E191532E9068BBB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9F80D2577EA024C9C63882E9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3841A340B90FEE6CAA0188D4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A889DC82104835AA8CC0E179 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EFE399E7CEB5224C6B79AECB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AC97640899AEFF8E955AB08C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE70C7DE275B6707EB2F45A2 /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F8A8B12F1EF1F14466EDD41F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8D94C35B37D35D49B0548F1A /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC656F31CAE2364E5478C451 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				29FD8DCE9A9AA1D52D2B9F88 /* Cocoa.framework in Frameworks */,
+				607931EE1A726BB379E7DF1F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2A0CD29EC4D2D3D1252A3559 /* Pods */ = {
+		0FB665409CC863EFAC9DF5E9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A9E266A8BA0CC967ADE4DE78 /* Alamofire */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		2A21794956607C5CA47292D7 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				F1D3F943B02BAE9FD067C40B /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		4228D6AEE7FA2B390B84F188 /* Pods-iTunesSearchOSX */ = {
-			isa = PBXGroup;
-			children = (
-				95DC5415C610F7F58DA9C4AB /* Info.plist */,
-				DBB2D981297689A5804604CE /* Pods-iTunesSearchOSX.modulemap */,
-				040395085CE02323FC18297C /* Pods-iTunesSearchOSX-acknowledgements.markdown */,
-				2C474DF8AE241A2BC6FC8A7C /* Pods-iTunesSearchOSX-acknowledgements.plist */,
-				A2A95BA8DD4B88C83EB2E8F7 /* Pods-iTunesSearchOSX-dummy.m */,
-				AAE8E07DFDDEE2691FA1BA88 /* Pods-iTunesSearchOSX-environment.h */,
-				CF659BA889B083BA723A0402 /* Pods-iTunesSearchOSX-frameworks.sh */,
-				310E3EDE0508B232C9BFDB9D /* Pods-iTunesSearchOSX-resources.sh */,
-				0BD9B80C9D69550E47B62EDD /* Pods-iTunesSearchOSX-umbrella.h */,
-				1369DC6FDDCCF234E6E9E3C4 /* Pods-iTunesSearchOSX.debug.xcconfig */,
-				9AC660B5DF96CA5B3E5E31F9 /* Pods-iTunesSearchOSX.release.xcconfig */,
-			);
-			name = "Pods-iTunesSearchOSX";
-			path = "Target Support Files/Pods-iTunesSearchOSX";
-			sourceTree = "<group>";
-		};
-		429DD0219B824D9AEBB9F0BA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				298FF5B656866BB6365E4CE5 /* Info.plist */,
-				F2DD77309684B14D4BC06FEF /* Info.plist */,
-				0A10C0D5D0D8E9ABABCD941B /* Info.plist */,
-				6F435C382A78E33044C37509 /* Info.plist */,
-				C6D37DF3097078E0A339AD3D /* Info.plist */,
-				263773E0466131CE6D58442C /* Info.plist */,
-				367531E372B995F9BB010BAC /* Info.plist */,
-				7909DEFBDFEBE7FBA32727D4 /* Info.plist */,
-				3CC80107EBAFF440DF53E551 /* Pods-OSXApp-Alamofire.modulemap */,
-				210750BFE557741B95F73756 /* Pods-OSXApp-Alamofire.xcconfig */,
-				F73625EDFE2A47090037DD01 /* Pods-OSXApp-Alamofire-Private.xcconfig */,
-				D56833180777A65F0566A9C1 /* Pods-OSXApp-Alamofire-dummy.m */,
-				F4CAF44155E56027BAF6369B /* Pods-OSXApp-Alamofire-prefix.pch */,
-				0D362D942192925BEB03063A /* Pods-OSXApp-Alamofire-umbrella.h */,
-				D14B330B679AA5D7E38FEE44 /* Pods-PodLabCommonOSX-Alamofire.modulemap */,
-				41E21E2CA2EE5B53B44E4E89 /* Pods-PodLabCommonOSX-Alamofire.xcconfig */,
-				D07E6A4AAC333E0E55B7C37E /* Pods-PodLabCommonOSX-Alamofire-Private.xcconfig */,
-				9F88B8B2D5D948419973CA59 /* Pods-PodLabCommonOSX-Alamofire-dummy.m */,
-				F1B42C974D524DD79DCE7EAF /* Pods-PodLabCommonOSX-Alamofire-prefix.pch */,
-				5241E2FB050C48252B499CD9 /* Pods-PodLabCommonOSX-Alamofire-umbrella.h */,
-				B81ADF076045FE14EE166649 /* Pods-PodLabCommoniOS-Alamofire.modulemap */,
-				F636ECCE2C9305CDE68D2D54 /* Pods-PodLabCommoniOS-Alamofire.xcconfig */,
-				BB7919439F4BD67CC2624916 /* Pods-PodLabCommoniOS-Alamofire-Private.xcconfig */,
-				CF4488E8A7F64D3357E8E75A /* Pods-PodLabCommoniOS-Alamofire-dummy.m */,
-				3924CF5298CAC05AD70EB603 /* Pods-PodLabCommoniOS-Alamofire-prefix.pch */,
-				991642F554FA03B6FBF32E94 /* Pods-PodLabCommoniOS-Alamofire-umbrella.h */,
-				7188C318192F83530F7336B9 /* Pods-PodSplitterOSX-Alamofire.modulemap */,
-				6AEC01DF33229300563D339C /* Pods-PodSplitterOSX-Alamofire.xcconfig */,
-				70C33D3920A96F9A7ECDD83D /* Pods-PodSplitterOSX-Alamofire-Private.xcconfig */,
-				8DE8CE2CA89572FB83DF9D3E /* Pods-PodSplitterOSX-Alamofire-dummy.m */,
-				01FE233AF1DCB138689C4FCE /* Pods-PodSplitterOSX-Alamofire-prefix.pch */,
-				448AC3D0E150423B02782D62 /* Pods-PodSplitterOSX-Alamofire-umbrella.h */,
-				1C7E33ACBEACCECCB8F4F007 /* Pods-PodSplitteriOS-Alamofire.modulemap */,
-				3F88A5B68EF7CCE427EEFD60 /* Pods-PodSplitteriOS-Alamofire.xcconfig */,
-				DB72D8EA560F38A53D12F0B7 /* Pods-PodSplitteriOS-Alamofire-Private.xcconfig */,
-				217607FEFF6C36E75D9625F8 /* Pods-PodSplitteriOS-Alamofire-dummy.m */,
-				F508B60ED10D6841A9E365C9 /* Pods-PodSplitteriOS-Alamofire-prefix.pch */,
-				BD718FDCECEE88DD0FED24D8 /* Pods-PodSplitteriOS-Alamofire-umbrella.h */,
-				D505D73241BAB03300B1A639 /* Pods-iOSApp-Alamofire.modulemap */,
-				474542F9F7D1C68584391A8B /* Pods-iOSApp-Alamofire.xcconfig */,
-				DBAF3A9A1658BEC5ACF83E51 /* Pods-iOSApp-Alamofire-Private.xcconfig */,
-				231C775D9AE9FA695E6EFA62 /* Pods-iOSApp-Alamofire-dummy.m */,
-				3B0F20C25824BE1ED86B4D1D /* Pods-iOSApp-Alamofire-prefix.pch */,
-				E486884DFE897C580F63022B /* Pods-iOSApp-Alamofire-umbrella.h */,
-				FDB3C1CD0681A8605DC1EA0E /* Pods-iTunesSearchOSX-Alamofire.modulemap */,
-				DA4236AA4A4A4B2A642C6692 /* Pods-iTunesSearchOSX-Alamofire.xcconfig */,
-				542AF9968C701E7796977030 /* Pods-iTunesSearchOSX-Alamofire-Private.xcconfig */,
-				5F458441673D8717169CA1EC /* Pods-iTunesSearchOSX-Alamofire-dummy.m */,
-				881443303023E8014EF32FB1 /* Pods-iTunesSearchOSX-Alamofire-prefix.pch */,
-				2D0837AC9EE3EF2A20AD48B8 /* Pods-iTunesSearchOSX-Alamofire-umbrella.h */,
-				CD46E933EE26ED685DED5006 /* Pods-iTunesSearchiOS-Alamofire.modulemap */,
-				904B64ED457A80E1A1E330F8 /* Pods-iTunesSearchiOS-Alamofire.xcconfig */,
-				1AE4A3C9452DA2B2094E069F /* Pods-iTunesSearchiOS-Alamofire-Private.xcconfig */,
-				BC7593AEBA195868E167407C /* Pods-iTunesSearchiOS-Alamofire-dummy.m */,
-				54EA0E4372A56814E9A2B464 /* Pods-iTunesSearchiOS-Alamofire-prefix.pch */,
-				E964350F9B6AD9E9439858CD /* Pods-iTunesSearchiOS-Alamofire-umbrella.h */,
+				90F671C3E8192B1BD0C0217A /* Info.plist */,
+				1476F0F2854FC4EA7EEFC4B0 /* Info.plist */,
+				CCF902A3CAB6331C5BAFA69A /* Pods-OSX-Alamofire.modulemap */,
+				ECA70704453FCFD0D623EAE3 /* Pods-OSX-Alamofire.xcconfig */,
+				E60B274BF84EC312ACA025FB /* Pods-OSX-Alamofire-Private.xcconfig */,
+				F69BA614D4D743AF3C14EBB3 /* Pods-OSX-Alamofire-dummy.m */,
+				D740014BF9BEFE15193BC818 /* Pods-OSX-Alamofire-prefix.pch */,
+				A215B84E1875E763A75C55E7 /* Pods-OSX-Alamofire-umbrella.h */,
+				B61C3D6AF3E94169E7A373D2 /* Pods-iOS-Alamofire.modulemap */,
+				E0586521B6765948A4EDFD53 /* Pods-iOS-Alamofire.xcconfig */,
+				6B4522EE2074829F3C0FC2D6 /* Pods-iOS-Alamofire-Private.xcconfig */,
+				5827D86DAA4763924BA70695 /* Pods-iOS-Alamofire-dummy.m */,
+				F2781D937B06BE0E69E63848 /* Pods-iOS-Alamofire-prefix.pch */,
+				88EC6F1C6E8B27C096D208AD /* Pods-iOS-Alamofire-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Pods-OSXApp-Alamofire";
+			path = "../Target Support Files/Pods-OSX-Alamofire";
 			sourceTree = "<group>";
 		};
-		463188F9A9597851A134FFF2 /* Pods-PodLabCommoniOS */ = {
+		209C60AB1C4ACA9891220566 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				2DFAF9B5254B9631FAE96D25 /* Info.plist */,
-				293C3021129C68F02E8661DC /* Pods-PodLabCommoniOS.modulemap */,
-				C91EBA1C15374AD04985FB26 /* Pods-PodLabCommoniOS-acknowledgements.markdown */,
-				8A94C259B97250B73E836522 /* Pods-PodLabCommoniOS-acknowledgements.plist */,
-				C91C3C59C13B39D992FD9717 /* Pods-PodLabCommoniOS-dummy.m */,
-				B58DA3B42A1DAB39C082D661 /* Pods-PodLabCommoniOS-environment.h */,
-				7DA8709F8C4D6E0F9CB17B03 /* Pods-PodLabCommoniOS-frameworks.sh */,
-				BE2E09BF71F6DE32244C505B /* Pods-PodLabCommoniOS-resources.sh */,
-				358FE00ED14BBE1B8C2DDED0 /* Pods-PodLabCommoniOS-umbrella.h */,
-				B018D7B224C22D2EAF1612AB /* Pods-PodLabCommoniOS.debug.xcconfig */,
-				D15F44E2C12F13C71CAE2E6D /* Pods-PodLabCommoniOS.release.xcconfig */,
-			);
-			name = "Pods-PodLabCommoniOS";
-			path = "Target Support Files/Pods-PodLabCommoniOS";
-			sourceTree = "<group>";
-		};
-		469BF8DFA8BD056B0D01DA8B /* Pods-PodLabCommonOSX */ = {
-			isa = PBXGroup;
-			children = (
-				7A2FC5E7528C8A4B4727356B /* Info.plist */,
-				81C7FD2416EE2221B41002B4 /* Pods-PodLabCommonOSX.modulemap */,
-				A6F6B822F2BE78B279171D7B /* Pods-PodLabCommonOSX-acknowledgements.markdown */,
-				D4AA4001EA7A34EA814B71E4 /* Pods-PodLabCommonOSX-acknowledgements.plist */,
-				C6CB5292D88307D3FB90EB3F /* Pods-PodLabCommonOSX-dummy.m */,
-				0459614585319032AA826C7D /* Pods-PodLabCommonOSX-environment.h */,
-				E0C762CB76DA66D75420B062 /* Pods-PodLabCommonOSX-frameworks.sh */,
-				6FC7CE6B3F1196A77A82E64D /* Pods-PodLabCommonOSX-resources.sh */,
-				55534F9AE8D61D63B37E3D51 /* Pods-PodLabCommonOSX-umbrella.h */,
-				476C0B4E168C0CD8630C47F3 /* Pods-PodLabCommonOSX.debug.xcconfig */,
-				2F91806294CF0ADE6312C596 /* Pods-PodLabCommonOSX.release.xcconfig */,
-			);
-			name = "Pods-PodLabCommonOSX";
-			path = "Target Support Files/Pods-PodLabCommonOSX";
-			sourceTree = "<group>";
-		};
-		62D3651A9AA35081A70E6448 /* Pods-OSXApp */ = {
-			isa = PBXGroup;
-			children = (
-				F44AF0382860A66DDE465458 /* Info.plist */,
-				E0AF6F93C8C14E0F89F7BC91 /* Pods-OSXApp.modulemap */,
-				6546BFD0701878F3B2886CFB /* Pods-OSXApp-acknowledgements.markdown */,
-				FF50AC6850100631775F62A5 /* Pods-OSXApp-acknowledgements.plist */,
-				43D868DBF39CAE753D5FF86E /* Pods-OSXApp-dummy.m */,
-				57B90380186A2A4F95D96687 /* Pods-OSXApp-environment.h */,
-				D5458BE1D74586033FF1DE1B /* Pods-OSXApp-frameworks.sh */,
-				E28D8841B77151CD71714D94 /* Pods-OSXApp-resources.sh */,
-				16D3526F98B3A8343C9E880C /* Pods-OSXApp-umbrella.h */,
-				C89D9D4AB16F7267C7E88403 /* Pods-OSXApp.debug.xcconfig */,
-				D541B011479240B6D8F864EA /* Pods-OSXApp.release.xcconfig */,
-			);
-			name = "Pods-OSXApp";
-			path = "Target Support Files/Pods-OSXApp";
-			sourceTree = "<group>";
-		};
-		6C4796463CF04F33D76ACA6A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7A743E0EA0C7DAC873F5594C /* OS X */,
-				2A21794956607C5CA47292D7 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		700776F4C48FFAFC8CC5165E = {
-			isa = PBXGroup;
-			children = (
-				4A8841EB0B90AF6EF00DE653 /* Podfile */,
-				6C4796463CF04F33D76ACA6A /* Frameworks */,
-				2A0CD29EC4D2D3D1252A3559 /* Pods */,
-				701389438FB0D5B341673D1C /* Products */,
-				C924DC5CAE0160D308943DDC /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		701389438FB0D5B341673D1C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B2D8E646BE5E960D1D56D852 /* Alamofire.framework */,
-				692476B91080B3D57986CF52 /* Alamofire.framework */,
-				3C17165C9E7C94C2A114550B /* Alamofire.framework */,
-				2B790C5130671FB6F7248084 /* Alamofire.framework */,
-				9A3FE90FD08A97865ADC9744 /* Alamofire.framework */,
-				CBB25F1DACA81C3696F64BEB /* Alamofire.framework */,
-				45FAFC428727E4B5F75E4BA8 /* Alamofire.framework */,
-				14852B3605476D5A5688AE83 /* Alamofire.framework */,
-				B8BBDA8471E73FA920D1E453 /* Pods_OSXApp.framework */,
-				A2AF0A92FB32639A0022EC41 /* Pods_PodLabCommonOSX.framework */,
-				3E91863364F78F8976C2DB1F /* Pods_PodLabCommoniOS.framework */,
-				03D619EA8C109052089EBCDC /* Pods_PodSplitterOSX.framework */,
-				62F0D276C33656F43C58B773 /* Pods_PodSplitteriOS.framework */,
-				0D0810DB62BB50BBDF0467A0 /* Pods_iOSApp.framework */,
-				3F5055B5EC148E913562F3EE /* Pods_iTunesSearchOSX.framework */,
-				2C070A66BEB99EDA47CC8163 /* Pods_iTunesSearchiOS.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7A743E0EA0C7DAC873F5594C /* OS X */ = {
-			isa = PBXGroup;
-			children = (
-				2A1214E5D7BA06EE2131E320 /* Cocoa.framework */,
-			);
-			name = "OS X";
-			sourceTree = "<group>";
-		};
-		8E010528BF37C7EBABFB311F /* Pods-iTunesSearchiOS */ = {
-			isa = PBXGroup;
-			children = (
-				5CEAABA57A1A6C409B15A082 /* Info.plist */,
-				D56FCA569352C410EC088F7A /* Pods-iTunesSearchiOS.modulemap */,
-				181E90E3D9A93D38F333929B /* Pods-iTunesSearchiOS-acknowledgements.markdown */,
-				2238B5BEA74061C6E4926F50 /* Pods-iTunesSearchiOS-acknowledgements.plist */,
-				1FBF325EDFC6BF4154359D4A /* Pods-iTunesSearchiOS-dummy.m */,
-				8CDE2604A4357C8F354E9E34 /* Pods-iTunesSearchiOS-environment.h */,
-				8A265501583EAF0598CD1893 /* Pods-iTunesSearchiOS-frameworks.sh */,
-				4210AA9B5223AC90F70A1FE0 /* Pods-iTunesSearchiOS-resources.sh */,
-				D02EFD5A0721FCBF7FDE544C /* Pods-iTunesSearchiOS-umbrella.h */,
-				69ACC5C2042FA08F2166BB9F /* Pods-iTunesSearchiOS.debug.xcconfig */,
-				3CF542720E414C749A3C3E3F /* Pods-iTunesSearchiOS.release.xcconfig */,
-			);
-			name = "Pods-iTunesSearchiOS";
-			path = "Target Support Files/Pods-iTunesSearchiOS";
-			sourceTree = "<group>";
-		};
-		983506D94C4B186FCE6388B8 /* Pods-PodSplitterOSX */ = {
-			isa = PBXGroup;
-			children = (
-				D90CC6ADBFFEF32DC287C6B6 /* Info.plist */,
-				3D1222E31198FB0435D4EAA5 /* Pods-PodSplitterOSX.modulemap */,
-				CD76785AE007EE7F532A6B72 /* Pods-PodSplitterOSX-acknowledgements.markdown */,
-				27B818DB58BECD5679DFAD0E /* Pods-PodSplitterOSX-acknowledgements.plist */,
-				508670DE71C47E04E08ED513 /* Pods-PodSplitterOSX-dummy.m */,
-				B2954330A9AAD0D0D7B0DE06 /* Pods-PodSplitterOSX-environment.h */,
-				98365EEBF6D7AFBC983164A3 /* Pods-PodSplitterOSX-frameworks.sh */,
-				E83246C84DE2A88D3A64E6AB /* Pods-PodSplitterOSX-resources.sh */,
-				4A67D3A6692F153A45F0DF31 /* Pods-PodSplitterOSX-umbrella.h */,
-				8B26D88263F299FA391AA374 /* Pods-PodSplitterOSX.debug.xcconfig */,
-				7BB4BA8A26EADA4A3630881D /* Pods-PodSplitterOSX.release.xcconfig */,
-			);
-			name = "Pods-PodSplitterOSX";
-			path = "Target Support Files/Pods-PodSplitterOSX";
-			sourceTree = "<group>";
-		};
-		A9E266A8BA0CC967ADE4DE78 /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				08A3735B8E2AE1281EB002A7 /* Alamofire.swift */,
-				429DD0219B824D9AEBB9F0BA /* Support Files */,
+				9843A94C87BA8C1214F211DE /* Alamofire.swift */,
+				0FB665409CC863EFAC9DF5E9 /* Support Files */,
 			);
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		C924DC5CAE0160D308943DDC /* Targets Support Files */ = {
+		274A7ED9A2463812A7640DB1 /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				62D3651A9AA35081A70E6448 /* Pods-OSXApp */,
-				469BF8DFA8BD056B0D01DA8B /* Pods-PodLabCommonOSX */,
-				463188F9A9597851A134FFF2 /* Pods-PodLabCommoniOS */,
-				983506D94C4B186FCE6388B8 /* Pods-PodSplitterOSX */,
-				FFB7CCEC324B6F00B971EBAD /* Pods-PodSplitteriOS */,
-				FFD87DDD636F1FEB860B0367 /* Pods-iOSApp */,
-				4228D6AEE7FA2B390B84F188 /* Pods-iTunesSearchOSX */,
-				8E010528BF37C7EBABFB311F /* Pods-iTunesSearchiOS */,
+				100D97CFBB007FF52D617E3F /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		2B76379EAD22AF353ED4FE99 /* Pods-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				3947CBFB3FB3345A1AB6A95B /* Info.plist */,
+				577EFF11C5755FB62DC33F49 /* Pods-OSX.modulemap */,
+				79D2D354B5E4CF29A44F9C22 /* Pods-OSX-acknowledgements.markdown */,
+				0094A55C98D310211E4D332B /* Pods-OSX-acknowledgements.plist */,
+				D1396F53AA20D9BE230F28F4 /* Pods-OSX-dummy.m */,
+				C9B6ABEF3A2AC630DC105AEF /* Pods-OSX-environment.h */,
+				C35F2CC5E3303F81C4FB89EE /* Pods-OSX-frameworks.sh */,
+				BCA5B9683A29E073F2E08C78 /* Pods-OSX-resources.sh */,
+				1B46F2C6B4398DE26CE01D83 /* Pods-OSX-umbrella.h */,
+				739B9A9921F196B3253CA886 /* Pods-OSX.debug.xcconfig */,
+				6124BC597E54B6AA66B7D600 /* Pods-OSX.release.xcconfig */,
+			);
+			name = "Pods-OSX";
+			path = "Target Support Files/Pods-OSX";
+			sourceTree = "<group>";
+		};
+		356C9E0F59A19B3FCF230301 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F51AB8677331E2AE9D0DC4E9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F8F7B537EAC9AEB685FC086 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				274A7ED9A2463812A7640DB1 /* OS X */,
+				356C9E0F59A19B3FCF230301 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7536635B87C5B02CF0E5C539 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D60877DF972612E7CE7727E7 /* Alamofire.framework */,
+				F5BF9D37016B428A64C7865A /* Alamofire.framework */,
+				929651967C5BAB4162B8E756 /* Pods_OSX.framework */,
+				6FAD1FEBA97BBFC91420C2EF /* Pods_iOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83F0D1CD081F099DD2362B66 /* Pods-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				53089957944021A8CB7075B3 /* Info.plist */,
+				717ACDA32A698CF3C4CC7BA9 /* Pods-iOS.modulemap */,
+				FBD80608388643A00D8062B4 /* Pods-iOS-acknowledgements.markdown */,
+				3A22AD585019E0C558692285 /* Pods-iOS-acknowledgements.plist */,
+				E4A9EE44CD032CF0EB1F5DC2 /* Pods-iOS-dummy.m */,
+				05777581474137803C81DC72 /* Pods-iOS-environment.h */,
+				DCB63BA1BAA337131460BBAC /* Pods-iOS-frameworks.sh */,
+				37A820F2E4EB1FB37CC4226D /* Pods-iOS-resources.sh */,
+				D4AA1AD8C4BF97C03C92EED3 /* Pods-iOS-umbrella.h */,
+				7B879DEEE1C2B5D7EA516C77 /* Pods-iOS.debug.xcconfig */,
+				13A52B586EF69118DC509E10 /* Pods-iOS.release.xcconfig */,
+			);
+			name = "Pods-iOS";
+			path = "Target Support Files/Pods-iOS";
+			sourceTree = "<group>";
+		};
+		CF01273105F7502064F10ED9 = {
+			isa = PBXGroup;
+			children = (
+				8C30FCA4C218955DE7AC8B8E /* Podfile */,
+				5F8F7B537EAC9AEB685FC086 /* Frameworks */,
+				E414159A35E2FD9F5FDBB067 /* Pods */,
+				7536635B87C5B02CF0E5C539 /* Products */,
+				F0336AA2F918A225C09CD049 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E414159A35E2FD9F5FDBB067 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				209C60AB1C4ACA9891220566 /* Alamofire */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0336AA2F918A225C09CD049 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B76379EAD22AF353ED4FE99 /* Pods-OSX */,
+				83F0D1CD081F099DD2362B66 /* Pods-iOS */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		FFB7CCEC324B6F00B971EBAD /* Pods-PodSplitteriOS */ = {
-			isa = PBXGroup;
-			children = (
-				CE81413B0BF6886B0A5B2746 /* Info.plist */,
-				1C308FE76F04A926592818B4 /* Pods-PodSplitteriOS.modulemap */,
-				551DEA8FE60C904305045837 /* Pods-PodSplitteriOS-acknowledgements.markdown */,
-				CA03D840CEF7752733443BE3 /* Pods-PodSplitteriOS-acknowledgements.plist */,
-				ACD382B4FFE8035FFCFC88E3 /* Pods-PodSplitteriOS-dummy.m */,
-				3A0B8946E1C1BED785AD519B /* Pods-PodSplitteriOS-environment.h */,
-				BD23A793CAE01B863BB3A0CE /* Pods-PodSplitteriOS-frameworks.sh */,
-				5F5BB90FFF118B5FCCC391BD /* Pods-PodSplitteriOS-resources.sh */,
-				791204D23657309A1C75A612 /* Pods-PodSplitteriOS-umbrella.h */,
-				2C49D1103271C790E5EC1FF9 /* Pods-PodSplitteriOS.debug.xcconfig */,
-				65B8C6F0639D1BEA56BE2D68 /* Pods-PodSplitteriOS.release.xcconfig */,
-			);
-			name = "Pods-PodSplitteriOS";
-			path = "Target Support Files/Pods-PodSplitteriOS";
-			sourceTree = "<group>";
-		};
-		FFD87DDD636F1FEB860B0367 /* Pods-iOSApp */ = {
-			isa = PBXGroup;
-			children = (
-				1EAA7C8879B26486129E895F /* Info.plist */,
-				1D25129CA6F65972DE9E916E /* Pods-iOSApp.modulemap */,
-				FFBF954A271E0C19CE3EE984 /* Pods-iOSApp-acknowledgements.markdown */,
-				EEA1312FAB822691CCA862F3 /* Pods-iOSApp-acknowledgements.plist */,
-				00D11F45B2E013E12D8BCF6B /* Pods-iOSApp-dummy.m */,
-				E84892EDB024AED9BAF315CC /* Pods-iOSApp-environment.h */,
-				C82411810B2771589FE50E72 /* Pods-iOSApp-frameworks.sh */,
-				60B5B8FD8E0D659E4BEC8353 /* Pods-iOSApp-resources.sh */,
-				4178A57C28DBB311566A1E4C /* Pods-iOSApp-umbrella.h */,
-				A7804018E817C4E4A4C9C8B0 /* Pods-iOSApp.debug.xcconfig */,
-				8C419FB0236CF573258996B1 /* Pods-iOSApp.release.xcconfig */,
-			);
-			name = "Pods-iOSApp";
-			path = "Target Support Files/Pods-iOSApp";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1C50F6271777C53F87158EE4 /* Headers */ = {
+		109DECEF9606EEE191A9C57D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				394B2C1E768707625A3A991D /* Pods-iOSApp-umbrella.h in Headers */,
+				EDE252DA57DEC2C6A637D9EA /* Pods-OSX-Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		224D2B4C0831C0C5F34A77BA /* Headers */ = {
+		48ECA669AF2E77A1968C687A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2AABEDC309A5278B580AD95 /* Pods-iTunesSearchOSX-umbrella.h in Headers */,
+				912EEDAAAD07AF1360C6A119 /* Pods-iOS-Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		24032A221F748BAEDA876307 /* Headers */ = {
+		4DBB3111FEFF161D21A4FEF2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				126C52B334D32FCD85837E78 /* Pods-iTunesSearchiOS-umbrella.h in Headers */,
+				8B8618247F4DF0F63E6840C8 /* Pods-OSX-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F0DF5C8EB94CC2648BC7D43 /* Headers */ = {
+		D9BB0BA08E8299361AF4ABEF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93C9C66D1981BCA89F5DCF3D /* Pods-PodLabCommoniOS-Alamofire-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4EE363E20FEC47EA19A53BF6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D122203CD7D791075F6F0EE /* Pods-PodSplitterOSX-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75C3FF95D6EAD336291CB66A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4891EC5606E633A0D4A7CEB6 /* Pods-PodSplitterOSX-Alamofire-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		76DD271B8233D62333129AF2 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D350D4AFFB6204D2001234DB /* Pods-PodLabCommoniOS-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		891221E03D864E20F5E657D7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58D261009DCCEB7807A5F2C3 /* Pods-iTunesSearchiOS-Alamofire-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		936EB4A61433B55654316578 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				418258DCCC39F4DC83E93132 /* Pods-PodLabCommonOSX-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A352E64C1F025940F41CA069 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1CF4AF27BE4233FDAF432EE5 /* Pods-PodLabCommonOSX-Alamofire-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A36B8CE6A7C27C53EBFB01C6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4D8D4790F1D9C4EC61619CC /* Pods-OSXApp-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1CE8269C1FB1A86A1E7C010 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C837B9D8112A92563362DA71 /* Pods-PodSplitteriOS-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E4DD1C50EE3A91ED60AA8507 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				496901D884C56EA21D5125FF /* Pods-iOSApp-Alamofire-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E52345F40D115D90EFFC766B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9DA105F566285D5D720287E3 /* Pods-OSXApp-Alamofire-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0DDE108AF8C325BE49F4FB7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1EF2C5E3ED6B4F1BBED2CA8 /* Pods-iTunesSearchOSX-Alamofire-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F3D1EB66A73D0D6973EF60FE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8FE7D36E898E30DA1B240F9B /* Pods-PodSplitteriOS-Alamofire-umbrella.h in Headers */,
+				FFA5ECF6410E083D10043087 /* Pods-iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		016D9D62F5ED31DC972ECE41 /* Pods-iTunesSearchOSX */ = {
+		10D05D1EC02592F9E1138422 /* Pods-OSX-Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AC7929656687E0B116D0811F /* Build configuration list for PBXNativeTarget "Pods-iTunesSearchOSX" */;
+			buildConfigurationList = 3991AC8D6FBCDC4065D0BCC4 /* Build configuration list for PBXNativeTarget "Pods-OSX-Alamofire" */;
 			buildPhases = (
-				59D916BA0D0C8E419DF708EE /* Sources */,
-				AC97640899AEFF8E955AB08C /* Frameworks */,
-				224D2B4C0831C0C5F34A77BA /* Headers */,
+				339884EA365835EBA3969B01 /* Sources */,
+				C36F6C6CB17B294D9C1EBD3F /* Frameworks */,
+				109DECEF9606EEE191A9C57D /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BADDBE159050DA8FF2BA2327 /* PBXTargetDependency */,
 			);
-			name = "Pods-iTunesSearchOSX";
-			productName = "Pods-iTunesSearchOSX";
-			productReference = 3F5055B5EC148E913562F3EE /* Pods_iTunesSearchOSX.framework */;
+			name = "Pods-OSX-Alamofire";
+			productName = "Pods-OSX-Alamofire";
+			productReference = D60877DF972612E7CE7727E7 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3A66323B39FBB3FAE9DB7985 /* Pods-PodLabCommonOSX */ = {
+		418650AB7B1BACC36709FC4E /* Pods-OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E15116234CB174E4B34710D /* Build configuration list for PBXNativeTarget "Pods-PodLabCommonOSX" */;
+			buildConfigurationList = CB56FA4FC18620CE097C08DE /* Build configuration list for PBXNativeTarget "Pods-OSX" */;
 			buildPhases = (
-				4A07AB7C15A57DDF78E2FBF5 /* Sources */,
-				F8A8B12F1EF1F14466EDD41F /* Frameworks */,
-				936EB4A61433B55654316578 /* Headers */,
+				16B912080CA8C6D09834F657 /* Sources */,
+				4E9C760ECB9DCA7C0F8CCCF7 /* Frameworks */,
+				4DBB3111FEFF161D21A4FEF2 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A689C50C867D6AF990E62C71 /* PBXTargetDependency */,
+				8E1F9F1009CA5B4462202C7F /* PBXTargetDependency */,
 			);
-			name = "Pods-PodLabCommonOSX";
-			productName = "Pods-PodLabCommonOSX";
-			productReference = A2AF0A92FB32639A0022EC41 /* Pods_PodLabCommonOSX.framework */;
+			name = "Pods-OSX";
+			productName = "Pods-OSX";
+			productReference = 929651967C5BAB4162B8E756 /* Pods_OSX.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		47C3E6CA3614F69902AF1660 /* Pods-OSXApp */ = {
+		B814EFE1573E45612940FEFD /* Pods-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A87A8FCBEC3F5DB613240757 /* Build configuration list for PBXNativeTarget "Pods-OSXApp" */;
+			buildConfigurationList = 2D96F1670D1369A3D76BB3AA /* Build configuration list for PBXNativeTarget "Pods-iOS" */;
 			buildPhases = (
-				2EE3C5E2FB5AA4BADD17F6A1 /* Sources */,
-				0F731A86D7F1CF4CA5405D1F /* Frameworks */,
-				A36B8CE6A7C27C53EBFB01C6 /* Headers */,
+				7FFDDCC4604316192B3B55A8 /* Sources */,
+				9E847F8B1BAD5C19814D40C6 /* Frameworks */,
+				D9BB0BA08E8299361AF4ABEF /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1322265CB9F1D0A4CC5D3AB3 /* PBXTargetDependency */,
+				0F932D22DEEC68ADB42A9AAE /* PBXTargetDependency */,
 			);
-			name = "Pods-OSXApp";
-			productName = "Pods-OSXApp";
-			productReference = B8BBDA8471E73FA920D1E453 /* Pods_OSXApp.framework */;
+			name = "Pods-iOS";
+			productName = "Pods-iOS";
+			productReference = 6FAD1FEBA97BBFC91420C2EF /* Pods_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4F94D45D15F4736921E40E87 /* Pods-PodLabCommonOSX-Alamofire */ = {
+		DEEFA348A7F17E1D59A09244 /* Pods-iOS-Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8EAC9DF5DBE52E25529869C /* Build configuration list for PBXNativeTarget "Pods-PodLabCommonOSX-Alamofire" */;
+			buildConfigurationList = 4BEF1028F2AA598EB8764657 /* Build configuration list for PBXNativeTarget "Pods-iOS-Alamofire" */;
 			buildPhases = (
-				5A0080F475369AF5E0C8CE0C /* Sources */,
-				356683697A363D95FFC5961E /* Frameworks */,
-				A352E64C1F025940F41CA069 /* Headers */,
+				4F0B6702B3B2F46F35C0A8C1 /* Sources */,
+				CD590E585BC6F7FB45A9D7C4 /* Frameworks */,
+				48ECA669AF2E77A1968C687A /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-PodLabCommonOSX-Alamofire";
-			productName = "Pods-PodLabCommonOSX-Alamofire";
-			productReference = 692476B91080B3D57986CF52 /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		54E2D43D72888DAB735CB18E /* Pods-iTunesSearchiOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9F61A60748922A8AAACE693A /* Build configuration list for PBXNativeTarget "Pods-iTunesSearchiOS" */;
-			buildPhases = (
-				C41A923C8368637C6F73926C /* Sources */,
-				A889DC82104835AA8CC0E179 /* Frameworks */,
-				24032A221F748BAEDA876307 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BDDE9B19E410976762400FBE /* PBXTargetDependency */,
-			);
-			name = "Pods-iTunesSearchiOS";
-			productName = "Pods-iTunesSearchiOS";
-			productReference = 2C070A66BEB99EDA47CC8163 /* Pods_iTunesSearchiOS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		59CC5B0313754AFD1543DCCF /* Pods-PodLabCommoniOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C8261FDFFCF772E8BDEFBE56 /* Build configuration list for PBXNativeTarget "Pods-PodLabCommoniOS" */;
-			buildPhases = (
-				59240281D1CD2D9085340D35 /* Sources */,
-				9F80D2577EA024C9C63882E9 /* Frameworks */,
-				76DD271B8233D62333129AF2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6F03BFD4C99A02ABBC1D9FE4 /* PBXTargetDependency */,
-			);
-			name = "Pods-PodLabCommoniOS";
-			productName = "Pods-PodLabCommoniOS";
-			productReference = 3E91863364F78F8976C2DB1F /* Pods_PodLabCommoniOS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		71E902235B7C857B17815881 /* Pods-PodSplitteriOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 452C75BFB3CE5E803C5FD17C /* Build configuration list for PBXNativeTarget "Pods-PodSplitteriOS" */;
-			buildPhases = (
-				204526BFF63FBF7A5B5CBD58 /* Sources */,
-				9249D431C82DB907A659E636 /* Frameworks */,
-				D1CE8269C1FB1A86A1E7C010 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C5B23FF16C7511888158D0E1 /* PBXTargetDependency */,
-			);
-			name = "Pods-PodSplitteriOS";
-			productName = "Pods-PodSplitteriOS";
-			productReference = 62F0D276C33656F43C58B773 /* Pods_PodSplitteriOS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		7788DCB065F192818FB01A82 /* Pods-iOSApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DC386678CFE9A39C9F605A01 /* Build configuration list for PBXNativeTarget "Pods-iOSApp" */;
-			buildPhases = (
-				CFADCC21618C2D6F88DD7599 /* Sources */,
-				65B184AC02FCAE863B1FACB9 /* Frameworks */,
-				1C50F6271777C53F87158EE4 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				169F6C7D67126C6D1AA3F944 /* PBXTargetDependency */,
-			);
-			name = "Pods-iOSApp";
-			productName = "Pods-iOSApp";
-			productReference = 0D0810DB62BB50BBDF0467A0 /* Pods_iOSApp.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		83852D041E90D3F5A2A003A5 /* Pods-iTunesSearchiOS-Alamofire */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 39AD100B2DBD9ABC053F382C /* Build configuration list for PBXNativeTarget "Pods-iTunesSearchiOS-Alamofire" */;
-			buildPhases = (
-				9021FDB16C7D9CCED912879C /* Sources */,
-				750FEA85B745865DC11B870D /* Frameworks */,
-				891221E03D864E20F5E657D7 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-iTunesSearchiOS-Alamofire";
-			productName = "Pods-iTunesSearchiOS-Alamofire";
-			productReference = 14852B3605476D5A5688AE83 /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8519BEB0E7F95D5076C10E55 /* Pods-PodSplitterOSX */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D08DCE00A54EE5CDFC28BFF9 /* Build configuration list for PBXNativeTarget "Pods-PodSplitterOSX" */;
-			buildPhases = (
-				84924EAAE2B2466610EE5C5E /* Sources */,
-				49063D73D7C1B23596683337 /* Frameworks */,
-				4EE363E20FEC47EA19A53BF6 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D635AD098CB09A8A9251BA50 /* PBXTargetDependency */,
-			);
-			name = "Pods-PodSplitterOSX";
-			productName = "Pods-PodSplitterOSX";
-			productReference = 03D619EA8C109052089EBCDC /* Pods_PodSplitterOSX.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8641D96691B96C4951D0C25F /* Pods-PodSplitteriOS-Alamofire */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF76E228355308785DAF4083 /* Build configuration list for PBXNativeTarget "Pods-PodSplitteriOS-Alamofire" */;
-			buildPhases = (
-				51826A0E525AB7DA9376D576 /* Sources */,
-				16AC2BF2FA824C958A1FD4D0 /* Frameworks */,
-				F3D1EB66A73D0D6973EF60FE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-PodSplitteriOS-Alamofire";
-			productName = "Pods-PodSplitteriOS-Alamofire";
-			productReference = 9A3FE90FD08A97865ADC9744 /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B49700002436F3E54EB4DE5D /* Pods-iOSApp-Alamofire */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65B22AEE62A921F5798C4AFF /* Build configuration list for PBXNativeTarget "Pods-iOSApp-Alamofire" */;
-			buildPhases = (
-				F9CF00840D247C1B52CC4249 /* Sources */,
-				274295DA30235235D02124F5 /* Frameworks */,
-				E4DD1C50EE3A91ED60AA8507 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-iOSApp-Alamofire";
-			productName = "Pods-iOSApp-Alamofire";
-			productReference = CBB25F1DACA81C3696F64BEB /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C0EE1B5EB7C0F1F720FAE331 /* Pods-iTunesSearchOSX-Alamofire */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 39AC57C42142A328CDB69FDE /* Build configuration list for PBXNativeTarget "Pods-iTunesSearchOSX-Alamofire" */;
-			buildPhases = (
-				620E87F96ABB5D10BDAF4D54 /* Sources */,
-				2F1D1AB9A0998DDC00AFF8DA /* Frameworks */,
-				F0DDE108AF8C325BE49F4FB7 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-iTunesSearchOSX-Alamofire";
-			productName = "Pods-iTunesSearchOSX-Alamofire";
-			productReference = 45FAFC428727E4B5F75E4BA8 /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CF537A194AA4B61BA05F05C2 /* Pods-PodLabCommoniOS-Alamofire */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F686D2E95C00A8C15D2550D5 /* Build configuration list for PBXNativeTarget "Pods-PodLabCommoniOS-Alamofire" */;
-			buildPhases = (
-				936273370A83DFF9690B5F0B /* Sources */,
-				95C7CC79462F9330C9FC10BB /* Frameworks */,
-				2F0DF5C8EB94CC2648BC7D43 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-PodLabCommoniOS-Alamofire";
-			productName = "Pods-PodLabCommoniOS-Alamofire";
-			productReference = 3C17165C9E7C94C2A114550B /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E1B7B49F17BCE7895AEA205B /* Pods-PodSplitterOSX-Alamofire */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ABB5D1AEEE9BC52D0B2C654C /* Build configuration list for PBXNativeTarget "Pods-PodSplitterOSX-Alamofire" */;
-			buildPhases = (
-				02E3962733A4BD9444563190 /* Sources */,
-				FC656F31CAE2364E5478C451 /* Frameworks */,
-				75C3FF95D6EAD336291CB66A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-PodSplitterOSX-Alamofire";
-			productName = "Pods-PodSplitterOSX-Alamofire";
-			productReference = 2B790C5130671FB6F7248084 /* Alamofire.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FFA91E8F31301D209333CECD /* Pods-OSXApp-Alamofire */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6186D34855826A8E77D04D46 /* Build configuration list for PBXNativeTarget "Pods-OSXApp-Alamofire" */;
-			buildPhases = (
-				3CA27846778CC307DA487F06 /* Sources */,
-				3E2FA20D7D61311C07DA296F /* Frameworks */,
-				E52345F40D115D90EFFC766B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-OSXApp-Alamofire";
-			productName = "Pods-OSXApp-Alamofire";
-			productReference = B2D8E646BE5E960D1D56D852 /* Alamofire.framework */;
+			name = "Pods-iOS-Alamofire";
+			productName = "Pods-iOS-Alamofire";
+			productReference = F5BF9D37016B428A64C7865A /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EFADAC5F1D4D8FAD3FDD8279 /* Project object */ = {
+		E29305C892DE5723DCE1FD64 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 37BEE739B36ACAEB04D180D9 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = D269FBF1397DBACF4B73C45A /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 700776F4C48FFAFC8CC5165E;
-			productRefGroup = 701389438FB0D5B341673D1C /* Products */;
+			mainGroup = CF01273105F7502064F10ED9;
+			productRefGroup = 7536635B87C5B02CF0E5C539 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				47C3E6CA3614F69902AF1660 /* Pods-OSXApp */,
-				FFA91E8F31301D209333CECD /* Pods-OSXApp-Alamofire */,
-				3A66323B39FBB3FAE9DB7985 /* Pods-PodLabCommonOSX */,
-				4F94D45D15F4736921E40E87 /* Pods-PodLabCommonOSX-Alamofire */,
-				59CC5B0313754AFD1543DCCF /* Pods-PodLabCommoniOS */,
-				CF537A194AA4B61BA05F05C2 /* Pods-PodLabCommoniOS-Alamofire */,
-				8519BEB0E7F95D5076C10E55 /* Pods-PodSplitterOSX */,
-				E1B7B49F17BCE7895AEA205B /* Pods-PodSplitterOSX-Alamofire */,
-				71E902235B7C857B17815881 /* Pods-PodSplitteriOS */,
-				8641D96691B96C4951D0C25F /* Pods-PodSplitteriOS-Alamofire */,
-				7788DCB065F192818FB01A82 /* Pods-iOSApp */,
-				B49700002436F3E54EB4DE5D /* Pods-iOSApp-Alamofire */,
-				016D9D62F5ED31DC972ECE41 /* Pods-iTunesSearchOSX */,
-				C0EE1B5EB7C0F1F720FAE331 /* Pods-iTunesSearchOSX-Alamofire */,
-				54E2D43D72888DAB735CB18E /* Pods-iTunesSearchiOS */,
-				83852D041E90D3F5A2A003A5 /* Pods-iTunesSearchiOS-Alamofire */,
+				418650AB7B1BACC36709FC4E /* Pods-OSX */,
+				10D05D1EC02592F9E1138422 /* Pods-OSX-Alamofire */,
+				B814EFE1573E45612940FEFD /* Pods-iOS */,
+				DEEFA348A7F17E1D59A09244 /* Pods-iOS-Alamofire */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		02E3962733A4BD9444563190 /* Sources */ = {
+		16B912080CA8C6D09834F657 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				058A2C7260C0A862D79AEC75 /* Alamofire.swift in Sources */,
-				C7510467B6FCDA49F8C5CCAD /* Pods-PodSplitterOSX-Alamofire-dummy.m in Sources */,
+				44E735710717C7C5819D3051 /* Pods-OSX-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		204526BFF63FBF7A5B5CBD58 /* Sources */ = {
+		339884EA365835EBA3969B01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F69593C88FAAFD4DF38C08BD /* Pods-PodSplitteriOS-dummy.m in Sources */,
+				2AA320E498A44DBF9A6B2BA2 /* Alamofire.swift in Sources */,
+				C86799BEE1D81A06815CA995 /* Pods-OSX-Alamofire-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2EE3C5E2FB5AA4BADD17F6A1 /* Sources */ = {
+		4F0B6702B3B2F46F35C0A8C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B41B91B1D51D82749546BFCF /* Pods-OSXApp-dummy.m in Sources */,
+				4C42692DE9F04479B1EF9E4E /* Alamofire.swift in Sources */,
+				D26D086A2D701D5AB8AAC5B1 /* Pods-iOS-Alamofire-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3CA27846778CC307DA487F06 /* Sources */ = {
+		7FFDDCC4604316192B3B55A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2ECF5CCF8BACAD329A82BE2 /* Alamofire.swift in Sources */,
-				390E8513DDCA7A2FAA4E6ADB /* Pods-OSXApp-Alamofire-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4A07AB7C15A57DDF78E2FBF5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C60202074DA72498F9554C4B /* Pods-PodLabCommonOSX-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		51826A0E525AB7DA9376D576 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				76EC7BC1486DD55FF8EA5E1D /* Alamofire.swift in Sources */,
-				EC479154136BB9358598EE6C /* Pods-PodSplitteriOS-Alamofire-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59240281D1CD2D9085340D35 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DAD8E9CDFE9700AD6D6C1760 /* Pods-PodLabCommoniOS-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		59D916BA0D0C8E419DF708EE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				324A0227497110552A7AFE1B /* Pods-iTunesSearchOSX-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5A0080F475369AF5E0C8CE0C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				262C4179E029698787927291 /* Alamofire.swift in Sources */,
-				54536CB90DF14CFE979CECF6 /* Pods-PodLabCommonOSX-Alamofire-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		620E87F96ABB5D10BDAF4D54 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				97938D5D478CB2C25132D69D /* Alamofire.swift in Sources */,
-				8BA4CE55B190262B45EC576D /* Pods-iTunesSearchOSX-Alamofire-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84924EAAE2B2466610EE5C5E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92B6201EE3E63C6951A13F58 /* Pods-PodSplitterOSX-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9021FDB16C7D9CCED912879C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B50C3C90D80BA23264FB9784 /* Alamofire.swift in Sources */,
-				EE89CAB22EA8CA24AF125F87 /* Pods-iTunesSearchiOS-Alamofire-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		936273370A83DFF9690B5F0B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C71AFECF346C70B8F2B93F70 /* Alamofire.swift in Sources */,
-				C9BCA70960CAF8ACE7385CE6 /* Pods-PodLabCommoniOS-Alamofire-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C41A923C8368637C6F73926C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E769123D28D42A3824D0B2CC /* Pods-iTunesSearchiOS-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFADCC21618C2D6F88DD7599 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26662294AD501844A4F2CCAF /* Pods-iOSApp-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9CF00840D247C1B52CC4249 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98295FF772D593F76374187E /* Alamofire.swift in Sources */,
-				34FBC132D7CE9BEE66AE0777 /* Pods-iOSApp-Alamofire-dummy.m in Sources */,
+				11B13EDD37AE74E9C6B96099 /* Pods-iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1322265CB9F1D0A4CC5D3AB3 /* PBXTargetDependency */ = {
+		0F932D22DEEC68ADB42A9AAE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-OSXApp-Alamofire";
-			target = FFA91E8F31301D209333CECD /* Pods-OSXApp-Alamofire */;
-			targetProxy = 83EF6B517E997583D00DFE88 /* PBXContainerItemProxy */;
+			name = "Pods-iOS-Alamofire";
+			target = DEEFA348A7F17E1D59A09244 /* Pods-iOS-Alamofire */;
+			targetProxy = 9290DB3E14E0845F0A0F424F /* PBXContainerItemProxy */;
 		};
-		169F6C7D67126C6D1AA3F944 /* PBXTargetDependency */ = {
+		8E1F9F1009CA5B4462202C7F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-iOSApp-Alamofire";
-			target = B49700002436F3E54EB4DE5D /* Pods-iOSApp-Alamofire */;
-			targetProxy = D7B99AF8E395B1B7E8975B99 /* PBXContainerItemProxy */;
-		};
-		6F03BFD4C99A02ABBC1D9FE4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PodLabCommoniOS-Alamofire";
-			target = CF537A194AA4B61BA05F05C2 /* Pods-PodLabCommoniOS-Alamofire */;
-			targetProxy = 4ECD0477D4E41B118E075941 /* PBXContainerItemProxy */;
-		};
-		A689C50C867D6AF990E62C71 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PodLabCommonOSX-Alamofire";
-			target = 4F94D45D15F4736921E40E87 /* Pods-PodLabCommonOSX-Alamofire */;
-			targetProxy = 26520FD35094CF0F77821045 /* PBXContainerItemProxy */;
-		};
-		BADDBE159050DA8FF2BA2327 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-iTunesSearchOSX-Alamofire";
-			target = C0EE1B5EB7C0F1F720FAE331 /* Pods-iTunesSearchOSX-Alamofire */;
-			targetProxy = 41AC16F6264E7CF033CF26E8 /* PBXContainerItemProxy */;
-		};
-		BDDE9B19E410976762400FBE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-iTunesSearchiOS-Alamofire";
-			target = 83852D041E90D3F5A2A003A5 /* Pods-iTunesSearchiOS-Alamofire */;
-			targetProxy = F5AD7E001FD3DCA55C2C00B0 /* PBXContainerItemProxy */;
-		};
-		C5B23FF16C7511888158D0E1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PodSplitteriOS-Alamofire";
-			target = 8641D96691B96C4951D0C25F /* Pods-PodSplitteriOS-Alamofire */;
-			targetProxy = 1221976BC47EE9BD43179158 /* PBXContainerItemProxy */;
-		};
-		D635AD098CB09A8A9251BA50 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-PodSplitterOSX-Alamofire";
-			target = E1B7B49F17BCE7895AEA205B /* Pods-PodSplitterOSX-Alamofire */;
-			targetProxy = 4E725222C9DAF9238FB30353 /* PBXContainerItemProxy */;
+			name = "Pods-OSX-Alamofire";
+			target = 10D05D1EC02592F9E1138422 /* Pods-OSX-Alamofire */;
+			targetProxy = FEECF3EBE6D7DA66917B3D6D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C4F89CF50D6E0B0430210C2 /* Release */ = {
+		1409ECA7006BCB8EACBDF2AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F91806294CF0ADE6312C596 /* Pods-PodLabCommonOSX.release.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-PodLabCommonOSX/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-PodLabCommonOSX/Pods-PodLabCommonOSX.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PodLabCommonOSX;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2017F85CA85576DA058FC686 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CF542720E414C749A3C3E3F /* Pods-iTunesSearchiOS.release.xcconfig */;
+			baseConfigurationReference = 7B879DEEE1C2B5D7EA516C77 /* Pods-iOS.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1416,156 +456,16 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-iTunesSearchiOS/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-iTunesSearchiOS/Pods-iTunesSearchiOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_iTunesSearchiOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		25C0331243C334A6B3DE7CE4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 542AF9968C701E7796977030 /* Pods-iTunesSearchOSX-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-iTunesSearchOSX-Alamofire/Pods-iTunesSearchOSX-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-iTunesSearchOSX-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-iTunesSearchOSX-Alamofire/Pods-iTunesSearchOSX-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2CA05025CD43FA5CBA6CF67B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB72D8EA560F38A53D12F0B7 /* Pods-PodSplitteriOS-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PodSplitteriOS-Alamofire/Pods-PodSplitteriOS-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-PodSplitteriOS-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PodSplitteriOS-Alamofire/Pods-PodSplitteriOS-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		32C1580DE29F78D17E02583A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AE4A3C9452DA2B2094E069F /* Pods-iTunesSearchiOS-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-iTunesSearchiOS-Alamofire/Pods-iTunesSearchiOS-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-iTunesSearchiOS-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-iTunesSearchiOS-Alamofire/Pods-iTunesSearchiOS-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		38B01FEA2E68AF3D6386D84F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BB4BA8A26EADA4A3630881D /* Pods-PodSplitterOSX.release.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-PodSplitterOSX/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-PodSplitterOSX/Pods-PodSplitterOSX.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PodSplitterOSX;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3EC134ED8ACF69CE2DB1821C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69ACC5C2042FA08F2166BB9F /* Pods-iTunesSearchiOS.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-iTunesSearchiOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-iTunesSearchiOS/Pods-iTunesSearchiOS.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS/Pods-iOS.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_iTunesSearchiOS;
+				PRODUCT_NAME = Pods_iOS;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1574,625 +474,7 @@
 			};
 			name = Debug;
 		};
-		43F7DF99BA54ACB4DB556C7E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1369DC6FDDCCF234E6E9E3C4 /* Pods-iTunesSearchOSX.debug.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-iTunesSearchOSX/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-iTunesSearchOSX/Pods-iTunesSearchOSX.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_iTunesSearchOSX;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		48BAFB2392000C1913142D6A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D07E6A4AAC333E0E55B7C37E /* Pods-PodLabCommonOSX-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PodLabCommonOSX-Alamofire/Pods-PodLabCommonOSX-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-PodLabCommonOSX-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-PodLabCommonOSX-Alamofire/Pods-PodLabCommonOSX-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4925CDF204E3B053F725E4C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB7919439F4BD67CC2624916 /* Pods-PodLabCommoniOS-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PodLabCommoniOS-Alamofire/Pods-PodLabCommoniOS-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-PodLabCommoniOS-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PodLabCommoniOS-Alamofire/Pods-PodLabCommoniOS-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4B2556F9BA157C7775EA27B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C49D1103271C790E5EC1FF9 /* Pods-PodSplitteriOS.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PodSplitteriOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PodSplitteriOS/Pods-PodSplitteriOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PodSplitteriOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4D1833C83531E22CD9EE1205 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 476C0B4E168C0CD8630C47F3 /* Pods-PodLabCommonOSX.debug.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-PodLabCommonOSX/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-PodLabCommonOSX/Pods-PodLabCommonOSX.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PodLabCommonOSX;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		64C8AAE830726D8FF4A20CD5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBAF3A9A1658BEC5ACF83E51 /* Pods-iOSApp-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-iOSApp-Alamofire/Pods-iOSApp-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-iOSApp-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-iOSApp-Alamofire/Pods-iOSApp-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6BD8A9BECF9881F3DCD76FBA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70C33D3920A96F9A7ECDD83D /* Pods-PodSplitterOSX-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PodSplitterOSX-Alamofire/Pods-PodSplitterOSX-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-PodSplitterOSX-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-PodSplitterOSX-Alamofire/Pods-PodSplitterOSX-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		701B4D09BE8D831C0DB07330 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C89D9D4AB16F7267C7E88403 /* Pods-OSXApp.debug.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-OSXApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-OSXApp/Pods-OSXApp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_OSXApp;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		770F11BA69CD116552F66B9B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 542AF9968C701E7796977030 /* Pods-iTunesSearchOSX-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-iTunesSearchOSX-Alamofire/Pods-iTunesSearchOSX-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-iTunesSearchOSX-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-iTunesSearchOSX-Alamofire/Pods-iTunesSearchOSX-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		77CFA608F1A119B5F52CDC6A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C419FB0236CF573258996B1 /* Pods-iOSApp.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-iOSApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-iOSApp/Pods-iOSApp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_iOSApp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8CEB75F3EC95C71F59BB10B0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7804018E817C4E4A4C9C8B0 /* Pods-iOSApp.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-iOSApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-iOSApp/Pods-iOSApp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_iOSApp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8CFE52D232AE8B4892753891 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F73625EDFE2A47090037DD01 /* Pods-OSXApp-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-OSXApp-Alamofire/Pods-OSXApp-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-OSXApp-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-OSXApp-Alamofire/Pods-OSXApp-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		96FFCB462980BA2B190319C5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB72D8EA560F38A53D12F0B7 /* Pods-PodSplitteriOS-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PodSplitteriOS-Alamofire/Pods-PodSplitteriOS-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-PodSplitteriOS-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PodSplitteriOS-Alamofire/Pods-PodSplitteriOS-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9CFFEED61A45635F6FA5E4BE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F73625EDFE2A47090037DD01 /* Pods-OSXApp-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-OSXApp-Alamofire/Pods-OSXApp-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-OSXApp-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-OSXApp-Alamofire/Pods-OSXApp-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A06474877FE29189D50806C9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65B8C6F0639D1BEA56BE2D68 /* Pods-PodSplitteriOS.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PodSplitteriOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PodSplitteriOS/Pods-PodSplitteriOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PodSplitteriOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A2C86831C7F8826E2C597C8A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D541B011479240B6D8F864EA /* Pods-OSXApp.release.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-OSXApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-OSXApp/Pods-OSXApp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_OSXApp;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AA5566605D8EB616282AD397 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B018D7B224C22D2EAF1612AB /* Pods-PodLabCommoniOS.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PodLabCommoniOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PodLabCommoniOS/Pods-PodLabCommoniOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PodLabCommoniOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AC3869DE30FAB8433B5FF831 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70C33D3920A96F9A7ECDD83D /* Pods-PodSplitterOSX-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PodSplitterOSX-Alamofire/Pods-PodSplitterOSX-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-PodSplitterOSX-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-PodSplitterOSX-Alamofire/Pods-PodSplitterOSX-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B59C6B07405637DCEAC6CF75 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D15F44E2C12F13C71CAE2E6D /* Pods-PodLabCommoniOS.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-PodLabCommoniOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PodLabCommoniOS/Pods-PodLabCommoniOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PodLabCommoniOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C9192BBCB1D551A252C9895F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AE4A3C9452DA2B2094E069F /* Pods-iTunesSearchiOS-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-iTunesSearchiOS-Alamofire/Pods-iTunesSearchiOS-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-iTunesSearchiOS-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-iTunesSearchiOS-Alamofire/Pods-iTunesSearchiOS-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CC93ECA436B814BA8C39E26A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBAF3A9A1658BEC5ACF83E51 /* Pods-iOSApp-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-iOSApp-Alamofire/Pods-iOSApp-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-iOSApp-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-iOSApp-Alamofire/Pods-iOSApp-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DA355063FAAA71445847EA13 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB7919439F4BD67CC2624916 /* Pods-PodLabCommoniOS-Alamofire-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PodLabCommoniOS-Alamofire/Pods-PodLabCommoniOS-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-PodLabCommoniOS-Alamofire/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-PodLabCommoniOS-Alamofire/Pods-PodLabCommoniOS-Alamofire.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Alamofire;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DF77810075F32267A693B5B5 /* Debug */ = {
+		3F27F6ACF9F44EB1FA892443 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2210,6 +492,125 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BD37F3269BA76923931FA12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B4522EE2074829F3C0FC2D6 /* Pods-iOS-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-iOS-Alamofire/Pods-iOS-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS-Alamofire/Pods-iOS-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61C450F49ED07C3B6A5726F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60B274BF84EC312ACA025FB /* Pods-OSX-Alamofire-Private.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OSX-Alamofire/Pods-OSX-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-OSX-Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-OSX-Alamofire/Pods-OSX-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83824340242EB73E8218087D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6124BC597E54B6AA66B7D600 /* Pods-OSX.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-OSX/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Pods-OSX/Pods-OSX.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_OSX;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F8C76AAF3A5EE5D295A0F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2228,12 +629,42 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		E51E1A9386033848BCBEC540 /* Release */ = {
+		B3924C4D756CB6836FC96F84 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D07E6A4AAC333E0E55B7C37E /* Pods-PodLabCommonOSX-Alamofire-Private.xcconfig */;
+			baseConfigurationReference = 13A52B586EF69118DC509E10 /* Pods-iOS.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS/Pods-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C771CC241D61ECA9619E161F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60B274BF84EC312ACA025FB /* Pods-OSX-Alamofire-Private.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -2244,12 +675,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-PodLabCommonOSX-Alamofire/Pods-PodLabCommonOSX-Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Pods-PodLabCommonOSX-Alamofire/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-OSX-Alamofire/Pods-OSX-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-OSX-Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-PodLabCommonOSX-Alamofire/Pods-PodLabCommonOSX-Alamofire.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-OSX-Alamofire/Pods-OSX-Alamofire.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = Alamofire;
 				SDKROOT = macosx;
@@ -2259,73 +690,36 @@
 			};
 			name = Release;
 		};
-		EB18B58F6480ABC0961C729F /* Release */ = {
+		CC9281B32E7220E730F77DA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9AC660B5DF96CA5B3E5E31F9 /* Pods-iTunesSearchOSX.release.xcconfig */;
+			baseConfigurationReference = 6B4522EE2074829F3C0FC2D6 /* Pods-iOS-Alamofire-Private.xcconfig */;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-iTunesSearchOSX/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-iOS-Alamofire/Pods-iOS-Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-iOS-Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-iTunesSearchOSX/Pods-iTunesSearchOSX.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_iTunesSearchOSX;
-				SDKROOT = macosx;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-iOS-Alamofire/Pods-iOS-Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		EBBE96D93F442A4696FBDF45 /* Release */ = {
+		E6D01E3E7EEBB209A811BF5C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				STRIP_INSTALLED_PRODUCT = NO;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F8157F882E0320DA7AB72859 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B26D88263F299FA391AA374 /* Pods-PodSplitterOSX.debug.xcconfig */;
+			baseConfigurationReference = 739B9A9921F196B3253CA886 /* Pods-OSX.debug.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -2335,16 +729,16 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-PodSplitterOSX/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-OSX/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Pods-PodSplitterOSX/Pods-PodSplitterOSX.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-OSX/Pods-OSX.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_PodSplitterOSX;
+				PRODUCT_NAME = Pods_OSX;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2355,160 +749,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37BEE739B36ACAEB04D180D9 /* Build configuration list for PBXProject "Pods" */ = {
+		2D96F1670D1369A3D76BB3AA /* Build configuration list for PBXNativeTarget "Pods-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DF77810075F32267A693B5B5 /* Debug */,
-				EBBE96D93F442A4696FBDF45 /* Release */,
+				1409ECA7006BCB8EACBDF2AF /* Debug */,
+				B3924C4D756CB6836FC96F84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39AC57C42142A328CDB69FDE /* Build configuration list for PBXNativeTarget "Pods-iTunesSearchOSX-Alamofire" */ = {
+		3991AC8D6FBCDC4065D0BCC4 /* Build configuration list for PBXNativeTarget "Pods-OSX-Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25C0331243C334A6B3DE7CE4 /* Debug */,
-				770F11BA69CD116552F66B9B /* Release */,
+				61C450F49ED07C3B6A5726F5 /* Debug */,
+				C771CC241D61ECA9619E161F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		39AD100B2DBD9ABC053F382C /* Build configuration list for PBXNativeTarget "Pods-iTunesSearchiOS-Alamofire" */ = {
+		4BEF1028F2AA598EB8764657 /* Build configuration list for PBXNativeTarget "Pods-iOS-Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				32C1580DE29F78D17E02583A /* Debug */,
-				C9192BBCB1D551A252C9895F /* Release */,
+				CC9281B32E7220E730F77DA9 /* Debug */,
+				5BD37F3269BA76923931FA12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		452C75BFB3CE5E803C5FD17C /* Build configuration list for PBXNativeTarget "Pods-PodSplitteriOS" */ = {
+		CB56FA4FC18620CE097C08DE /* Build configuration list for PBXNativeTarget "Pods-OSX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B2556F9BA157C7775EA27B9 /* Debug */,
-				A06474877FE29189D50806C9 /* Release */,
+				E6D01E3E7EEBB209A811BF5C /* Debug */,
+				83824340242EB73E8218087D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E15116234CB174E4B34710D /* Build configuration list for PBXNativeTarget "Pods-PodLabCommonOSX" */ = {
+		D269FBF1397DBACF4B73C45A /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D1833C83531E22CD9EE1205 /* Debug */,
-				1C4F89CF50D6E0B0430210C2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6186D34855826A8E77D04D46 /* Build configuration list for PBXNativeTarget "Pods-OSXApp-Alamofire" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8CFE52D232AE8B4892753891 /* Debug */,
-				9CFFEED61A45635F6FA5E4BE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		65B22AEE62A921F5798C4AFF /* Build configuration list for PBXNativeTarget "Pods-iOSApp-Alamofire" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC93ECA436B814BA8C39E26A /* Debug */,
-				64C8AAE830726D8FF4A20CD5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9F61A60748922A8AAACE693A /* Build configuration list for PBXNativeTarget "Pods-iTunesSearchiOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3EC134ED8ACF69CE2DB1821C /* Debug */,
-				2017F85CA85576DA058FC686 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A87A8FCBEC3F5DB613240757 /* Build configuration list for PBXNativeTarget "Pods-OSXApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				701B4D09BE8D831C0DB07330 /* Debug */,
-				A2C86831C7F8826E2C597C8A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A8EAC9DF5DBE52E25529869C /* Build configuration list for PBXNativeTarget "Pods-PodLabCommonOSX-Alamofire" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				48BAFB2392000C1913142D6A /* Debug */,
-				E51E1A9386033848BCBEC540 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ABB5D1AEEE9BC52D0B2C654C /* Build configuration list for PBXNativeTarget "Pods-PodSplitterOSX-Alamofire" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AC3869DE30FAB8433B5FF831 /* Debug */,
-				6BD8A9BECF9881F3DCD76FBA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AC7929656687E0B116D0811F /* Build configuration list for PBXNativeTarget "Pods-iTunesSearchOSX" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				43F7DF99BA54ACB4DB556C7E /* Debug */,
-				EB18B58F6480ABC0961C729F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C8261FDFFCF772E8BDEFBE56 /* Build configuration list for PBXNativeTarget "Pods-PodLabCommoniOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA5566605D8EB616282AD397 /* Debug */,
-				B59C6B07405637DCEAC6CF75 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D08DCE00A54EE5CDFC28BFF9 /* Build configuration list for PBXNativeTarget "Pods-PodSplitterOSX" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F8157F882E0320DA7AB72859 /* Debug */,
-				38B01FEA2E68AF3D6386D84F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DC386678CFE9A39C9F605A01 /* Build configuration list for PBXNativeTarget "Pods-iOSApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8CEB75F3EC95C71F59BB10B0 /* Debug */,
-				77CFA608F1A119B5F52CDC6A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F686D2E95C00A8C15D2550D5 /* Build configuration list for PBXNativeTarget "Pods-PodLabCommoniOS-Alamofire" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DA355063FAAA71445847EA13 /* Debug */,
-				4925CDF204E3B053F725E4C7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FF76E228355308785DAF4083 /* Build configuration list for PBXNativeTarget "Pods-PodSplitteriOS-Alamofire" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				96FFCB462980BA2B190319C5 /* Debug */,
-				2CA05025CD43FA5CBA6CF67B /* Release */,
+				9F8C76AAF3A5EE5D295A0F39 /* Debug */,
+				3F27F6ACF9F44EB1FA892443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EFADAC5F1D4D8FAD3FDD8279 /* Project object */;
+	rootObject = E29305C892DE5723DCE1FD64 /* Project object */;
 }

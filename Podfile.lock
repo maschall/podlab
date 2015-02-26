@@ -10,10 +10,10 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Alamofire:
-    :commit: 410e866d8f8d63f500713791d7d43040c981e4e0
+    :commit: 3b3d4db0afc112227941976aee723a5923fd8d90
     :git: https://github.com/Alamofire/Alamofire
 
 SPEC CHECKSUMS:
   Alamofire: 6a2cbaebe78a6d469bc55ee37f0a24ba22af76ac
 
-COCOAPODS: 0.36.0.beta.2
+COCOAPODS: 0.36.0.rc.1
