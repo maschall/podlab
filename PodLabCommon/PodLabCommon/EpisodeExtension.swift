@@ -29,7 +29,7 @@ public extension Episode {
     var downloadFolderPath : NSURL {
         get {
             struct Static {
-                static let baseFolderPath = NSFileManager.defaultManager().URLsForDirectory(.CachesDirectory, inDomains: .UserDomainMask).first as NSURL
+                static let baseFolderPath = NSFileManager.defaultManager().URLsForDirectory(.CachesDirectory, inDomains: .UserDomainMask).first as! NSURL
             }
             
             var folder = Static.baseFolderPath.URLByAppendingPathComponent(sanitizeFileName(self.podcast.title))
@@ -45,7 +45,7 @@ public extension Episode {
             var uttype = UTTypeCreatePreferredIdentifierForTag(kUTTagClassMIMEType, self.enclosure.type, nil);
             var utpt = UTTypeCopyPreferredTagWithClass(uttype.takeRetainedValue(), kUTTagClassFilenameExtension);
             
-            return self.downloadFolderPath.URLByAppendingPathComponent(sanitizeFileName(self.guid)).URLByAppendingPathExtension(utpt.takeRetainedValue())
+            return self.downloadFolderPath.URLByAppendingPathComponent(sanitizeFileName(self.guid)).URLByAppendingPathExtension(utpt.takeRetainedValue() as String)
         }
     }
     

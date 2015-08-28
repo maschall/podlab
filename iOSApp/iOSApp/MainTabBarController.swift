@@ -11,11 +11,11 @@ import AVKit
 import AVFoundation
 import PodLabCommoniOS
 
-class MainTabBarController: UITabBarController {
+public class MainTabBarController: UITabBarController {
 
     var nowPlaying : AVPlayerViewController?
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
 
         nowPlaying = self.viewControllers![2] as? AVPlayerViewController;

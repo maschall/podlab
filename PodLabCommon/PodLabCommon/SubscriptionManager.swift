@@ -61,7 +61,7 @@ public class SubscriptionManager {
     public func updateAll(callback : ((NSError?) -> Void)?) {
         var error : NSError? = nil
         
-        var podcasts = self.managedObjectContext.executeFetchRequest(self.podcastFetchRequest, error: nil) as [Podcast]
+        var podcasts = self.managedObjectContext.executeFetchRequest(self.podcastFetchRequest, error: nil) as! [Podcast]
         
         for podcast in podcasts {
             update(podcast) {

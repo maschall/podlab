@@ -37,7 +37,7 @@ extension Podcast {
     
     public var episodes : [Episode] {
         get {
-            return self.allEpisodes.sortedArrayUsingDescriptors([NSSortDescriptor(key: "guid", ascending: false)]) as [Episode]
+            return self.allEpisodes.sortedArrayUsingDescriptors([NSSortDescriptor(key: "guid", ascending: false)]) as! [Episode]
         }
     }
 }

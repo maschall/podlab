@@ -20,13 +20,13 @@ public class Enclosure: NSCoding {
         length = enclosure.element?.attributes["length"]?.toInt() ?? 0
     }
     
-    public required init(coder aDecoder: NSCoder) {
-        self.url = aDecoder.decodeObjectForKey("url") as String
-        self.type = aDecoder.decodeObjectForKey("type") as String
-        self.length = aDecoder.decodeObjectForKey("length") as Int
+    @objc public required init(coder aDecoder: NSCoder) {
+        self.url = aDecoder.decodeObjectForKey("url") as! String
+        self.type = aDecoder.decodeObjectForKey("type") as! String
+        self.length = aDecoder.decodeObjectForKey("length") as! Int
     }
     
-    public func encodeWithCoder(aCoder: NSCoder) {
+    @objc public func encodeWithCoder(aCoder: NSCoder) {
         aCoder.encodeObject(self.url, forKey: "url")
         aCoder.encodeObject(self.type, forKey: "type")
         aCoder.encodeObject(self.length, forKey: "length")

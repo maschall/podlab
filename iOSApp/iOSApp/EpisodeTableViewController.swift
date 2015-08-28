@@ -24,7 +24,7 @@ class EpisodeTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCellWithIdentifier("episodeCell") as UITableViewCell?
+        var cell = tableView.dequeueReusableCellWithIdentifier("episodeCell") as? UITableViewCell
         
         var episode = self.podcast!.episodes[indexPath.item] as Episode
         

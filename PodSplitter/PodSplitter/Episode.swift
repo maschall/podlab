@@ -22,14 +22,14 @@ public class Episode : NSCoding {
         enclosure = Enclosure(enclosure: item["enclosure"])
     }
     
-    required public init(coder aDecoder: NSCoder) {
-        self.title = aDecoder.decodeObjectForKey("title") as String
-        self.link = aDecoder.decodeObjectForKey("link") as String
-        self.guid = aDecoder.decodeObjectForKey("guid") as String
-        self.enclosure = aDecoder.decodeObjectForKey("enclosure") as Enclosure
+    @objc required public init(coder aDecoder: NSCoder) {
+        self.title = aDecoder.decodeObjectForKey("title") as! String
+        self.link = aDecoder.decodeObjectForKey("link") as! String
+        self.guid = aDecoder.decodeObjectForKey("guid") as! String
+        self.enclosure = aDecoder.decodeObjectForKey("enclosure") as! Enclosure
     }
     
-    public func encodeWithCoder(aCoder: NSCoder) {
+    @objc public func encodeWithCoder(aCoder: NSCoder) {
         aCoder.encodeObject(self.title, forKey: "title")
         aCoder.encodeObject(self.link, forKey: "link")
         aCoder.encodeObject(self.guid, forKey: "guid")

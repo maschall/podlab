@@ -23,7 +23,7 @@ extension Queue {
     }
     
     public func episodeAtIndex( index : Int ) -> Episode {
-        return self.episodes.objectAtIndex(index) as Episode
+        return self.episodes.objectAtIndex(index) as! Episode
     }
     
     public func insertEpisode( episode : Episode, atIndex : Int ) {

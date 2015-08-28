@@ -14,7 +14,9 @@
 		4D0C4BD11A7FD760007A9D97 /* iOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0C4BD01A7FD760007A9D97 /* iOSAppTests.swift */; };
 		4D1CE4DD1A85167E00AB7676 /* QueueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CE4DC1A85167E00AB7676 /* QueueTableViewController.swift */; };
 		4D2E8E9F1A9F78D20034C672 /* Pods_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2B85D2CD5DE308184C3BCE /* Pods_iOS.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		4D2E8EA01A9F78D20034C672 /* Pods_iOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC2B85D2CD5DE308184C3BCE /* Pods_iOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4D3DEBFA1AA0D18A00A751F8 /* PodLabCommoniOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDA07111A9F7AA7009EC29D /* PodLabCommoniOS.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4D3DEBFB1AA0D18A00A751F8 /* PodSplitteriOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDA07121A9F7AA7009EC29D /* PodSplitteriOS.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4D3DEBFC1AA0D18A00A751F8 /* Pods_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC2B85D2CD5DE308184C3BCE /* Pods_iOS.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		4DAF7C9E1A7FDB75003DCE48 /* EpisodeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF7C9C1A7FDB75003DCE48 /* EpisodeTableViewController.swift */; };
 		4DAF7C9F1A7FDB75003DCE48 /* PodcastTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAF7C9D1A7FDB75003DCE48 /* PodcastTableViewController.swift */; };
 		4DCDBF461A938383003BE9EA /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCDBF451A938383003BE9EA /* MainTabBarController.swift */; };
@@ -48,7 +50,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				4DDA07181A9F7ABC009EC29D /* PodSplitteriOS.framework in Embed Frameworks */,
-				4D2E8EA01A9F78D20034C672 /* Pods_iOS.framework in Embed Frameworks */,
 				4DDA07161A9F7ABC009EC29D /* PodLabCommoniOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -98,6 +99,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D3DEBFC1AA0D18A00A751F8 /* Pods_iOS.framework in Frameworks */,
+				4D3DEBFB1AA0D18A00A751F8 /* PodSplitteriOS.framework in Frameworks */,
+				4D3DEBFA1AA0D18A00A751F8 /* PodLabCommoniOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -512,16 +516,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/mark/Projects/podlab-ios/PodLabCommon/build/Debug-iphoneos",
-					"/Users/mark/Projects/podlab-ios/PodSplitter/build/Debug-iphoneos",
-					"/Users/mark/Projects/podlab/PodLabCommon/build/Release-iphoneos",
-					"/Users/mark/Projects/podlab/PodSplitter/build/Debug-iphoneos",
-					"/Users/mark/Projects/podlab/PodLabCommon/build/Debug-iphoneos",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/PodLab-avqqmofnvtlxcwhagvlqixnnlfji/Build/Products/Debug-iphoneos",
 				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
 				INFOPLIST_FILE = iOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -533,16 +535,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/mark/Projects/podlab-ios/PodLabCommon/build/Debug-iphoneos",
-					"/Users/mark/Projects/podlab-ios/PodSplitter/build/Debug-iphoneos",
-					"/Users/mark/Projects/podlab/PodLabCommon/build/Release-iphoneos",
-					"/Users/mark/Projects/podlab/PodSplitter/build/Debug-iphoneos",
-					"/Users/mark/Projects/podlab/PodLabCommon/build/Debug-iphoneos",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/PodLab-avqqmofnvtlxcwhagvlqixnnlfji/Build/Products/Debug-iphoneos",
+					"$(TARGET_BUILD_DIR)",
 				);
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
 				INFOPLIST_FILE = iOSApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -554,6 +554,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(TARGET_BUILD_DIR)/**",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -562,6 +563,7 @@
 				INFOPLIST_FILE = iOSAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSApp.app/iOSApp";
 			};
 			name = Debug;
@@ -573,10 +575,12 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(TARGET_BUILD_DIR)/**",
 				);
 				INFOPLIST_FILE = iOSAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INCLUDE_PATHS = "";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSApp.app/iOSApp";
 			};
 			name = Release;

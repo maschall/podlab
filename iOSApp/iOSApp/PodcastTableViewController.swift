@@ -37,7 +37,7 @@ class PodcastTableViewController: UITableViewController, UIAlertViewDelegate, NS
     }
     
     func sectionInfo( section : Int ) -> NSFetchedResultsSectionInfo {
-        return self.podcastFetchedResultsController.sections![section] as NSFetchedResultsSectionInfo
+        return self.podcastFetchedResultsController.sections![section] as! NSFetchedResultsSectionInfo
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -45,11 +45,11 @@ class PodcastTableViewController: UITableViewController, UIAlertViewDelegate, NS
     }
     
     func podcastAt( indexPath : NSIndexPath ) -> Podcast {
-        return sectionInfo( indexPath.section ).objects[indexPath.item] as Podcast
+        return sectionInfo( indexPath.section ).objects[indexPath.item] as! Podcast
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCellWithIdentifier("podcastCell") as UITableViewCell?
+        var cell = tableView.dequeueReusableCellWithIdentifier("podcastCell") as? UITableViewCell
         
         var podcast = podcastAt( indexPath )
         
@@ -72,7 +72,7 @@ class PodcastTableViewController: UITableViewController, UIAlertViewDelegate, NS
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "podcastSelection" {
-            var episodeTable = segue.destinationViewController as EpisodeTableViewController
+            var episodeTable = segue.destinationViewController as! EpisodeTableViewController
             episodeTable.podcast = podcastAt(self.tableView.indexPathForSelectedRow()!)
         }
 

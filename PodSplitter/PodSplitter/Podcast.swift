@@ -20,15 +20,15 @@ public class Podcast : NSCoding {
         self.url = url
     }
     
-    public required init(coder aDecoder: NSCoder) {
-        self.url = aDecoder.decodeObjectForKey("url") as String
-        self.title = aDecoder.decodeObjectForKey("title") as String
-        self.link = aDecoder.decodeObjectForKey("link") as String
-        self.podcastDescription = aDecoder.decodeObjectForKey("description") as String
-        self.episodes = aDecoder.decodeObjectForKey("episodes") as [Episode]
+    @objc public required init(coder aDecoder: NSCoder) {
+        self.url = aDecoder.decodeObjectForKey("url") as! String
+        self.title = aDecoder.decodeObjectForKey("title") as! String
+        self.link = aDecoder.decodeObjectForKey("link") as! String
+        self.podcastDescription = aDecoder.decodeObjectForKey("description") as! String
+        self.episodes = aDecoder.decodeObjectForKey("episodes") as! [Episode]
     }
     
-    public func encodeWithCoder(aCoder: NSCoder) {
+    @objc public func encodeWithCoder(aCoder: NSCoder) {
         aCoder.encodeObject(self.url, forKey: "url")
         aCoder.encodeObject(self.title, forKey: "title")
         aCoder.encodeObject(self.link, forKey: "link")
@@ -36,7 +36,7 @@ public class Podcast : NSCoding {
         aCoder.encodeObject(self.episodes, forKey: "episodes")
     }
     
-    public func updateData( xml : NSString ) {
+    public func updateData( xml : String ) {
         var podcast = SWXMLHash.parse(xml);
         
         var channel = podcast["rss"]["channel"]

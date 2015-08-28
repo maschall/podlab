@@ -13,7 +13,7 @@ extension Database {
     func queue() -> Queue {
         var queueRequest = NSFetchRequest(entityName: "Queue")
         
-        var queue = self.managedObjectContext?.executeFetchRequest(queueRequest, error: nil)?.first as Queue?
+        var queue = self.managedObjectContext?.executeFetchRequest(queueRequest, error: nil)?.first as? Queue
         
         if queue == nil {
             queue = NSEntityDescription.insertNewObjectForEntityForName("Queue", inManagedObjectContext: self.managedObjectContext!) as? Queue
@@ -26,7 +26,7 @@ extension Database {
         var podcastRequest = NSFetchRequest(entityName: "Podcast")
         podcastRequest.predicate = NSPredicate(format: "url = %@", podcast.url)
         
-        return self.managedObjectContext?.executeFetchRequest(podcastRequest, error: nil)?.first as Podcast?
+        return self.managedObjectContext?.executeFetchRequest(podcastRequest, error: nil)?.first as? Podcast
     }
     
     func addPodcast( podcast : PodSplitterPodcast ) -> Podcast {
@@ -34,7 +34,7 @@ extension Database {
         var addedPodcast = findPodcast( podcast )
         
         if addedPodcast == nil {
-            var newPodcast = NSEntityDescription.insertNewObjectForEntityForName("Podcast", inManagedObjectContext: self.managedObjectContext!) as Podcast
+            var newPodcast = NSEntityDescription.insertNewObjectForEntityForName("Podcast", inManagedObjectContext: self.managedObjectContext!) as! Podcast
             
             newPodcast.url = podcast.url
             newPodcast.title = podcast.title
@@ -91,14 +91,14 @@ extension Database {
         episodeRequest.predicate = NSPredicate(format: "guid = %@", episode.guid)
         
         
-        return self.managedObjectContext?.executeFetchRequest(episodeRequest, error: nil)?.first as Episode?
+        return self.managedObjectContext?.executeFetchRequest(episodeRequest, error: nil)?.first as? Episode
     }
     
     func addEpisode( episode : PodSplitterEpisode ) -> Episode {
         var addedEpisode = findEpisode( episode )
         
         if addedEpisode == nil {
-            var newEpisode = NSEntityDescription.insertNewObjectForEntityForName("Episode", inManagedObjectContext: self.managedObjectContext!) as Episode
+            var newEpisode = NSEntityDescription.insertNewObjectForEntityForName("Episode", inManagedObjectContext: self.managedObjectContext!) as! Episode
             
             newEpisode.title = episode.title
             newEpisode.link = episode.link
@@ -144,14 +144,14 @@ extension Database {
         var enclosureRequest = NSFetchRequest(entityName: "Enclosure")
         enclosureRequest.predicate = NSPredicate(format: "url = %@", enclosure.url)
         
-        return self.managedObjectContext?.executeFetchRequest(enclosureRequest, error: nil)?.first as Enclosure?
+        return self.managedObjectContext?.executeFetchRequest(enclosureRequest, error: nil)?.first as? Enclosure
     }
     
     func addEnclosure( enclosure : PodSplitterEnclosure ) -> Enclosure {
         var addedEnclosure = findEnclosure( enclosure )
         
         if addedEnclosure == nil {
-            var newEnclosure = NSEntityDescription.insertNewObjectForEntityForName("Enclosure", inManagedObjectContext: self.managedObjectContext!) as Enclosure
+            var newEnclosure = NSEntityDescription.insertNewObjectForEntityForName("Enclosure", inManagedObjectContext: self.managedObjectContext!) as! Enclosure
             
             newEnclosure.url = enclosure.url
             newEnclosure.length = enclosure.length

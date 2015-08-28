@@ -20,7 +20,7 @@ class Database {
     lazy var applicationDocumentsDirectory: NSURL = {
         // The directory the application uses to store the Core Data store file. This code uses a directory named "com.detroitlabs.CoreDataTest" in the application's documents Application Support directory.
         let urls = NSFileManager.defaultManager().URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask)
-        return urls[urls.count-1] as NSURL
+        return urls[urls.count-1] as! NSURL
         }()
     
     lazy var managedObjectModel: NSManagedObjectModel = {
@@ -30,7 +30,7 @@ class Database {
         
         var objectModel = NSManagedObjectModel()
         objectModel.entities = bundleModel.entities.map { ( entity ) -> NSEntityDescription in
-            var entityCopy = entity.copy() as NSEntityDescription
+            var entityCopy = entity.copy() as! NSEntityDescription
             var moduleName = _stdlib_getDemangledTypeName(self).componentsSeparatedByString(".").first
             entityCopy.managedObjectClassName = "\(moduleName!).\(entity.managedObjectClassName)"
             return entityCopy
@@ -54,7 +54,7 @@ class Database {
             error: &error) == nil {
                 coordinator = nil
                 // Report any error we got.
-                let dict = NSMutableDictionary()
+                var dict = [NSObject : AnyObject]()
                 dict[NSLocalizedDescriptionKey] = "Failed to initialize the application's saved data"
                 dict[NSLocalizedFailureReasonErrorKey] = failureReason
                 dict[NSUnderlyingErrorKey] = error
